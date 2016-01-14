@@ -1,0 +1,68 @@
+#about {
+	background: url('../images/about.jpg');
+	background-size: cover;
+	color: $white;
+	text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+
+	.container {
+		height: 100vh;
+		background-color: rgba(60, 60, 60, 0.4);
+	}
+
+	.about-text {
+		margin: 0 auto;
+		display: block;
+		@include vertical-align(-70%);
+
+		@media screen and (max-width: 1024px) {
+			@include vertical-align(-10%);
+		}
+	}
+
+	h1, h2 {
+		font-family: $base-display-font;
+		text-align: center;
+		margin: 0;
+
+	}
+
+	h1 {
+		font-size: 3.5em;
+	}
+
+	h2 {
+		font-size: 2em;
+		margin-bottom: 15px;
+	}
+
+	a.btn {
+		color: $white;
+		padding: 15px 50px;
+		border: 2px solid $white;
+		text-align: center;
+		background: rgba(255, 255, 255, 0.1);
+		margin: 20px 0;
+		display: inline-block;
+		width: 30%;
+
+		&:hover {
+			background-color: rgba(255, 255, 255, 0.3);
+			text-underline: underline;
+		}
+
+		@media screen and (max-width: 1024px) {
+			width: 75%;
+		}
+	}
+
+	p {
+		text-align: center;
+		font-size: 1.1em;
+		font-family: $base-font-family;
+	}
+
+	.buttons {
+		margin: 0 auto;
+		text-align: center;
+	}
+}

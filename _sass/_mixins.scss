@@ -1,0 +1,41 @@
+@import '_hacks';
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+@mixin box-shadow() {
+       -moz-box-shadow:  0 0 10px #ABADB3;
+    -webkit-box-shadow:  0 0 10px #ABADB3;
+            box-shadow:  0 0 10px #ABADB3;
+}
+
+@mixin inside-shadow() {
+  -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.3);
+  box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.3);
+}
+
+@mixin vertical-align($percent) {
+  position: 			       relative;
+  top: 					         $percent;
+  -webkit-transform: 	   translateY(-$percent);
+  -ms-transform: 		     translateY(-$percent);
+  transform: 			       translateY(-$percent);
+}
+
+@mixin dynamic-sizing() {
+  max-width:             180%;
+  max-height:            120%;
+  background-size:       cover;
+  height:                auto;
+  width:                 auto;
+}
+
+@mixin fill-parent() {
+  width: 100%;
+  height: 100%;
+}

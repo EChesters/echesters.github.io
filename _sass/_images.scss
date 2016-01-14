@@ -1,0 +1,53 @@
+img {
+	margin: 20px auto;
+	height: auto;
+	width: auto;
+
+	&.rounded {
+		@include border-radius(10px);
+	}
+
+	&.landscape {
+		width: 90%;
+	}
+
+	&.portrait {
+		height: 450px;
+	}
+
+	&.small {
+		width: 40%;
+	}
+
+	&.medium {
+		width: 65%;
+	}
+
+	&.large {
+		width: 90%;
+	}
+}
+
+.images {
+	text-align: center;
+	width: 100%;
+	display: block;
+	overflow: auto;
+
+	img.two {
+		display: inline-block;
+		width: 49%;
+
+		&.left {
+			float: left;
+		}
+		&.right {
+			float: right;
+		}
+
+		&.same-height {
+			height: 250px;
+			width: auto;
+		}
+	}
+}
