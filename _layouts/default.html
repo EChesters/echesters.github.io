@@ -5,29 +5,38 @@
     <meta name="author" content="EChesters" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }}</title>
-    <!--[if lte IE 8]>
-      <link rel="stylesheet" href="http://yui.yahooapis.com/combo?pure/0.6.0/base-min.css&pure/0.6.0/grids-min.css&pure/0.6.0/grids-responsive-old-ie-min.css">
-    <![endif]-->
-    <!--[if gt IE 8]><!-->
-      <link rel="stylesheet" href="http://yui.yahooapis.com/combo?pure/0.6.0/base-min.css&pure/0.6.0/grids-min.css&pure/0.6.0/grids-responsive-min.css">
-    <!--<![endif]-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link href="/css/main.css" rel="stylesheet">
   </head>
   <body>
-    <div class="container">
-      <div class="pure-g">
-        <nav>
-          <div class="nested-nav pure-u-md-14-24 pure-u-sm-1-1 position central">
-            <h1 class="site-title"><a href="/">EChesters</a></h1>
-            <ul>
-              <li><a href="/about.html">About</a></li>
-              <li><a href="//echesters.github.io/DailyUI/">Daily UI</a></li>
-              <!-- <li>Contact</li> -->
-            </ul>
-          </div>
-        </nav>
-        {{ content }}
-      </div>
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynavbar" aria-expanded="false">
+                <span class="sr-only">Toggle Navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a href="/" class="site-title navbar-brand">EChesters</a>
+            </div>
+            <div class="navbar-collapse collapse in" id="mynavbar" aria-expanded="true">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="/about.html">About</a></li>
+                <li><a href="//echesters.github.io/DailyUI/">Daily UI</a></li>
+              </ul>
+            </div>
+        </div>
+      </nav>
     </div>
+    <!-- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"> -->
+        {{ content }}
+      <!-- </div> -->
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   </body>
 </html>

@@ -1,7 +1,8 @@
 ul.blog-posts {
 	font-family: $base-font-family;
 	list-style-type: none;
-	margin-top: 10px;
+	margin-top: 500px;
+	margin-left: 0;
 
 	a.post-title {
 		color: $brand-color;
@@ -47,11 +48,6 @@ ul.blog-posts {
 		}
 	}
 
-	.post-description {
-		margin-left: 20px;
-		width: 80%;
-	}
-
 	.post-time {
 		color: #777;
 		float: right;
@@ -59,11 +55,16 @@ ul.blog-posts {
 		text-transform: uppercase;
 		margin-right: -20px;
 	}
+
+	.post-description {
+		padding-left: 30px;
+	}
 }
 
 /* POST LAYOUT */
 .post-content {
-	margin: 50px auto;
+	margin: 460px auto 0 auto;
+	float: none;
 }
 
 /* POST CONTENT */
