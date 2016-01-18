@@ -1,0 +1,40 @@
+$footer-text:			#84848A;
+$brand-darker:			#9a1134;
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: $footer-height;
+  background-color: $footer-bg;
+  overflow: hidden;
+}
+
+footer {
+
+	h4 {
+		font-family: $base-display-font;
+		font-size: 2em;
+		display: inline-block;
+		@include vertical-align(-25%);
+		color: $brand-darker;
+	}
+
+	ul {
+		list-style: none;
+		@include vertical-align(-35%);
+
+		li a {
+			color: $footer-text;
+
+			&:visited {
+				color: $footer-text;
+			}
+
+			&:hover {
+				color: $brand-darker;
+				text-decoration: underline;
+			}
+		}
+	}
+}
