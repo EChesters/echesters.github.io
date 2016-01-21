@@ -35,26 +35,6 @@
 		margin-bottom: 15px;
 	}
 
-	a.btn {
-		color: $white;
-		padding: 15px 50px;
-		border: 2px solid $white;
-		text-align: center;
-		background: rgba(255, 255, 255, 0.1);
-		margin: 20px 0;
-		display: inline-block;
-		width: 30%;
-
-		&:hover {
-			background-color: rgba(255, 255, 255, 0.3);
-			text-underline: underline;
-		}
-
-		@media screen and (max-width: 1024px) {
-			width: 75%;
-		}
-	}
-
 	p {
 		text-align: center;
 		font-size: 1.1em;

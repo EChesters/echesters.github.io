@@ -1,0 +1,39 @@
+.portfolio-list {
+	h2 {
+		font-family: $base-font-family;
+		font-size: 1.5em;
+		font-weight: 100;
+		position: relative;
+		background-color: $actual-black;
+		color: $white;
+		text-align: center;
+	}
+
+	img {
+		margin: 0 auto;
+	}
+}
+
+#portfolio {
+	.objectives { 
+		font-weight: 100;
+
+		ol {
+			font-style: italic; 
+			font-family: $base-display-font;
+			font-size: 24px; 
+			color: $brand-color;
+
+			li {
+				p {
+					padding: 0 8px; 
+					font-style:normal; 
+					font-family: $base-font-family;
+					font-size: .7em; 
+					border-left: 1px solid #999;
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<html locale="en" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="author" content="EChesters" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ThoughtWorks.com</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="/css/main.css" rel="stylesheet">
+  </head>
+  <body>
+  	<div class="container-fluid">
+      <div class="row">
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynavbar" aria-expanded="false">
+                <span class="sr-only">Toggle Navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a href="/" class="site-title navbar-brand">EChesters</a>
+            </div>
+            <div class="navbar-collapse collapse in" id="mynavbar" aria-expanded="true">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/portfolio.html">Portfolio</a></li>
+                <li><a href="//echesters.github.io/DailyUI/">Daily UI</a></li>
+              </ul>
+            </div>
+        </div>
+      </nav>
+
+      <div class="banner thoughtworks col-xs-12 col-md-12">
+    	<h2 class="page-heading">ThoughtWorks.com</h2>
+      </div>
+
+      <div class="col-xs-12 content" id="portfolio">
+        <div class="col-xs-12 col-sm-10 col-md-7 col-lg-6 position central project">
+	        <section>
+	        	<h2>Project Objectives</h2>
+	        	<div class="objectives">
+		        	<ol>
+		        		<li><p>Improve accessibility throughout the site</p></li>
+		        		<li><p>Incorporate accessibility requirements from company stakeholders</p></li>
+		        		<li><p>Raise awareness and knowledge share research</p></li>
+		        	</ol>
+		        </div>
+	        </section>
+	        <section>
+	        	<h2>Methodologies</h2>
+	        	<h3>User Testing</h3>
+	        	<p>During the project I conducted user testing, mostly remote with a blind school in Pune called TechVision. Setting up interviews and meetings over Skype and Hangouts we discussed accessibility requirements for a website.</p>
+	        	<h3>Research</h3>
+	        	<p>Throughout my project the majority of the beginning involved a lot of desk research. I discoverd how to use a screenreader, which screenreaders were popular among the community like JAWS. Blog posts came in handy for me, specically this blog called <a href="https://silktide.com/things-i-learned-by-pretending-to-be-blind-for-a-week/">Things I learned by pretending to be blind for a week</a>, specifically aimed for those able to see and delving into accessibility.</p>
+
+	        	<div id="images col-xs-12">
+	        		<img src="../images/portfolio/tw/tw-4.jpg" class="col-xs-12 col-md-6" alt="Elizabeth with TechVision at the ThoughtWorks Pune office">
+	        		<img src="../images/portfolio/tw/tw-5.jpg" class="col-xs-12 col-md-6" alt="TechVision demonstrating how JAWS the screenreader works on a Windows desktop">
+	        	</div>
+
+	        	<h3>Knowledge Sharing</h3>
+	        	<p>A strong belief at ThoughtWorks is by making yourself invaluable, you make yourself valuable. Sharing knowledge is vital for any team, especially in an agile environment. Through lunch and learns in the office, not only did I raise awareness of what I was doing, but I was able to take advantage of the office diversity. I gathered opinions from colleagues all over the world. Leading on from this I was invited to a client site where accessibility was a legal requirement, to present my research. My slides were then requsted by the client to use in a future accessibility event.</p>
+
+	        	<div id="images col-xs-12">
+	        		<img src="../images/portfolio/tw/glasgow-1.JPG" class="col-xs-12 col-md-6" alt="Overall view of the beginning of the presentation for the client">
+	        		<img src="../images/portfolio/tw/glasgow-2.JPG" class="col-xs-12 col-md-6" alt="Picture of the audience getting involved with the look no hands campaign, sending a text message with their elbows">
+	        	</div>
+
+	        	<h3>Continuous Monitoring</h3>
+	        	<p>The first challenge I quickly faced with regards to my team's approach to accessibility was that it was going to be a one time consideration. As a developer I was able to pair with my team members to make sure that we had the tools and they were on our build monitors to ensure we were monitoring progress. I was able to setup Pa11y, an automated accessibility testing tool, which provisioned itself and continously monitored our pages. Pa11y is also a great tool for visualising the number of errors and warnings of accessibility issues and can be checked against all levels of WCAG 2.0 regulations and Section 508.</p>
+
+	        	<div id="images col-xs-12">
+	        		<img src="../images/portfolio/tw/PA11Y_1.png" class="col-xs-12 col-md-6" alt="Screenshot of the pally tool showing the pages which are being monitored">
+	        		<img src="../images/portfolio/tw/PA11Y_2.png" class="col-xs-12 col-md-6" alt="Screenshot of the pally dashboard showing a graph of accessibility error progress">
+	        	</div>
+
+	        </section>
+	        <section>
+	        	<h2>Results</h2>
+	        	<h3>Failures</h3>
+	        	<p>Unfortunately at the end of my two month project I feel I had taken too long on research and still failed to ensure in every story that accessibility was a core focus. Unfortunately in the last feedback session with TechVision the website only received a score 2/5 for its accessibility.</p>
+	        	<p>If I was to do this project again, I would have taken a complete step back from development and made sure I focused on the user experience. Unfortunately ThoughtWorks do not hire graduates for user experience and I had to balance both my passion for UX and demonstrating my skill and worth as a developer.</p>
+
+	        	<h3>Successes</h3>
+	        	<p>In addition to learning about accessibility, I learnt how to add value to a project on day 1. Consulting was completely new to me, and the fast pace whilst still doing my degree, felt completely natural.</p>
+	        	<p>Another success for me, was after the project I was invited to work further with TechVision during my training in India. Here I continued my research and was shown how a braille printer works, how the school affects blind people's lives and was given a demonstration of how a blind person uses their computer.</p>
+	        	<p>For my personal career growth, this has lead me to speaking at conferences and talks about accessibility. I also write blog poss covering my research so far and I'm now conducting more research into different cultures and accessibility.</p>
+	        	<p>The last and biggest success of the project was being hired as a graduate consultant by ThoughtWorks!</p>
+	        </section>
+	    </div>
+      </div>
+    </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-10 col-md-7 col-lg-6 position central">
+            <div class="position left">
+              <h4>Get in touch!</h4>
+            </div>
+            <div class="col-xs-12 col-md-10 col-lg-8 position right">
+              <ul>
+                <li><a href="//twitter.com/EChesters"><i class="fa fa-twitter-square"></i>   EChesters</a></li>
+                <li><a href="//uk.linkedin.com/in/elizabeth-chesters-a9297883"><i class="fa fa-linkedin-square"></i>   Linked In</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  </body>
+</html>

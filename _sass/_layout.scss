@@ -199,7 +199,7 @@
     }
 }
 
-.post-content {
+.post-content, .content {
     margin-bottom: $spacing-unit;
 
     h2 {
@@ -227,6 +227,11 @@
     }
 }
 
+.content {
+    margin: 460px auto 10px auto;
+    float: none;
+}
+
 /**
  * Positions
  */
@@ -245,4 +250,8 @@
     &.central {
         margin: 0 auto;
     }
+}
+
+.centre-text {
+    text-align: center;
 }
