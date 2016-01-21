@@ -6,7 +6,7 @@
 
 	&::before {
 		content: '';
-		height: 100vh;
+		height: 100%;
 		background-color: rgba(60, 60, 60, 0.4);
 		position: absolute;
 		top: 0;
@@ -54,10 +54,6 @@
 		&:hover {
 			background-color: rgba(255, 255, 255, 0.3);
 			text-underline: underline;
-		}
-
-		@media screen and (max-width: 1024px) {
-			width: 75%;
 		}
 	}
 
