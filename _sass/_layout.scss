@@ -238,6 +238,7 @@
 .position {
     display: block;
     float: none;
+    overflow: hidden;
 
     &.left {
         float: left;
@@ -252,6 +253,22 @@
     }
 }
 
-.centre-text {
+.emphasise {
+    color: $brand-color;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.sidenote {
+    color: $lighter-grey;
+    font-style: italic;
     text-align: center;
+    font-size: .85em;
+}
+
+.summary {
+    font-size: 1.2em;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 15px;
 }
