@@ -4,9 +4,15 @@
 	color: $white;
 	text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
 
-	.container {
-		height: 100vh;
+	&::before {
+		content: '';
+		height: 100%;
 		background-color: rgba(60, 60, 60, 0.4);
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
 	}
 
 	.about-text {
@@ -33,6 +39,22 @@
 	h2 {
 		font-size: 2em;
 		margin-bottom: 15px;
+	}
+
+	a.btn {
+		color: $white;
+		padding: 15px 50px;
+		border: 2px solid $white;
+		text-align: center;
+		background: rgba(255, 255, 255, 0.1);
+		margin: 20px 0;
+		display: inline-block;
+		width: 250px;
+
+		&:hover {
+			background-color: rgba(255, 255, 255, 0.3);
+			text-underline: underline;
+		}
 	}
 
 	p {
