@@ -18,7 +18,7 @@
 	.about-text {
 		margin: 0 auto;
 		display: block;
-		@include vertical-align(-70%);
+		@include vertical-align(-30%);
 
 		@media screen and (max-width: 1024px) {
 			@include vertical-align(-10%);
