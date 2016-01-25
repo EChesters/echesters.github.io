@@ -204,6 +204,7 @@
 
     h2 {
         font-size: 32px;
+        color: $header;
 
         @include media-query($on-laptop) {
             font-size: 28px;
@@ -212,6 +213,7 @@
 
     h3 {
         font-size: 26px;
+        color: $header;
 
         @include media-query($on-laptop) {
             font-size: 22px;
