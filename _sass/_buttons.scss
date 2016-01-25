@@ -21,4 +21,8 @@ a.btn {
 		color: $brand-color;
 		border-color: $brand-color;
 	}
+
+	&.portfolio {
+		width: 300px;
+	}
 }
