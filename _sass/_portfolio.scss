@@ -5,11 +5,26 @@
 	}
 }
 
+/** PORTFOLIO PAGE **/
+a.p-section {
+	color: #fff;
+	padding: 10px 25px;
+	text-align: center;
+	@include border-radius(100px);
+	border: 2px solid #fff;
+	font-size: .8em;
+	margin: 0 5px;
+
+	&:hover {
+		color: $actual-white;
+	}
+}
+
 #portfolio {
 	&.background {
 		background: url('../images/post-header.jpg') no-repeat;
 		background-size: cover;
-		height: 100vh;
+		height: 50vh;
 		color: $actual-white;
 
 		&:before {
@@ -63,7 +78,7 @@
 		font-style: italic; 
 		font-family: $base-display-font;
 		font-size: 24px; 
-		// color: $brand-color;
+		color: $brand-color;
 
 		li {
 			display: inline-block;
