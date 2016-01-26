@@ -51,3 +51,24 @@ img {
 		}
 	}
 }
+
+.img-container {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    margin: 0 auto;
+
+    img {
+    	@include dynamic-sizing();
+    	margin: 0 auto;
+	}
+
+	img.large {
+		@include dynamic-sizing-with-dimensions(300%);
+	}
+
+	&.square {
+		width: 300px;
+		height: 300px;
+	}
+}

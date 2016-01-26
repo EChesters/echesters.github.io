@@ -35,6 +35,14 @@
   width:                 auto;
 }
 
+@mixin dynamic-sizing-with-dimensions($size) {
+  max-width:             $size;
+  max-height:            $size;
+  background-size:       cover;
+  height:                auto;
+  width:                 auto;
+}
+
 @mixin fill-parent() {
   width: 100%;
   height: 100%;
