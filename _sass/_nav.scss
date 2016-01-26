@@ -8,14 +8,14 @@ nav {
 		font-family: $base-display-font;
 		
 		a{ 
-			color: #000;
+			color: #FFF;
 
 			&:hover {
 				text-decoration: none;
 			}
 
 			&:visited {
-				color: #000;
+				color: #FFF;
 			}
 		}
 	}
@@ -36,6 +36,13 @@ nav {
 	}
 }
 
-.navbar {
+.navbar, .navbar-default {
 	@include border-radius(0);
+	border: none;
+	background-color: #000;
+	color: #FFF;
+
+	a {
+		color: #fff !important;
+	}
 }
