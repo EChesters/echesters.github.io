@@ -22,21 +22,7 @@ a.p-section {
 
 #portfolio {
 	&.background {
-		background: url('../images/post-header.jpg') no-repeat;
-		background-size: cover;
-		height: 50vh;
 		color: $actual-white;
-
-		&:before {
-			width: 100%;
-			height: 100%;
-			position: absolute;
-			z-index: -1;
-			top: 0;
-			left: 0;
-			background: rgba(0,0,0, 0.4);
-			content: '';
-		}
 
 		p {
 			margin-bottom: 0;
@@ -49,6 +35,24 @@ a.p-section {
 		h2 {
 			color: $actual-white;
 			text-transform: none;
+		}
+	}
+
+	.header {
+		height: 500px;
+		background: url('../images/post-header.jpg') no-repeat;
+		background-size: cover;
+		padding-top: 15px;
+
+		&:before {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			z-index: -1;
+			top: 0;
+			left: 0;
+			background: rgba(0,0,0, 0.4);
+			content: '';
 		}
 	}
 
