@@ -30,6 +30,7 @@ a.p-section {
 
 		h1 {
 			font-family: $base-display-font;
+			@include vertical-align(50%);
 		}
 
 		h2 {
@@ -51,7 +52,7 @@ a.p-section {
 			z-index: -1;
 			top: 0;
 			left: 0;
-			background: rgba(0,0,0, 0.4);
+			background: rgba(0,0,0, 0.8);
 			content: '';
 		}
 	}
@@ -73,6 +74,10 @@ a.p-section {
 	&.content {
 		margin-top: 760px;
 	}
+
+	.options {
+			@include vertical-align(50%);
+		}
 }
 
 .objectives { 
