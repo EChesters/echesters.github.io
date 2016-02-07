@@ -6,7 +6,8 @@
 }
 
 .entry {
-	height: calc(100vh - 300px);
+	min-height: calc(100vh - 300px);
+	padding-bottom: 15px;
 }
 
 /** PORTFOLIO PAGE **/
@@ -91,6 +92,7 @@ a.p-section {
 		h3.country {
 			text-transform: uppercase;
 			font-weight: 200;
+			padding-top: 15px;
 		}
 	}
 }
@@ -116,6 +118,10 @@ a.p-section {
 			}
 		}
 	}
+}
+
+#italy, #richmond {
+	overflow: hidden;
 }
 
 .project {
