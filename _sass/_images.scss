@@ -58,6 +58,11 @@ img {
     overflow: hidden;
     margin: 0 auto;
 
+    &.photo {
+    	width: 380px;
+    	height: 300px;
+    }
+
     img {
     	@include dynamic-sizing();
     	margin: 0 auto;
