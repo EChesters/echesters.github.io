@@ -2,13 +2,10 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
-@import url(https://fonts.googleapis.com/css?family=Hind:400,300|Playfair+Display);
 
 $code-font:				'Cutive Mono'; 
 
 // Our variables
-$base-font-family: 		'Hind', sans-serif;
-$base-display-font: 	'Playfair Display', serif;
 $base-font-size:   		16px;
 $base-font-weight: 		400;
 $small-font-size:  		$base-font-size * 0.875;
@@ -59,6 +56,7 @@ $on-laptop:        		800px;
         "buttons",
         "layout",
         "syntax-highlighting",
+        "hover",
         "nav",
         "banner",
         "posts",

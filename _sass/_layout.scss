@@ -240,7 +240,7 @@
 .position {
     display: block;
     float: none;
-    overflow: hidden;
+    // overflow: hidden;
 
     &.left {
         float: left;
@@ -252,7 +252,24 @@
 
     &.central {
         margin: 0 auto;
+
+        &.c-text {
+            text-align: center;
+        }
     }
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.more-margin {
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .emphasise {

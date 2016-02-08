@@ -5,23 +5,28 @@
 	}
 }
 
+.entry {
+	min-height: calc(100vh - 300px);
+	padding-bottom: 15px;
+}
+
+/** PORTFOLIO PAGE **/
+a.p-section {
+	color: #fff;
+	padding: 10px 25px;
+	text-align: center;
+	@include border-radius(100px);
+	border: 2px solid #fff;
+	font-size: .8em;
+	margin: 0 5px;
+
+	&:hover {
+		color: $actual-white;
+	}
+}
+
 #portfolio {
 	&.background {
-		background: url('../images/post-header.jpg') no-repeat;
-		background-size: cover;
-		height: 100vh;
-		color: $actual-white;
-
-		&:before {
-			width: 100%;
-			height: 100%;
-			position: absolute;
-			z-index: -1;
-			top: 0;
-			left: 0;
-			background: rgba(0,0,0, 0.4);
-			content: '';
-		}
 
 		p {
 			margin-bottom: 0;
@@ -29,6 +34,7 @@
 
 		h1 {
 			font-family: $base-display-font;
+			margin: 50px 0;
 		}
 
 		h2 {
@@ -37,10 +43,28 @@
 		}
 	}
 
+	.header {
+		height: 250px;
+		background-color: $actual-white;
+		padding-top: 15px;
+
+		&:before {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			z-index: -1;
+			top: 0;
+			left: 0;
+			background: rgba(0,0,0, 0.8);
+			content: '';
+		}
+	}
+
 	h1 {
 		text-align: center;
 		font-size: $h1-size;
 		margin-bottom: 1em;
+		font-weight: 200;
 	}
 
 	h2 {
@@ -49,10 +73,28 @@
 		font-size: 1.6em;
 		font-family: $base-display-font;
 		text-transform: uppercase;
+		font-weight: 200;
 	}
 
 	&.content {
 		margin-top: 760px;
+	}
+
+	.options {
+		@include vertical-align(50%);
+	}
+
+	.photography {
+		margin-top: 150px;
+		background-color: $black;
+		color: $actual-white;
+
+		h3.country {
+			text-transform: uppercase;
+			font-weight: 200;
+			padding: 45px 0 30px;
+			text-align: center;
+		}
 	}
 }
 
@@ -63,10 +105,11 @@
 		font-style: italic; 
 		font-family: $base-display-font;
 		font-size: 24px; 
-		// color: $brand-color;
+		color: $brand-color;
 
 		li {
 			display: inline-block;
+			
 			p {
 				padding: 0 8px; 
 				font-style:normal; 
@@ -77,6 +120,14 @@
 			}
 		}
 	}
+}
+
+#italy, #richmond {
+	overflow: hidden;
+}
+
+.photographs {
+	display: flex;
 }
 
 .project {

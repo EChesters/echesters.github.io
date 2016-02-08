@@ -1,4 +1,4 @@
-// @import url(https://fonts.googleapis.com/css?family=Hind:400,300|Miniver);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700|Cutive+Mono);
 
 /* COLOURS ----------- */
 $white: 				#eee;
@@ -21,13 +21,15 @@ $quote-colour:			#425d5c;
 $code-bg:				#E4E8EB;
 
 /* FONTS ------------- */
-$code-font:				'Cutive Mono';
+$base-font-family: 		'Lato', sans-serif;
+$base-display-font: 	'Lato', serif;
+$code-font:				'Cutive Mono', monospace;
 $font-button: 			1em;
 $post-title-size:		2em;
 $h1-size:				4em;
 $weight-light:		    200;
-$weight-medium:	        500;
-$weight-heavy:		    800;
+$weight-medium:	        400;
+$weight-heavy:		    700;
 
 /* SIZE ------------- */
 $nav-bar-height:		10px;
