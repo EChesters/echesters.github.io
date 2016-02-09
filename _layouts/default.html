@@ -4,33 +4,12 @@
   <body>
     <div class="container-fluid">
       <div class="row">
-        <nav class="navbar navbar-default">
-          <div class="col-xs-12 col-md-8 position central">
-              <div class="container-fluid">
-                <div class="navbar-header">
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynavbar" aria-expanded="false">
-                    <span class="sr-only">Toggle Navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </button>
-                  <a href="/" class="site-title navbar-brand">EChesters</a>
-                </div>
-                <div class="navbar-collapse collapse in" id="mynavbar" aria-expanded="true">
-                  <ul class="nav navbar-nav navbar-right">
-                    <li><a href="/about.html">About</a></li>
-                    <li><a href="/portfolio.html">Portfolio</a></li>
-                    <li><a href="//echesters.github.io/DailyUI/">Daily UI</a></li>
-                  </ul>
-                </div>
-            </div>
-            </div>
-          </nav>
+        {% include navbar.html %}
     </div>
         {{ content }}
     </div>
 
     {% include footer.html %}
-    
+
   </body>
 </html>
