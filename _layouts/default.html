@@ -1,14 +1,6 @@
 <!DOCTYPE HTML>
 <html locale="en" xml:lang="en" lang="en">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="author" content="EChesters" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link href="/css/main.css" rel="stylesheet">
-  </head>
+  {% include head.html %}
   <body>
     <div class="container-fluid">
       <div class="row">
@@ -38,24 +30,7 @@
         {{ content }}
     </div>
 
-    <footer class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-sm-10 col-md-7 col-lg-6 position central">
-            <div class="position left">
-              <h4>Get in touch!</h4>
-            </div>
-            <div class="col-xs-12 col-md-10 col-lg-8 position right">
-              <ul>
-                <li><a href="//twitter.com/EChesters"><i class="fa fa-twitter-square"></i>   EChesters</a></li>
-                <li><a href="//uk.linkedin.com/in/elizabeth-chesters-a9297883"><i class="fa fa-linkedin-square"></i>   Linked In</a></li>
-              </ul>
-            </div>
-          </div>
-      </div>
-    </footer>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    {% include footer.html %}
+    
   </body>
 </html>
