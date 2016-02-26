@@ -10,7 +10,7 @@ The idea, born from a hackathon created the group [EmpowerHack]. The group uses 
 
 ## What challenges are we facing?
 
-### Cultral Challenges
+### Cultural Challenges
 There’s no doubt that cultures can differ on a huge scale. When your knowledge is quite limited on a country in war, the differences suddenly feel amplified. The crisis is on a huge scale and trying to cater for the majority and then prioritise is a whole other challenge. What education have they had? Which technologies do they have access to? Does this mean they are tech savvy? We've heard that pregnancy is quite common among refugees for many reasons, does this mean it’s still taboo? Does this mean confidentiality when sharing the app is crucial?
 
 > “Despite up to 80% of world’s refugees being women and children, the problems faced by them are never at the forefront. EmpowerHack was born to change just that by taking collaborative design to scale. Female refugees are among the most vulnerable, facing sexual violence, coercion, forced and early marriage, social isolation, and a lack of access to gender-specific health care and education.”
