@@ -18,7 +18,7 @@ There’s no doubt that cultures can differ on a huge scale. When your knowledge
 ### Cross-Cultural Challenges
 The first hand experience I had of the cultural changes we were facing were when personas came up. As soon as we sat around the table it went a little bit like this: 
 
-> “Ok so the answer is aimed at pregnant refugees so our persona is going to be a woman”
+> “Ok so the app is aimed at pregnant refugees so our persona is going to be a woman”
 
 > “So let’s name her Sima, she is 19 years old and obviously pregnant”
 
