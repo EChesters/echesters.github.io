@@ -47,4 +47,10 @@ $portfolio-banner-height:	800px;
 		background-size: cover;
 		height: $portfolio-banner-height;
 	}
+
+	&.speaking {
+		background: url('../images/portfolio/speaking/talkux-1.jpg');
+		background-size: cover;
+		height: $portfolio-banner-height;
+	}
 }
