@@ -42,13 +42,13 @@ When even the London Underground has a flag, it’s hard to imagine why in the o
 	<img src="/images/posts/london-underground.jpg" class="col-xs-12 position central small" alt="London underground flag flying over St James's Park station">
 </div>
 
-The first issue with using flags for languages is that it is not a one-to-one relationship. A language is spoken in multiple countries, and a country can have multiple official languages. For example, in China they have 8 official languages. So if a user selected a Chinese flag, which language should they expect? Another example is English. Personally I consider English to be a disease language, with odd words creeping into every language. But it is [an official language of many countries], from England and America, to India and the Philippines.
+The first issue with using flags for languages is that it is not a one-to-one relationship. A language is spoken in multiple countries, and a country can have multiple official languages. For example, in China they have 8 official languages. So if a user selected a Chinese flag, which language should they expect? Another example is English. Personally I consider English to be invasive, with words creeping into every language. But it is [an official language of many countries], from England and America, to India and the Philippines.
 
 Using flags to represent languages is a confusing design choice for everyone for more reasons than you might think. Language can be very personal, and is a huge part of your culture. I cannot stand it when I am presented with a Brazilian flag when selecting my resource in Portuguese. It’s not where the language originated from. It’s also the same when an American flag is used for selecting English. Language should balance reflecting the company's identity with target audience. It can be disheartening to see a British company use American spelling.
 
 > <i class="fa fa-quote-left"></i> I hate it when I get [X] flag for the [Y] language
 
-If you have ever brought this up for discussion, you’ll probably have heard that. Language is personal. You don’t want to be inducing hatred in your designs. Quite often the language selection comes very early on in your user journey. From there it doesn't set the right tone from the beginning.
+If you have ever brought this up for discussion, you’ll probably have heard that. You don’t want to be inducing hatred in your designs. Quite often the language selection comes very early on in your user journey. From there it doesn't set the right tone from the beginning.
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I am OUTRAGED at these silly new <a href="https://twitter.com/OxfordWords">@OxfordWords</a>! Wasn&#39;t the laugh-till-you-cry emoji enough? <a href="https://t.co/saSrhCuQaF">https://t.co/saSrhCuQaF</a></p>&mdash; Mary Norris (@MaryNorrisTNY) <a href="https://twitter.com/MaryNorrisTNY/status/715877188868833280">April 1, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -77,7 +77,7 @@ The first subtitle is for those who are native and can understand and read the s
 <p class="emphasis">Now that is accessibility.</p>
 
 ## Countries
-If using flags for languages doesn’t make sense, surely it does when offering preferences for a user to select their country? Not necessarily. An issue that’s frequently caught during usability tests with flags is that users struggle to quickly identify if it’s asking for a location or for a language preference. You’re then faced with a German speaker located in England hitting the UK flag. Flags for countries when choosing delivery addresses or location based products makes sense. But selecting a flag to choose a location should not restrict them from changing their language. 
+If using flags for languages doesn’t make sense, surely it does when offering preferences for a user to select their country? Not necessarily. An issue that’s frequently caught during usability tests with flags is that users struggle to quickly identify if it’s asking for a location or for a language preference. You’re then faced with a German speaker located in England hitting the UK flag. Flags for countries when choosing delivery addresses or location based products makes sense. But selecting a flag to choose a location should not restrict anyone from changing their language. 
 
 ### Delivery Address
 A site that was sent my way recently was Harrod’s. The way that Harrod’s uses flags is by offering a list of countries with each flag when selecting a delivery address. This is helpful and allows for quicker selection. A vibrant flag is much quicker to spot than your country from a list of words that look the same. Users don’t have to read first or as carefully, leading to an effortless experience. 
@@ -89,14 +89,14 @@ This is in contrast to the completely separate approach that Amazon has. Instead
 <img src="/images/posts/food-network.png" class="col-xs-12">
 
 ## Currencies
-Currencies at first thought are a 1 to 1 relationship with a country. This then leads to the temptation of using a flag for a currency. Flags are certainly more eye-catching than the symbols and if used it can lead to a faster selection. But without the extreme example of [Zimbabwe’s current currency crisis], countries still don’t always have that relationship. Countries choose to keep their savings in a foreign currency which is more stable than theirs. For example in Ukraine, you can make large payments in US Dollars or in Euros. Those currencies are more stable than their official currency, the Hryvnia. 
+At first thought, you expect currencies to be a 1 to 1 relationship with a country. This then leads to the temptation of using a flag for a currency. Flags are certainly more eye-catching than a country’s currency symbol and if used can lead to a faster selection. But without the extreme example of [Zimbabwe’s current currency crisis], countries still don’t always have such a simple relationship. Countries choose to keep their savings in a foreign currency which is more stable than theirs. For example in Ukraine, you can make large payments in US Dollars or in Euros. Those currencies are more stable than their official currency, the Hryvnia. 
 
-For most of the companies I buy from, I don’t have to choose which currency to trade in. Yet for the higher-end shops, such as Harrod’s, where their target market is global, this is somewhere that’s definitely worth investing the thought. When setting the delivery country it doesn’t guess your preferred currency or other location settings.
+Most of the companies I buy from, I don’t have to choose which currency to trade in. Yet for higher-end shops, such as Harrod’s, where their target market is global, this is something that’s worth putting thought into. ​In these situations​, their target audience have a tendency of trading in multiple currencies. Setting the delivery country doesn’t guess your preferred currency or add in any other location settings. Yet when you're on Amazon.co.uk it's more of a given that you want to pay in British Pounds. This is where users should not have to explicitly set their currency preferences.
 
 <img src="/images/posts/harrods-currency.png" alt="Screenshot of how flags are only used for delivery countries and not the currency, but uses the symbols instead" class="col-xs-12">
 
 ## Phone Numbers
-Another scenario to use flags is for choosing international dialling codes. Despite regions sharing digits it’s only the first digit. Each country then has their own follow on digits. For those interested here is [a list of each country and their area codes]. Unlike currencies, phone numbers don’t have their own symbol which is smaller and faster to pick out from a long list. Using a flag with a phone number, allows for something catchier than a list of numbers.
+Another  scenario ​in which you can use flags is showing international dialling codes. The first digit is shared among regions, but every country has its own code, ​which is in the second digit. For example both the UK and Germany are in the +4 European dialling range, yet the UK is +44 and Germany is +49. For those interested here is [a list of each country and their area codes] and how this works. Unlike currencies, phone numbers don’t have their own symbol which is smaller and faster to pick out from a long list. Using a flag with a phone number, allows for something more scannable than a list of numbers.
 
 <div class="images">
 	<figure>
