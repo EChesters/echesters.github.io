@@ -25,5 +25,11 @@ a.btn {
 
 	&.portfolio {
 		width: 300px;
+		color: $black;
+		border-color: $black;
+
+		&:hover {
+			background-color: rgba(0, 0, 0, 0.1);
+		}
 	}
 }
