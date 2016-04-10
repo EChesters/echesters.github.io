@@ -43,11 +43,11 @@ img {
 		&.right {
 			float: right;
 		}
+	}
 
-		&.same-height {
-			height: 250px;
-			width: auto;
-		}
+	&.same-height {
+		height: 250px;
+		width: auto;
 	}
 }
 
