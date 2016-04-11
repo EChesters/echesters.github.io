@@ -231,6 +231,7 @@
 
 .content {
     margin: 460px auto 10px auto;
+    float: none;
 }
 
 /**
@@ -239,7 +240,6 @@
 .position {
     display: block;
     float: none;
-    // overflow: hidden;
 
     &.left {
         float: left;
