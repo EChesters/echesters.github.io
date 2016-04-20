@@ -11,3 +11,13 @@ strong {
 	line-height: 1.2em;
 	font-size: 1.2em;
 }
+
+.previous, .next {
+	padding: 0 10px;
+
+	// a {
+		&:hover {
+			color: $brand-secondary;
+		}
+	// }
+}
