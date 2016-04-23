@@ -1,7 +1,8 @@
 ---
 layout: post
 title: UX For Change - Hababy
-description: A brief introduction into the humanitarian application, Hababy. An app aimed at connecting pregnant refugees with doctors. Here, discover some of the challenges th project faces and how to get involved! 
+description: A brief introduction into the humanitarian application, Hababy. An app aimed at connecting pregnant refugees with doctors. Here, discover some of the challenges th project faces and how to get involved!
+image: "/images/posts/hababy/hababy-3.jpg"
 ---
 ## What is the Hababy App?
 Hababy is a play on words between the Arabic word for “sweetheart” and the English word “baby”. The project aims to build an app for pregnant refugees fleeing to countries. Countries where they have no contacts, limited language skills and no access to medical help.

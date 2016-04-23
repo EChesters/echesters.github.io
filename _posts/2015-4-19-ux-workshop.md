@@ -2,6 +2,7 @@
 layout: post
 title: CodeFirst:Girls UX Workshop
 description: CodeFirst:Girls is a new organisation aiming to get women into technology, which is more than just about coding! Here are my thoughts and my journey from running a one-day course with hands-on exercises around User Experience.
+image: "/images/posts/ux_2.jpg"
 ---
 
 

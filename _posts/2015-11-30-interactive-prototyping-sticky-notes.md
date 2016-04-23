@@ -2,7 +2,9 @@
 layout: post
 title: Interactive prototyping with sticky notes
 description: How prototyping with sticky notes can help with A/B testing, personalisation and getting your stakeholders interacting. 
+image: "/images/posts/sticky-notes/ltux-1.jpg"
 ---
+
 Recently I mentioned to a few people that my weapon of choice for prototyping is using sticky notes. I didn't think much of it until a few people said it actually made sense. So here is a short piece on prototyping with sticky notes and a few ideas on how to make this work.
 
 ## The idea behind it

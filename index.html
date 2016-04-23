@@ -5,20 +5,26 @@ layout: default
   <h2 class="page-heading">Posts</h2>
 </div>
 <div class="col-xs-12">
-  <div class="col-xs-12 col-sm-10 col-md-9 col-lg-8 post-content position central">
-    <ul class="blog-posts">
+  <div class="col-xs-12 col-sm-10 content position central">
+    <div class="posts">
       {% for post in paginator.posts %}
-        <li>
-          <a href="{{ post.url }}" class="post-title col-xs-12">
-            <h3>{{ post.title }}</h3>
-          </a>
-          <p class="post-time col-xs-12">{{ post.date | date: "%B %e, %Y" }}</p>
-          <p class="post-description col-xs-12">{{ post.description }}</p>
-        </li>
+        <div class="post col-xs-12 col-sm-4">
+          <div class="post-container">
+            <div class="post-image">
+              <img src={{post.image}} alt="">
+            </div>
+            <div class="post-info">
+              <a href="{{ post.url }}">
+              <h3>{{ post.title }}</h3>
+              <p class="post-description">{{ post.description }}</p>
+            </a>
+            </div>
+          </div>
+        </div>
       {% endfor %}
-      </ul>
     </div>
-  <div class="col-xs-12 text-center">
+
+    <div class="col-xs-12 text-center">
       <div class="pagination">
         {% if paginator.previous_page %}
           <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
@@ -33,5 +39,5 @@ layout: default
         {% endif %}
       </div>
     </div>
-
+  </div>
 </div>
