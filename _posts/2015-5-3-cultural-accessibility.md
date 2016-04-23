@@ -2,6 +2,7 @@
 layout: post
 title: Cultural Accessibility
 description: Accessibility is more than just disabilities, it's the actual accessing of data. So why when we talk about accessibility do we exclude those with different cultural expectations to our own?
+image: "/images/posts/culture-a11y/culture-ux.jpg"
 ---
 
 Accessibility is all about accessing everyday objects such as buildings, information and technology, but how many of us consider the role that cultures plays in the accessibility of our designs? Culture adds filters to each one of us depending on where we were born and raised. Filters such as language and traditions can have a huge impact on how we access different types of information and the way in which we expect information to be presented. Throughout this article I will discuss some misconceptions about common subjects that differ from culture to culture that can wreak havoc if ignored.

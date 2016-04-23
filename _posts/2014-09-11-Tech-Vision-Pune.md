@@ -2,6 +2,7 @@
 layout: post
 title: My Journey with TechVision
 description: As part of my internship and graduate training with ThoughtWorks, I had the honour of workin with and being invited to lunch with TechVision. They are a school for the blind in Pune, India; offering work experience, training and education. They have the largest library of braille books and have won multiple awards for their amazing work.
+image: "/images/posts/TV-3.jpg"
 ---
 
 I am a recent graduate at ThoughtWorks, and have not long got back from India! During my time at ThoughtWorks University, I had the honour of being invited to TechVisionin Pune. TechVision is a small organisation dedicated to helping those with visual impairments, alongside helping educate them and offering qualifications in a whole range of subjects.

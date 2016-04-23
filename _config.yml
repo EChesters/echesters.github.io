@@ -24,4 +24,4 @@ exclude: 			[vendor]
 markdown: kramdown
 
 gem: jekyll-paginate
-paginate: 7
+paginate: 9

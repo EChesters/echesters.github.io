@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Volunteering in Calais. Before & After. 
-description: My diary thoughts before and after volunteering in Calais. 
+description: My diary thoughts before and after volunteering in Calais.
+image: "/images/posts/calais/dunkirk-2.jpg"
 ---
 
 ## Before 
