@@ -10,9 +10,11 @@ layout: default
       {% for post in paginator.posts %}
         <div class="post col-xs-12 col-sm-4">
           <div class="post-container">
-            <div class="post-image">
-              <img src={{post.image}} alt="">
-            </div>
+            {% if post.image %}
+              <div class="post-image">
+                <img src={{post.image}} alt="">
+              </div>
+            {% endif %}
             <div class="post-info">
               <a href="{{ post.url }}">
               <h3>{{ post.title }}</h3>
