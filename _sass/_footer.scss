@@ -2,6 +2,7 @@ $footer-text:			#86a784;
 $brand-darker:			#9a1134;
 
 .footer {
+  padding: 15px 0;
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -17,29 +18,28 @@ footer {
 		font-size: 2em;
 		display: inline-block;
 		@include vertical-align(-25%);
-		color: $brand-darker;
+		color: $grey-color;
 		margin-bottom: 0;
+		text-transform: uppercase;
+		font-size: $base-font-size;
+		letter-spacing: 5px;
 	}
 
 	ul {
+		margin-left: 0;
 		list-style: none;
 		@include vertical-align(-35%);
 
 		li a {
-			color: #fff;
+			color: $grey-color-light;
 
 			&:visited {
-				color: #fff;
+				color: $grey-color-light;
 			}
 
 			&:hover {
-				color: $brand-darker;
-				text-decoration: underline;
+				color: $brand-secondary;
 			}
 		}
 	}
-}
-
-ul.site-map {
-	margin-left: 0;
 }
