@@ -2,6 +2,7 @@
 layout: post
 title: Why Not Teach?
 description: The launch of CodingLondon, and my experiences with CodeFirst:Girls, Code Club and more!
+image: "/images/posts/cfg_2.jpg"
 ---
 Have you ever had that feeling that you’ve truly made a difference? Whether that be for one person, five people or a thousand. That moment when someone you’ve taught all they know in the last 8 weeks, stands up to present their new business idea and announce they’re leaving their job for it. That moment means everything. 
 
