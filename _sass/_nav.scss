@@ -61,6 +61,10 @@ nav {
 	border: none;
 	background-color: #000;
 	margin-bottom: 0;
+
+	@media only screen and (min-width: 320px) and (max-width: 1200px) {
+	  	width: 100%;
+	}
 }
 
 .navbar-default .navbar-brand:hover {
@@ -76,23 +80,34 @@ nav {
 }
 
 // ---
-.side-nav nav {
+.side-nav {
 	position: fixed;
-	background-color: $background-color;
-	border-right: 1px solid $black;
-
-	.site-title {
-		font-family: $logo-font;
-		text-align: center;
-		font-size: 2em;
-		color: $black;
+	
+	@media only screen and (min-width: 320px) and (max-width: 1200px) {
+		position: relative;
 	}
 
-	&.navbar-default .navbar-nav>li>a {
-		color: $grey-color;
-	}
+	nav {
+		background-color: $background-color;
+		border-right: 1px solid $black;
 
-	&.navbar-default .navbar-brand:hover {
-		color: $black;
+		@media only screen and (min-width: 320px) and (max-width: 1200px) {
+			border-right: none;
+		}
+
+		.site-title {
+			font-family: $logo-font;
+			text-align: center;
+			font-size: 2em;
+			color: $black;
+		}
+
+		&.navbar-default .navbar-nav>li>a {
+			color: $grey-color;
+		}
+
+		&.navbar-default .navbar-brand:hover {
+			color: $black;
+		}
 	}
 }

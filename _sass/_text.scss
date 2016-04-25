@@ -1,23 +1,44 @@
 strong {
-	font-weight: 700;
+  font-weight: 700;
 }
 
 .emphasis {
-	font-style: italic;
+  font-style: italic;
 }
 
 .subtitles {
-	text-align: center;
-	line-height: 1.2em;
-	font-size: 1.2em;
+  text-align: center;
+  line-height: 1.2em;
+  font-size: 1.2em;
 }
 
 .previous, .next {
-	padding: 0 10px;
+  padding: 0 10px;
 
-	// a {
-		&:hover {
-			color: $brand-secondary;
-		}
-	// }
+  &:hover {
+    color: $brand-secondary;
+  }
+}
+
+h2 {
+  font-size: 50px;
+
+  &.index-title {
+    font-family: $logo-font;
+    text-align: center;
+
+  }
+}
+
+.emphasise {
+    color: $brand-color;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.sidenote {
+    color: $lighter-grey;
+    font-style: italic;
+    text-align: center;
+    font-size: .85em;
 }
