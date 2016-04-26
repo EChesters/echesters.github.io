@@ -38,3 +38,21 @@ strong {
     text-align: center;
     font-size: .85em;
 }
+
+.banner-title {
+  z-index: 100;
+  @include vertical-align(-150%);
+  display: block;
+  font-size: 4.5em;
+  font-family: $logo-font;
+  text-align: center;
+  color: $white;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+}
+
+.portfolio-title {
+  font-size: 3em;
+  @extend .banner-title;
+  @include vertical-align(50%);
+  font-family: $base-font-family;
+}
