@@ -32,7 +32,6 @@ $on-palm:          		600px;
 $on-laptop:        		800px;
 
 
-
 // Use media queries like this:
 // @include media-query($on-palm) {
 //     .wrapper {
@@ -52,6 +51,7 @@ $on-laptop:        		800px;
 		"vars",
         "base",
         "buttons",
+        "colours",
         "layout",
         "syntax-highlighting",
         "hover",
