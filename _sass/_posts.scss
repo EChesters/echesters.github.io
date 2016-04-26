@@ -1,57 +1,51 @@
-.post-content {
-	@media only screen and (min-width: 320px) and (max-width: 1200px) {
-		// margin-top: 250px;
-	}
-}
-
 .posts {
-	display: flex;
-	flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .post {
-	padding: 10px;
-	display: flex;
-	flex-wrap: wrap;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
 
-	.post-container {
-		margin: 5px;
-		padding: 0;
-		border: 1px solid $grey-color-light;
-		@include border-radius(5px);
-	}
+  .post-container {
+    margin: 5px;
+    padding: 0;
+    border: 1px solid $grey-color-light;
+    @include border-radius(5px);
+  }
 
-	img {
-		margin: 0;
-		@include border-radius(5px 5px 0 0);
-	}
+  img {
+    margin: 0;
+    @include border-radius(5px 5px 0 0);
+  }
 
-	h3 {
-		color: $brand-color;
+  h3 {
+    color: $brand-color;
 
-		&:hover {
-			text-decoration: underline;
-		}
-	}
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 
-	a {
-		color: $black;
-		
-		.post-description {
-			font-size: $base-font-size;
-			color: $grey-color;
-		}
+  a {
+    color: $black;
+    
+    .post-description {
+      font-size: $base-font-size;
+      color: $grey-color;
+    }
 
-		&:hover {
-			text-decoration: none;
-		}
+    &:hover {
+      text-decoration: none;
+    }
 
-		&:visited {
-			color: $black;
-		}
-	}
+    &:visited {
+      color: $black;
+    }
+  }
 
-	.post-info {
-		padding: 10px;
-	}
+  .post-info {
+    padding: 10px;
+  }
 }
