@@ -5,11 +5,14 @@ nav {
 	z-index: 100;
 
 	.site-title {
-		font-family: $base-display-font;
+		font-family: $logo-font;
+		font-size: 1.7em;
 		
-		a{ 
-			color: #FFF;
+		&.navbar-brand {
+			color: #fff;
+		}
 
+		a { 
 			&:hover {
 				text-decoration: none;
 			}
@@ -31,7 +34,7 @@ nav {
 		  content: "";
 		  position: absolute;
 		  width: 100%;
-		  height: 2px;
+		  height: 3px;
 		  bottom: 0;
 		  left: 0;
 		  background-color: $brand-color;
@@ -51,10 +54,6 @@ nav {
   				transform: scaleX(1);
   			}
 		}
-
-		&:visited {
-			color: $brand-color;
-		}
 	}
 }
 
@@ -62,10 +61,54 @@ nav {
 	@include border-radius(0);
 	border: none;
 	background-color: #000;
-	color: #FFF;
 	margin-bottom: 0;
 
-	a {
-		color: #fff !important;
+	@media only screen and (min-width: 320px) and (max-width: 1200px) {
+	  	width: 100%;
+	}
+}
+
+.navbar-default .navbar-brand:hover {
+	color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #fff;
+
+	&:hover {
+		color: #fff;
+	}
+}
+
+// ---
+.side-nav {
+	position: fixed;
+	
+	@media only screen and (min-width: 320px) and (max-width: 1200px) {
+		position: relative;
+	}
+
+	nav {
+		background-color: $background-color;
+		border-right: 1px solid $black;
+
+		@media only screen and (min-width: 320px) and (max-width: 1200px) {
+			border-right: none;
+		}
+
+		.site-title {
+			font-family: $logo-font;
+			text-align: center;
+			font-size: 2em;
+			color: $black;
+		}
+
+		&.navbar-default .navbar-nav>li>a {
+			color: $grey-color;
+		}
+
+		&.navbar-default .navbar-brand:hover {
+			color: $black;
+		}
 	}
 }

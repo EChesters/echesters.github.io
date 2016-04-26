@@ -1,8 +1,17 @@
 ---
-layout: default
+layout: side-nav
 ---
-<div class="banner col-xs-12">
-	<h2 class="page-heading col-xs-12 col-md-7 position central">{{ page.title }}</h2>
+<div>
+	{% if page.image %}
+		<div class="banner no-margin">
+			<img alt="" src={{page.image}}>
+		</div>
+	{% else %}
+		<div class="banner no-margin">
+			<img alt="" src="/images/post-header.jpg">
+		</div>
+	{% endif %}
+	<h1 class="banner-title">{{ page.title }}</h2>
 </div>
 <div class="row">
 	<div class="col-xs-12 col-sm-10 col-md-7 col-lg-6 central post-content content">

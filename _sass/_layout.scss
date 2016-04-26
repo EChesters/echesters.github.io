@@ -22,7 +22,6 @@
         color: $text-color;
         line-height: $base-line-height;
 
-        // Gaps between nav items, but not on the last one
         &:not(:last-child) {
             margin-right: 20px;
         }
@@ -77,8 +76,6 @@
         }
     }
 }
-
-
 
 /**
  * Site footer
@@ -230,7 +227,7 @@
 }
 
 .content {
-    margin: 460px auto 10px auto;
+    margin: 400px auto 10px auto;
     float: none;
 }
 
@@ -266,19 +263,6 @@
 .more-margin {
     margin-top: 15px;
     margin-bottom: 15px;
-}
-
-.emphasise {
-    color: $brand-color;
-    font-size: 25px;
-    font-weight: 100;
-}
-
-.sidenote {
-    color: $lighter-grey;
-    font-style: italic;
-    text-align: center;
-    font-size: .85em;
 }
 
 .summary {
