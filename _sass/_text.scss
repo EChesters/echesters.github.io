@@ -41,7 +41,7 @@ strong {
 
 .banner-title {
   z-index: 100;
-  @include vertical-align(-150%);
+  @include vertical-align(-75%);
   display: block;
   font-size: 4.5em;
   font-family: $logo-font;
