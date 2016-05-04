@@ -1,5 +1,6 @@
 ---
 title: A World at School
+image: /images/portfolio/awas/awas-petition-3.jpg
 ---
 <!DOCTYPE HTML>
 <html locale="en" xml:lang="en" lang="en">
@@ -9,9 +10,17 @@ title: A World at School
       <div class="row">
         {% include navbar.html %}
 
-      <div class="banner awas col-xs-12 col-md-12">
-    	<h2 class="portfolio-title">A World At School</h2>
-      </div>
+      <header class="intro-header" style="background-image: url('{{ page.image }}')">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-9 col-lg-offset-2 col-md-10 col-md-offset-1">
+                      <div class="site-heading">
+                          <h1 class="portfolio-title">{{ page.title }}</h1>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </header>
 
       <div class="col-xs-12 content" id="portfolio">
         <div class="col-xs-12 col-sm-10 col-md-7 col-lg-6 position central">
@@ -38,9 +47,13 @@ title: A World at School
             <h4>Personas and Empathy Mappings</h4>
             <p>As part of the inception, we needed to extract as much information as possible about their business. By engaging the clients in creating multiple personas for the website we knew exactly who we were targeting and who our priority was.</p>
 
-            <div class="images col-xs-12">
-              <img src="../images/portfolio/awas/awas-3.jpg" class="col-xs-12 col-md-6" alt="Top half of the empathy mapping, with sticky notes and a template demonstrating the user's emotions through their experience">
-              <img src="../images/portfolio/awas/awas-2.jpg" class="col-xs-12 col-md-6" alt="Bottom half of the empathy mapping, with sticky notes and a template demonstrating the user's emotions through their experience">
+            <div class="images">
+              <figure class="col-xs-12 col-sm-6">
+                  <img class="same-height" src="/images/portfolio/awas/awas-3.jpg" alt="Top half of the empathy mapping, with sticky notes and a template demonstrating the user's emotions through their experience">
+              </figure>
+              <figure class="col-xs-12 col-sm-6">
+                  <img class="same-height" src="/images/portfolio/awas/awas-2.jpg" alt="Bottom half of the empathy mapping, with sticky notes and a template demonstrating the user's emotions through their experience">
+              </figure>
             </div>
 
             <h4>User Journeys</h4>

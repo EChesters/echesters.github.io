@@ -16,10 +16,10 @@ $portfolio-banner-height:	800px;
 		bottom: 0;
 		left: 0;
 		opacity: .6; 
-	    background: -webkit-linear-gradient(rgba(20,20,20, .5), rgba(255,255,255, 0)); /* For Safari 5.1 to 6.0 */
-	    background: -o-linear-gradient(rgba(20,20,20, .5), rgba(255,255,255, 0)); /* For Opera 11.1 to 12.0 */
-	    background: -moz-linear-gradient(rgba(20,20,20, .5), rgba(255,255,255, 0)); /* For Firefox 3.6 to 15 */
-	    background: linear-gradient(rgba(20,20,20, .5), rgba(255,255,255, 0)); /* Standard syntax */
+	    background: -webkit-linear-gradient(rgba(20,20,20, .6), rgba(255,255,255, 0)); /* For Safari 5.1 to 6.0 */
+	    background: -o-linear-gradient(rgba(20,20,20, .6), rgba(255,255,255, 0)); /* For Opera 11.1 to 12.0 */
+	    background: -moz-linear-gradient(rgba(20,20,20, .6), rgba(255,255,255, 0)); /* For Firefox 3.6 to 15 */
+	    background: linear-gradient(rgba(20,20,20, .6), rgba(255,255,255, 0)); /* Standard syntax */
 		height: $post-banner-height;
 	}
 
@@ -87,39 +87,5 @@ $portfolio-banner-height:	800px;
 		min-width: 100%;
 		margin: 0;
 		max-height: none;
-	}
-
-	&.thoughtworks {
-		background: url('/images/portfolio/tw/banner.jpg');
-		background-size: cover;
-		height: $portfolio-banner-height;
-	}
-
-	&.awas {
-		background: url('/images/portfolio/awas/awas-1.png');
-		height: $portfolio-banner-height;
-
-		&:before {
-			width: 100%;
-    		height: 100%;
-    		position: absolute;
-    		z-index: -1;
-    		top: 0;
-    		left: 0;
-    		background: rgba(0,0,0, 0.4);
-    		content: '';
-		}
-	}
-
-	&.whfnp {
-		background: url('/images/portfolio/whfnp/whfnp-1.jpg');
-		background-size: cover;
-		height: $portfolio-banner-height;
-	}
-
-	&.speaking {
-		background: url('/images/portfolio/speaking/talkux-1.jpg');
-		background-size: cover;
-		height: $portfolio-banner-height;
 	}
 }
