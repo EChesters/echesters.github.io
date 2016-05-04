@@ -80,7 +80,7 @@ For the rest of the afternoon I was sorting through shoes, with a Portuguese fam
 In the evening we managed to hike a ride to Dunkirk. In Dunkirk it’s run differently, just due to the fact that it’s now recognised as an official camp. Before recognition, people were living in holes in the ground or in camping tents. When we first arrived, it was like a staring contest. They stared at us, and I sincerely stared back. You can see the baggage in their faces, and their eyes were so piercing. I hate staring, and I felt so uncomfortable being stared at, but I could not take my eyes off some of them there. 
 
 <div class="images col-xs-12">
-	<img src="/images/posts/calais/dunkirk-1.jpg" class="col-xs-12 position central small" alt="Image of a refugee with his eyes covered. Evidence of them in France hurts their asylum claim.">
+	<img src="/images/posts/calais/dunkirk-1.jpg" class="position central small" alt="Image of a refugee with his eyes covered. Evidence of them in France hurts their asylum claim.">
 </div>
 
 The first two guys we met there were stood around a laptop. Some of the volunteers there were working with them building a map of the camps for Open Street Maps. One of them was called Zach*, who had studied IT back in Kurdistan. He was 24 and travelling alone. He invited us to his wooden hut and introduced us to some of his refugee family. I also learnt some Kurdish and spoke to everyone who walked past. It wasn’t long before someone replied with… terms of endearment in Kurdish. I didn’t understand them, but Zach definitely got a laugh out of explaining what they were saying! There was a young girl from the hut next door who seemed really interested in us. Unfortunately it seemed she was too shy to say anything or come over for something other than stealing Zach’s chocolate. All she did was stare and wave at us with a smile. 
@@ -115,7 +115,7 @@ One woman went through what felt like every nail varnish colour we had. After 4 
 The best person by far who I met that day was a little girl. She was from Syria and had lived in Germany for 2 years. She spoken perfect German. She attacked me with her makeup palette. I got my own back but the little bugger managed to find the makeup remover before I did. I was informed that it looked like I had been punched.
 
 <div class="images col-xs-12">
-	<img src="/images/posts/calais/makeup.jpg" class="col-xs-12 position central small" alt="Image of a refugee with his eyes covered. Evidence of them in France hurts their asylum claim.">
+	<img src="/images/posts/calais/makeup.jpg" class="position central small" alt="Image of me with my makeup artist!">
 </div>
 
 Still the highlight of the day was my friend being commanded to sit while the beauticians attacked her face with threading. She then tried to throw me under the bus and point out my eyebrows. She took one look at my face and said it would take her a week! 
@@ -134,7 +134,7 @@ I’ve never felt more like a diva in my life.
 But why my shoes?! Especially when it turned out that another volunteer was supposed to be safeguarding them. It wasn’t the first pair of shoes to go missing! 
 
 <div class="images col-xs-12">
-	<img src="/images/posts/calais/u-wot.png" class="col-xs-12 position central small" alt="">
+	<img src="/images/posts/calais/u-wot.png" class="col-xs-12 position central small" alt="Picture of a meme of a ginger guy looking unimpressed">
 </div>
 
 Anyway, I take some other shoes we find on the bus. They arrange for Superman John to pick us up. Meanwhile I ring anyone at the warehouse to find the woman with my passport and camera. When I got back I was ready to blow my lid. It just wasn’t worth embarrassing myself like that. I told enough people that she had left us stranded anyway. There must be a volunteering code against that sort of thing. 
