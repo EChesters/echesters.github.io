@@ -75,7 +75,7 @@ A clear example of this is the New York Times. They have almost the same layout 
 
 When you provide content in languages that you may not be familiar with, it’s still a good idea to make sure you do some research yourself. Even if it’s just a few basic language rules. Common mistakes are often found in shorter messages. Mistakes usually being with capitalisation, like in German where they have capitalised nouns.
 
-_Ich habe ein Hund_ — I have a dog in German. Note ‘dog’ is capitalised.
+_Ich habe einen Hund_ — I have a dog in German. Note ‘dog’ is capitalised.
 
 As well as grammar, you also have punctuation and special characters. Punctuation symbols and rules often change. For example in Spanish, they use the same [exclamation mark] and [question mark] as most Latin based languages. Yet they are at the end and the beginning of a sentence. In French they also have their own quote marks, and use double chevrons instead.
 
