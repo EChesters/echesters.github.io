@@ -1,148 +1,20 @@
 ---
+layout: default
 title: Portfolio
 ---
-<!DOCTYPE HTML>
-<html locale="en" xml:lang="en" lang="en">
-  {% include head.html %}
-  <body id="portfolio" class="background">
-    <div class="container-fluid">
-      <div class="row">
-      {% include navbar.html %}
-
+<body id="portfolio" class="background">
+  <div class="container-fluid no-padding">
+    <div class="row">
       <div class="entry">
         <div class="col-xs-12 position central header" role="banner">
           <h1>UX Portfolio</h1>
         </div>
 
-        <div id="ux" class="grid">
-          <div class="col-xs-12 col-md-9 position central">
-            <div class="col-xs-12 col-md-4 more-margin">
-              <figure class="effect-milo">
-                <a href="/pages/thoughtworks.html">
-                  <img src="images/portfolio/tw/madferit.jpg" alt="Elizabeth stood with TechVision, a blind school in Pune, India">
-                  <figcaption>
-                  <h2>ThoughtWorks</h2>
-                  <p>UX accessibility review for the thoughtworks.com team.</p>
-                  </figcaption>
-                </a>
-              </figure>
-            </div>
-            <div class="col-xs-12 col-md-4 more-margin">
-              <figure class="effect-milo">
-                <a href="/pages/a-world-at-school.html">
-                  <img src="images/portfolio/case.jpg" alt="Screenshot of the A World at School home page">
-                  <figcaption>
-                  <h2>A World at School</h2>
-                  <p>Campaigning for the right of education for children.</p>
-                  </figcaption>
-                </a>
-              </figure>
-            </div>
-            <div class="col-xs-12 col-md-4 more-margin">
-              <figure class="effect-milo">
-                <a href="/pages/women-hack-for-non-profits.html">
-                  <img src="images/portfolio/whfnp/whfnp-7.jpg" alt="Screenshot of the women hack for non-profits home page">
-                  <figcaption>
-                    <h2>Women Hack for Non-Profits</h2>
-                    <p>Getting women involved in open source and tech.</p>
-                  </figcaption>
-                </a>
-              </figure>
-            </div>
-          </div>
-        </div>
+        {% include projects.html %}
+
+        {% include photography.html %}
+
+        {% include speaking.html %}
       </div>
-
-      <div class="col-xs-12 entry photography">
-        <div class="col-xs-12 position central">
-          <h1>Photography</h1>
-        </div>
-
-        <div id="italy" class="col-xs-12 position central">
-          <h3 class="country">Portugal</h3>
-
-          <div class="position central photographs">
-            <div class="col-xs-12 col-md-4 img-container photo no-padding">
-              <img src="images/photos/portugal-2.jpg" alt="The South of Portugal's hills">
-            </div>
-
-            <div class="col-xs-12 col-md-4 img-container photo">
-              <img src="images/photos/portugal-1.jpg" alt="Landscape of Portugal's castle and hills">
-            </div>
-
-            <div class="col-xs-12 col-md-4 img-container photo">
-              <img src="images/photos/portugal-3.jpg" alt="River and boat in Portugal">
-            </div>
-          </div>
-        </div>
-
-        <div id="italy" class="col-xs-12 position central">
-          <h3 class="country">Italy</h3>
-
-          <div class="position central photographs">
-            <div class="col-xs-12 col-md-4 img-container photo no-padding">
-              <img src="images/photos/italy-2.jpg" alt="Florence duomo at night">
-            </div>
-
-            <div class="col-xs-12 col-md-4 img-container photo">
-              <img src="images/photos/italy-4.jpg" alt="Florence duomo during the day">
-            </div>
-
-            <div class="col-xs-12 col-md-4 img-container photo">
-              <img src="images/photos/italy-3.jpg" alt="Florence duomo during the day">
-            </div>
-          </div>
-        </div>
-
-        <div id="richmond" class="col-xs-12 position central">
-          <h3 class="country">Richmond</h3>
-
-          <div class="position central photographs">
-            <div class="col-xs-12 col-md-4 img-container photo no-padding">
-              <img src="images/photos/richmond-2.jpg" alt="A baby deer lying down amongst its family's legs">
-            </div>
-
-            <div class="col-xs-12 col-md-4 img-container photo">
-              <img src="images/photos/richmond-1.jpg" alt="Majestic male deer looking over his shoulder at the camera">
-            </div>
-
-            <div class="col-xs-12 col-md-4 img-container photo">
-              <img src="images/photos/richmond-4.jpg" alt="Male deer lying down with a black bird on its back">
-            </div>
-          </div>
-        </div>
-
-        <div id="india" class="col-xs-12 position central">
-          <h3 class="country">India</h3>
-
-          <div class="position central photographs">
-            <div class="col-xs-12 col-md-4 img-container photo no-padding">
-              <img src="images/photos/india-1.jpg" alt="The walkway to the mosque in the sea, Mumbai">
-            </div>
-
-            <div class="col-xs-12 col-md-4 img-container photo">
-              <img src="images/photos/india-2.jpg" alt="A group of Indians sat in a circle playing instruments for the Ganesha festival">
-            </div>
-
-            <div class="col-xs-12 col-md-4 img-container photo">
-              <img src="images/photos/india-3.jpg" alt="Row boat in the sea next to Elephant Island">
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div id="speaking" class="col-xs-12">
-        <h1>Speaking</h1>
-        <p class="col-xs-12 col-sm-9 col-lg-7 position central text-center">If there's anything I can do, it's talking! I have spoken at many places such as Manchester and London Java Communities, Manchester Metropolitan University, Ladies that UX, as well as internal lunch and learns at work.</p>
-        <div class="col-xs-12 col-md-3 position central text-center">
-          <a class="btn portfolio" href="pages/speaking.html">Watch my talks</a>
-        </div>
-      </div>
-
     </div>
   </div>
-
-    {% include footer.html %}
-
-  </body>
-</html>
