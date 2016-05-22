@@ -15,9 +15,10 @@ layout: side-nav
           {% endif %}
           <div class="post-info">
             <a href="{{ post.url }}">
-            <h3>{{ post.title }}</h3>
-            <p class="post-description">{{ post.description }}</p>
-          </a>
+              <h3>{{ post.title }}</h3>
+              <p class="post-description">{{ post.description }}</p>
+              <p class="date">{{ post.date | date: "%B %e, %Y" }}</p>
+            </a>
           </div>
         </div>
       </div>

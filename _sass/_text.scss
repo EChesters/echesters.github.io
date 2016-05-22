@@ -20,6 +20,12 @@ strong {
   }
 }
 
+.date {
+  font-size: $small-font;
+  color: $grey-color;
+  text-align: right;
+}
+
 .index-title {
   font-family: $logo-font;
   text-align: center;
