@@ -1,20 +1,8 @@
 ---
-layout: default
+layout: portfolio
 title: Portfolio
 ---
-<body id="portfolio" class="background">
-  <div class="container-fluid no-padding">
-    <div class="row">
-      <div class="entry">
-        <div class="col-xs-12 position central header" role="banner">
-          <h1>UX Portfolio</h1>
-        </div>
-
-        {% include projects.html %}
-
-        {% include photography.html %}
-
-        {% include speaking.html %}
-      </div>
-    </div>
-  </div>
+<div id="portfolio">
+  {% include _portfolio/header-portfolio.html %}
+  {% include _portfolio/portfolio-grid.html %}
+</div>
