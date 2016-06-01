@@ -28,11 +28,11 @@ My first project was a UX My first project was redesigning a site, aimed at camp
 
 There were a few things I learnt quickly on this project. I was no longer allowed to touch the code. My team were people who knew me, knew my background and had been on my team beforehand as a developer. But was I granted access to the code?
 
-Not a chance.
+_Not a chance._
 
 The project was design heavy but I had asked to accomplish one developer task.
 
-‘The client likes to see progress’
+> ‘The client likes to see progress’
 
 Interesting. You don’t see UX-ers asking developers to send over their git logs. That’s progress.
 
@@ -77,7 +77,7 @@ It’s not as easy though just to get interviews because you apply. As much as I
 
 You will always have companies turn you down whether you’re experienced or not, and whether you’re changing careers or not. Finding your next role is going to take time. You’re going to get turned down because of one skill you don’t already have. You’re going to be knocked back because a senior applied for a junior role, and the internship still requires 2 years experience. But you have to have that drive to get what you want, and earning it sometimes takes longer than planned.
 
-You’ll get there.
+**You’ll get there.**
 
 
 [RedEye have even featured me on their blog.]:http://redeyeukcareers.tumblr.com/post/144646724630/redeyes-newest-recruit-named-one-to-watch-by
