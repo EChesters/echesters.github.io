@@ -29,6 +29,7 @@ nav {
 		position: relative;
   		color: #fff;
   		text-decoration: none;
+  		font-weight: 300;
 
 		&:before {
 		  content: "";
@@ -99,7 +100,8 @@ nav {
 		.site-title {
 			font-family: $logo-font;
 			text-align: center;
-			font-size: 2em;
+			font-size: 1.5em;
+			font-weight: 700;
 			color: $black;
 		}
 
