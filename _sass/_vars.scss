@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300|Montserrat:700,400|Cutive+Mono);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300|Montserrat:700|Cutive+Mono);
 
 /* COLOURS ----------- */
 $white: 				#eee;
@@ -30,6 +30,7 @@ $logo-font:				'Montserrat', serif;
 $secondary-font:		$logo-font;
 
 $font-button: 			1em;
+$smaller-font:			0.85em;
 $post-title-size:		2em;
 $h1-size:				4em;
 $logo-size:				1.5em;
@@ -38,5 +39,6 @@ $weight-light:		    300;
 $weight-medium:	        400;
 $weight-heavy:		    700;
 
+$additional-spacing:	10px;
 /* SIZE ------------- */
 $nav-bar-height:		10px;

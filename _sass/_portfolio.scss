@@ -148,20 +148,20 @@ header .intro-text {
     padding-bottom: 50px;
 }
 
-header .intro-text .intro-lead-in {
+header .intro-text .intro-lead-in h1 {
     margin-bottom: 25px;
     font-family: $secondary-font;
     font-size: 22px;
-    font-style: italic;
     line-height: 22px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
 }
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
-    text-transform: uppercase;
     font-family: $base-font-family;
     font-size: 50px;
-    font-weight: 700;
+    font-weight: $weight-light;
     line-height: 50px;
 }
 
@@ -171,20 +171,20 @@ header .intro-text .intro-heading {
         padding-bottom: 200px;
     }
 
-    header .intro-text .intro-lead-in {
+    header .intro-text .intro-lead-in h1 {
         margin-bottom: 25px;
         font-family: $secondary-font;
         font-size: 40px;
-        font-style: italic;
+        text-transform: uppercase;
         line-height: 40px;
+        letter-spacing: $additional-spacing;
     }
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
-        text-transform: uppercase;
         font-family: $base-font-family;
         font-size: 75px;
-        font-weight: 700;
+        font-weight: $weight-light;
         line-height: 75px;
     }
 }
@@ -202,10 +202,9 @@ section h2.section-heading {
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: $secondary-font;
+    font-family: $base-display-font;
     font-size: 16px;
-    font-style: italic;
-    font-weight: 400;
+    font-weight: $weight-light;
 }
 
 @media(min-width:768px) {
@@ -288,9 +287,8 @@ section h3.section-subheading {
 
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
-    font-family: $secondary-font;
+    font-family: $base-display-font;
     font-size: 16px;
-    font-style: italic;
 }
 
 #portfolio * {
@@ -413,12 +411,11 @@ section h3.section-subheading {
 }
 
 .timeline .timeline-heading h4.subheading {
-	color: $grey-color;
-    text-transform: none;
+	color: $lighter-grey;
+    text-transform: uppercase;
     font-family: $secondary-font;
-    font-size: $logo-size;
-    font-style: italic;
-    font-weight: 400;
+    font-size: $smaller-font;
+    letter-spacing: $additional-spacing;   
 }
 
 .timeline .timeline-body>p,
