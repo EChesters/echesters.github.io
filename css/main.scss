@@ -14,12 +14,15 @@ $base-line-height: 		1.5;
 
 $spacing-unit:     		30px;
 
-$text-color:       		#111;
-$background-color: 		#fdfdfd;
-$brand-color:      		#ad0736;
-$brand-secondary:       #86a784;
+// Palette
+$text-color:            #111;
+$background-color:      #fdfdfd;
 $footer-bg:             #111111;
-$header:                #484a68;
+$header:                #66AEF3;
+
+$quote-colour:          #4F4E57;
+
+$code-bg:               #E4E8EB;
 
 $grey-color:       		#8E8E8E;
 $grey-color-light: 		lighten($grey-color, 30%);
@@ -45,7 +48,6 @@ $on-laptop:        		800px;
     }
 }
 
-// Import partials from `sass_dir` (defaults to `_sass`)
 @import
 		"reset",
 		"vars",

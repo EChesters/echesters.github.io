@@ -9,16 +9,17 @@ nav {
 		font-size: $logo-size;
 		
 		&.navbar-brand {
-			color: #fff;
+			color: $white;
 		}
 
 		a { 
 			&:hover {
 				text-decoration: none;
+				color: $white;
 			}
 
 			&:visited {
-				color: #FFF;
+				color: $white;
 			}
 		}
 	}
@@ -27,7 +28,7 @@ nav {
 		padding: 15px 30px;
 		transition: box-shadow 0.3s;
 		position: relative;
-  		color: #fff;
+  		color: $nav-text;
   		text-decoration: none;
   		font-weight: 300;
 
@@ -47,7 +48,7 @@ nav {
 		}
 
 		&:hover {
-			color: #fff;
+			color: $nav-hover;
 
 			&:before{
 			  	visibility: visible;
@@ -61,7 +62,7 @@ nav {
 .navbar, .navbar-default {
 	@include border-radius(0);
 	border: none;
-	background-color: #000;
+	background-color: $nav-bar;
 	margin-bottom: 0;
 
 	@media only screen and (min-width: 320px) and (max-width: 1200px) {
@@ -70,14 +71,14 @@ nav {
 }
 
 .navbar-default .navbar-brand:hover {
-	color: #fff;
+	color: $white;
 }
 
 .navbar-default .navbar-nav>li>a {
-	color: #fff;
+	color: $nav-text;
 
 	&:hover {
-		color: #fff;
+		color: $nav-text;
 	}
 }
 
