@@ -55,6 +55,8 @@ strong {
 h2, h3, h4, h5 {
   font-family: $logo-font;
   font-weight: 700;
+  letter-spacing: calc( #{$additional-spacing} /2);
+  text-transform: uppercase;
 }
 
 h2 {
