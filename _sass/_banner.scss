@@ -28,11 +28,15 @@ $portfolio-banner-height:	800px;
 	}
 	.site-heading,
 	.post-heading,
-	.page-heading {
+	.page-heading{
 		color: white;
 		@media only screen and (min-width: 768px) {
 			padding: 100px 0;
 		}
+	}
+
+	@media only screen and (min-width: 500px) {
+		margin-bottom: 60px;	
 	}
 
 	.site-heading,
@@ -91,3 +95,4 @@ $portfolio-banner-height:	800px;
 		max-height: none;
 	}
 }
+
