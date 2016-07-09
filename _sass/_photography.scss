@@ -88,10 +88,13 @@
 #photographs figcaption a { 
 	display: inline-block;
 	color: #fff;
-	padding: 0 2em;
+	padding: 15px;
+	margin: 15px;
+	text-decoration: underline;
 }
 
-#photographs figcaption a:hover{text-decoration: none;padding: 0 3em;}
+#photographs figcaption a:hover{
+}
 
 figure.effect-oscar figcaption {
 	padding: 15%;
