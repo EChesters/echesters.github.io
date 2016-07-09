@@ -384,20 +384,20 @@ section h3.section-subheading {
     float: right;
     padding: 0 20px 0 100px;
     text-align: left;
-}
 
-.timeline>li.timeline-inverted>.timeline-panel:before {
-    right: auto;
-    left: -15px;
-    border-right-width: 15px;
-    border-left-width: 0;
-}
+    &:before {
+        right: auto;
+        left: -15px;
+        border-right-width: 15px;
+        border-left-width: 0;
+    }
 
-.timeline>li.timeline-inverted>.timeline-panel:after {
-    right: auto;
-    left: -14px;
-    border-right-width: 14px;
-    border-left-width: 0;
+    &:after {
+        right: auto;
+        left: -14px;
+        border-right-width: 14px;
+        border-left-width: 0;
+    }
 }
 
 .timeline>li:last-child {
@@ -410,12 +410,24 @@ section h3.section-subheading {
     color: inherit;
 }
 
+.timeline a>.timeline-heading h4.subheading,
 .timeline .timeline-heading h4.subheading {
 	color: $lighter-grey;
     text-transform: uppercase;
     font-family: $secondary-font;
     font-size: $smaller-font;
-    letter-spacing: $additional-spacing;   
+    letter-spacing: $additional-spacing;  
+    text-decoration: none; 
+}
+
+.timeline-panel a {
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+a>.timeline-heading h4 {
+    text-decoration: underline;
 }
 
 .timeline .timeline-body>p,
