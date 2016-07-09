@@ -141,6 +141,11 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+
+    &.photography-header {
+        background-image: none;
+        background-color: $black;
+    }
 }
 
 header .intro-text {

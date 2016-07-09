@@ -9,8 +9,8 @@
 	position: relative;
 	float: left;
 	overflow: hidden;
-	margin: 0;	/*change here for spacing*/	
-	width: 33.333333333%;
+	margin: 0;	
+	width: 33.33%;
 	height: 400px;
 	text-align: center;
 }
@@ -56,10 +56,7 @@
 	opacity: 0;
 }
 
-.grid figure h2 {
-	word-spacing: -0.15em;
-	font-weight: 700;
-}
+.grid figure h2 {}
 
 .grid figure h2,
 .grid figure p {
@@ -69,6 +66,8 @@
 .grid figure p {
 	letter-spacing: 1px;
 	font-size: 68.5%;
+	font-weight: $weight-light;
+	color: $grey-color;
 }
 
 @media screen and (max-width: 50em) {
@@ -86,13 +85,7 @@
 	.grid figure {width: 100%;}
 }
 
-#photographs{ 
-	padding-top:6em;
-}
-
 #photographs figcaption a { 
-	border:1px solid #fff;
-	margin-top: 1em;
 	display: inline-block;
 	color: #fff;
 	padding: 0 2em;
@@ -110,7 +103,6 @@ figure.effect-oscar figcaption::before {
 	right: 30px;
 	bottom: 30px;
 	left: 30px;
-	border: 1px solid #fff;
 	content: '';
 }
 
@@ -121,6 +113,9 @@ figure.effect-oscar h2 {
 	transition: transform 0.35s;
 	-webkit-transform: translate3d(0,100%,0);
 	transform: translate3d(0,100%,0);
+	letter-spacing: calc( #{$additional-spacing}/2);
+	font-family: $secondary-font;
+	text-shadow: 2px 2px 8px rgba(100, 100, 100, 1);
 }
 
 figure.effect-oscar figcaption::before,
