@@ -12,18 +12,16 @@
     margin: 5px;
     padding: 0;
     border: 1px solid $grey-color-light;
-    @include border-radius(5px);
+    border: $border;
+    border-color: $black;
   }
 
   img {
     margin: 0;
-    @include border-radius(5px 5px 0 0);
     width: 100%;
   }
 
   h3 {
-    color: $brand-color;
-
     &:hover {
       text-decoration: underline;
     }
