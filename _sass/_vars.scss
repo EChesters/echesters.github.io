@@ -3,11 +3,11 @@
 /* COLOURS ----------- */
 $white: 				#eee;
 $actual-white:			#fff;
-$black: 				#111;
+$black: 				#2A363B;
 $actual-black:			#000;
 
-$nav-bar:               #362D28;
-$nav-text:				#F4E9DF;
+$nav-bar:               rgba(255,255,255, 0);
+$nav-text:				$actual-white;
 $nav-hover:				#C7EDE8;
 
 $brand-color:      		#66AEF3;
@@ -19,23 +19,28 @@ $accessibility-blue:	#004289;
 
 $portuguese-green:		#00ac00;
 
+$txt-shadow:			0px 0px 10px rgba(0, 0, 0, 0.6);
+$border:				5px solid $actual-white;
+
 /* FONTS ------------- */
 $base-font-family: 		'Open Sans', sans-serif;
 $base-display-font: 	$base-font-family;
 $code-font:				'Cutive Mono', monospace;
 $logo-font:				'Montserrat', serif;
+$logo-font-light:		'Montserrat-UltraLight', serif;
 $secondary-font:		$logo-font;
 
 $font-button: 			1em;
 $smaller-font:			0.85em;
 $post-title-size:		2em;
 $h1-size:				4em;
-$logo-size:				1.5em;
+$logo-size:				1.3em;
 
 $weight-light:		    300;
 $weight-medium:	        400;
 $weight-heavy:		    700;
 
 $additional-spacing:	10px;
+
 /* SIZE ------------- */
 $nav-bar-height:		10px;
