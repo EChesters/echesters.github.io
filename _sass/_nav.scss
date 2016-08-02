@@ -5,21 +5,24 @@ nav {
 	z-index: 100;
 
 	.site-title {
-		font-family: $logo-font;
-		font-size: $logo-size;
-		
+		letter-spacing: 5px;
+		border: $border;
+		height: auto;
+		margin: 5px 0;
+		text-transform: uppercase;
+
 		&.navbar-brand {
-			color: $white;
+			color: $actual-white;
 		}
 
 		a { 
 			&:hover {
 				text-decoration: none;
-				color: $white;
+				color: $actual-white;
 			}
 
 			&:visited {
-				color: $white;
+				color: $actual-white;
 			}
 		}
 	}
@@ -31,6 +34,7 @@ nav {
   		color: $nav-text;
   		text-decoration: none;
   		font-weight: 300;
+		text-shadow: $txt-shadow;
 
 		&:before {
 		  content: "";
@@ -62,12 +66,16 @@ nav {
 .navbar, .navbar-default {
 	@include border-radius(0);
 	border: none;
-	background-color: $nav-bar;
+	background: transparent;
 	margin-bottom: 0;
 
 	@media only screen and (min-width: 320px) and (max-width: 1200px) {
 	  	width: 100%;
 	}
+}
+
+.navbar-default, .navbar-default .navbar-form {
+	background: transparent;
 }
 
 .navbar-default .navbar-brand:hover {
@@ -82,36 +90,40 @@ nav {
 	}
 }
 
+.side-title {
+	font-family: $logo-font-light;
+	font-size: $logo-size;
+}
+
 // ---
 .side-nav {
 	position: fixed;
-	
+	background-color: $black;
+	padding-bottom: 20px;
+	padding-top: 20px;
+
 	@media only screen and (min-width: 320px) and (max-width: 1200px) {
 		position: relative;
 	}
 
 	nav {
-		background-color: $background-color;
-		border-right: 1px solid $black;
-
 		@media only screen and (min-width: 320px) and (max-width: 1200px) {
 			border-right: none;
 		}
 
 		.site-title {
-			font-family: $logo-font;
 			text-align: center;
-			font-size: $logo-size;
-			font-weight: 700;
-			color: $black;
+			text-shadow: none;
+			color: $actual-white;
 		}
 
 		&.navbar-default .navbar-nav>li>a {
-			color: $grey-color;
+			color: $actual-white;
+			text-shadow: none;
 		}
 
 		&.navbar-default .navbar-brand:hover {
-			color: $black;
+			color: $actual-white;
 		}
 	}
 }

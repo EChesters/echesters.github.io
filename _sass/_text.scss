@@ -24,6 +24,8 @@ strong {
   font-size: $small-font;
   color: $grey-color;
   text-align: right;
+  font-family: $logo-font-light;
+  text-transform: uppercase;
 }
 
 .index-title {
@@ -53,15 +55,13 @@ strong {
 }
 
 h2, h3, h4, h5 {
-  font-family: $logo-font;
-  font-weight: 700;
   letter-spacing: calc( #{$additional-spacing} /2);
-  text-transform: uppercase;
 }
 
 h2 {
     font-size: 32px;
     color: $header;
+    font-family: $logo-font;
 
     @include media-query($on-laptop) {
         font-size: 28px;
@@ -71,7 +71,7 @@ h2 {
 h3 {
     font-size: 26px;
     color: $header;
-
+    font-family: $logo-font-light;
     @include media-query($on-laptop) {
         font-size: 22px;
     }
@@ -79,6 +79,7 @@ h3 {
 
 h4 {
     font-size: 20px;
+    font-family: $logo-font-light;
 
     @include media-query($on-laptop) {
         font-size: 18px;

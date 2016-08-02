@@ -2,7 +2,7 @@
 	background: url('../images/about.jpg');
 	background-size: cover;
 	color: $white;
-	text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+	text-shadow: $txt-shadow;
 
 	&::before {
 		content: '';
@@ -29,7 +29,6 @@
 		font-family: $base-display-font;
 		text-align: center;
 		margin: 0;
-
 	}
 
 	h1 {
@@ -39,6 +38,7 @@
 	h2 {
 		font-size: 2em;
 		margin-bottom: 15px;
+		color: $actual-white;
 	}
 
 	a.btn {

@@ -225,7 +225,7 @@
 }
 
 .post-content {
-    margin-top: $spacing-unit;
+    margin: $spacing-unit 0 calc(#{$spacing-unit} * 2);
 }
 
 /**
