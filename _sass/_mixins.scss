@@ -7,10 +7,10 @@
           border-radius: $radius;
 }
 
-@mixin box-shadow() {
-       -moz-box-shadow:  0 0 10px #ABADB3;
-    -webkit-box-shadow:  0 0 10px #ABADB3;
-            box-shadow:  0 0 10px #ABADB3;
+@mixin box-shadow($top, $right, $bottom, $left, $colour) {
+       -moz-box-shadow:  $top, $right, $bottom, $left, $colour;
+    -webkit-box-shadow:  $top, $right, $bottom, $left, $colour;
+            box-shadow:  $top, $right, $bottom, $left, $colour;
 }
 
 @mixin inside-shadow() {
