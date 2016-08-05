@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My Advice to Budding Coders
-description: UX is all about the user, but no amount of reading, listening or writing can prepare you for the time you actually spend with users. You have no idea who will walk through your door. Learning quickly is an absolute must have skill when it comes to adapting to every persona type imaginable. 
+description: I've been teaching for what feels like forever. From primary school children, to teenagers, all the way to seniors. No matter the age of the student though, the questions for breaking into the tech industry. Here I offer my advice for those questions on what it means to be a programmer, and how coding fits in. 
 image: "/images/posts/cfg-students.jpg"
 ---
 
