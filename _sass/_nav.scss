@@ -13,6 +13,7 @@ nav {
 
 		&.navbar-brand {
 			color: $actual-white;
+			padding: 10px;
 		}
 
 		a { 
@@ -64,7 +65,7 @@ nav {
 }
 
 ul.nav {
-	@include vertical-align(-25%);
+	@include vertical-align(-10%);
 }
 
 .navbar, .navbar-default {
