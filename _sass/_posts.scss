@@ -54,3 +54,8 @@
   letter-spacing: $additional-spacing;
   text-transform: uppercase;
 }
+
+.post-content {
+    margin: $spacing-unit 0 calc(#{$spacing-unit} * 2);
+    padding: 0 30px;
+}

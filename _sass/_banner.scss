@@ -43,14 +43,16 @@ $post-banner-height:		750px;
 	.page-heading {
 		text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
   		font-family: $logo-font;
+  		margin-top: 60%;
 		
 		h1 {
-			@include vertical-align(-100%);
 			font-size: 40px;
 		}
 
 		@media only screen and (min-width: 768px) {
 			h1 {
+				margin-top: 0;
+				@include vertical-align(150%);
 				font-size: 60px;
 			}
 		}
