@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My Advice to Budding Coders
-description: I've been teaching for what feels like forever. From primary school children, to teenagers, all the way to seniors. No matter the age of the student though, the questions for breaking into the tech industry. Here I offer my advice for those questions on what it means to be a programmer, and how coding fits in. 
+description: I've been teaching for a long time. From primary school children, all the way to seniors. No matter the age of the student though, the questions for breaking into the tech industry remain the same. Here is my advice for those questions on what it means to be a programmer and how coding fits in. 
 image: "/images/posts/cfg-students.jpg"
 ---
 
