@@ -1,6 +1,6 @@
 .parallax {
 	perspective: 1px;
-	height: 100vh;
+	// height: 100vh;
 	overflow-x: hidden;
 	overflow-y: auto;
 	-webkit-perspective: 1px;
@@ -115,9 +115,6 @@
 	text-align: center;
 }
 
-}
-
 #future {
 	background-image: url('../../images/volunteering.jpg');
-	background-attachment: fixed;
 }
