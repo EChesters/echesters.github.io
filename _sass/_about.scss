@@ -43,11 +43,10 @@
 }
 
 .title {
-  width: 80%;
+  // width: 90%;
   margin: 0 auto;
   padding: 2%;
   border-radius: 5px;
-  background: rgba(240,230,220, .8);
   box-shadow: 0 0 8px rgba(0, 0, 0, .7);
   color: #000;
   text-shadow: none;
@@ -82,8 +81,8 @@
 	}
 }
 
-#empowerhack:before {
-	background-image: url("../../images/empowerhack.jpg");
+#what-do:before {
+	background-image: url("/images/empowerhack.jpg");
 	transform: translateZ(-1px) scale(2);
 	z-index: -1;
 	background-size: cover;
