@@ -7,6 +7,7 @@
 	transform-style: preserve-3d;
 }
 
+
 .slide {
 	position: relative;
 	padding: 10vh 10%;
@@ -107,6 +108,7 @@
 	background-image: url('../../images/challenges.jpg');
 	background-attachment: fixed;
 	z-index: 10;
+}
 
 #personal-projects {
 	background-image: url('/images/posts/budaya.jpg');
@@ -134,10 +136,6 @@
 	z-index: -1;
 }
 
-.buttons {
-	margin: 0 auto;
-	text-align: center;
-}
 
 #future {
 	background-image: url('../../images/volunteering.jpg');
