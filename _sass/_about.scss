@@ -48,6 +48,7 @@
 .small-slide {
 	min-height: 500px;
 	padding: 10vh 10%;
+	overflow: auto;
 }
 
 .title {
@@ -130,13 +131,10 @@
 	}
 }
 
-#resources:before {
-	background-image: url('../../images/resources.jpg');
-	transform: translateZ(-1px) scale(2);
-	z-index: -1;
+#photographs img {
+	margin: 0;
 }
 
-
-#future {
-	background-image: url('../../images/volunteering.jpg');
-}
+// #future {
+// 	background-image: url('../../images/volunteering.jpg');
+// }
