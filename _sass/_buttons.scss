@@ -1,26 +1,33 @@
 a.btn {
-	color: $white;
+	color: $actual-white;
 	padding: 15px 50px;
-	border: 2px solid $white;
+	border: 2px solid darken($brand-color, 5%);
 	text-align: center;
-	background: rgba(255, 255, 255, 0.1);
+	background-color: $brand-color;
 	margin: 20px 0;
 	display: inline-block;
 	min-width: 30%;
+	box-shadow: 0 2px darken($brand-color, 25%);
+	text-shadow: none;
+	font-size: 1.1em;
 
 	&:hover {
-		background-color: rgba(255, 255, 255, 0.3);
+		background-color: darken($brand-color, 5%);
 		text-decoration: underline;
-		color: $white;
+		color: $actual-white;
 	}
 
 	@media screen and (max-width: 1024px) {
 		width: 75%;
 	}
 
-	&.brand {
+	&.white {
 		color: $brand-color;
-		border-color: $brand-color;
+		border-color: $grey-color-light;
+
+		&:hover {
+			background-color: $grey-color-light;
+		}
 	}
 
 	&.portfolio {
@@ -31,5 +38,11 @@ a.btn {
 		&:hover {
 			background-color: rgba(0, 0, 0, 0.1);
 		}
+	}
+
+	&:active {
+	  background-color: darken($brand-color, 10%);
+	  box-shadow: 0 5px $grey-color;
+	  transform: translateY(4px);
 	}
 }
