@@ -12,6 +12,9 @@ $brand-darker:			#9a1134;
 }
 
 footer {
+	border-top: solid 2px darken($footer-bg, 1%);
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+
 	h4 {
 		font-family: $base-display-font;
 		font-size: 2em;

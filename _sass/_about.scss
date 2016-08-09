@@ -133,7 +133,7 @@
 
 #photographs {
 	padding: calc(#{$spacing-unit} * 2) 0;
-	background-color: $background-color;
+	background-color: $footer-bg;
 
 	img {
 		margin: 0;
@@ -142,5 +142,10 @@
 }
 
 #my-photographs {
-	padding-bottom: calc(#{$spacing-unit} * 2);
+	padding: calc(#{$spacing-unit} * 2) 0;
+	background-color: $footer-bg;
+
+	h2 {
+		color: $actual-white;
+	}
 }
