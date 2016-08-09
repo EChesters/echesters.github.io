@@ -63,7 +63,7 @@
   position: relative;
 
   &.white {
-  	background-color: $actual-white;
+  	background-color: $background-color;
   }
 }
 
@@ -131,10 +131,16 @@
 	}
 }
 
-#photographs img {
-	margin: 0;
+#photographs {
+	padding: calc(#{$spacing-unit} * 2) 0;
+	background-color: $background-color;
+
+	img {
+		margin: 0;
+		cursor: auto;
+	}
 }
 
-// #future {
-// 	background-image: url('../../images/volunteering.jpg');
-// }
+#my-photographs {
+	padding-bottom: calc(#{$spacing-unit} * 2);
+}
