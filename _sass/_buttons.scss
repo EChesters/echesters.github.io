@@ -42,7 +42,8 @@ a.btn {
 
 	&:active {
 	  background-color: darken($brand-color, 10%);
-	  box-shadow: 0 5px $grey-color;
-	  transform: translateY(4px);
+	  box-shadow: 0 2px darken($brand-color, 25%);
+	  transform: translateY(2px);
+	  color: $actual-white;
 	}
 }
