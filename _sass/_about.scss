@@ -17,6 +17,10 @@
 	transform-style: inherit;
 	color: $black;
 
+	@media only screen and (max-width: 1024px) {
+		padding: 10vh 5%;
+	}
+
 	&:before {
 		content: "";
 		position: absolute;
@@ -70,6 +74,17 @@
   }
 }
 
+.banner-title {
+	min-height: 25vh;
+	border: $border;
+	text-align: center;
+	@include vertical-align(-25%);
+
+	@media only screen and (max-width: 1024px) {
+		@include vertical-align(0);
+	}
+}
+
 #banner {
 	background-size: cover;
 	background-image: url("/images/about.jpg");
@@ -78,8 +93,15 @@
 	text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
 
 	h1 {
-		position: relative;
 		display: block;
+		font-family: $logo-font;
+	}
+
+	h2.intro {
+		color: $actual-white;
+		margin: 0;
+		font-weight: $weight-light;
+		font-family: $base-display-font;
 	}
 
 	&:before {
