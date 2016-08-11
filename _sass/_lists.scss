@@ -1,0 +1,15 @@
+ul {
+  &.skills {
+    text-align: center;
+    color: lighten($brand-color, 15%);
+    margin-left: 0;
+    
+    li {
+      display: inline-block;
+      list-style: none;
+      padding: 10px 15px;
+      border: lighten($brand-color, 15%) 2px solid;
+      // @include border-radius(25px);
+    }
+  }
+}
