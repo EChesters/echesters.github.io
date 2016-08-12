@@ -7,8 +7,13 @@
 }
 
 .more-margin {
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: $spacing-unit;
+    margin-bottom: $spacing-unit;
+}
+
+.margin-horizontal {
+    margin-right: $spacing-unit;
+    margin-left: $spacing-unit;
 }
 
 /**

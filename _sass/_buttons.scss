@@ -1,49 +1,62 @@
 a.btn {
-	color: $actual-white;
-	padding: 15px 50px;
-	border: 2px solid darken($brand-color, 5%);
-	text-align: center;
-	background-color: $brand-color;
-	margin: 20px 0;
-	display: inline-block;
-	min-width: 30%;
-	box-shadow: 0 2px darken($brand-color, 25%);
-	text-shadow: none;
-	font-size: 1.1em;
+  color: $actual-white;
+  padding: 15px 50px;
+  border: 2px solid darken($brand-color, 5%);
+  text-align: center;
+  background-color: $brand-color;
+  margin: 20px 0;
+  display: inline-block;
+  min-width: 30%;
+  box-shadow: 0 2px darken($brand-color, 25%);
+  text-shadow: none;
+  font-size: 1.1em;
 
-	&:hover {
-		background-color: darken($brand-color, 5%);
-		text-decoration: underline;
-		color: $actual-white;
-	}
+  &:hover {
+    background-color: darken($brand-color, 5%);
+    text-decoration: underline;
+    color: $actual-white;
+  }
 
-	@media screen and (max-width: 1024px) {
-		width: 90%;
-	}
+  @media screen and (max-width: 1024px) {
+    width: 90%;
+  }
 
-	&.white {
-		color: $brand-color;
-		border-color: $grey-color-light;
+  &.white {
+    color: $brand-color;
+    border-color: $grey-color-light;
 
-		&:hover {
-			background-color: $grey-color-light;
-		}
-	}
+    &:hover {
+      background-color: $grey-color-light;
+    }
+  }
 
-	&.portfolio {
-		width: 300px;
-		color: $black;
-		border-color: $black;
+  &.portfolio {
+    width: 300px;
+    color: $black;
+    border-color: $black;
 
-		&:hover {
-			background-color: rgba(0, 0, 0, 0.1);
-		}
-	}
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+  }
 
-	&:active {
-	  background-color: darken($brand-color, 10%);
-	  box-shadow: 0 2px darken($brand-color, 25%);
-	  transform: translateY(2px);
-	  color: $actual-white;
-	}
+  &:active {
+    background-color: darken($brand-color, 10%);
+    box-shadow: 0 2px darken($brand-color, 25%);
+    transform: translateY(2px);
+    color: $actual-white;
+  }
+}
+
+a.link {
+  text-decoration: none;
+  border-bottom: $border;
+  border-color: $grey-color-light;
+  font-weight: $weight-light;
+  font-size: 1.25em;
+
+  &:hover {
+    border-bottom: $border;
+    border-color: $brand-color;
+  }
 }
