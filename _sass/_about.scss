@@ -5,6 +5,10 @@
 	overflow-y: auto;
 	-webkit-perspective: 1px;
 	transform-style: preserve-3d;
+
+	h4 {
+    	margin-top: 0;
+	}
 }
 
 
@@ -58,7 +62,7 @@
 .title {
   margin: 0 auto;
   padding: 2%;
-  border: 5px solid $grey-color-light;
+  border: 5px solid $black;
   color: #000;
   text-shadow: none;
   overflow: auto;
@@ -67,10 +71,6 @@
 
   &.white {
   	background-color: $background-color;
-  }
-
-  h4 {
-  	margin-top: 0;
   }
 }
 
