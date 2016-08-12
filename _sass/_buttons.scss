@@ -62,9 +62,10 @@ a.link {
 }
 
 .scroll-btn {
+  padding-top: $spacing-unit;
   opacity: 0.5;
 
   img {
-    height: 60px;
+    height: 50px;
   }
 }
