@@ -60,3 +60,13 @@ a.link {
     border-color: $brand-color;
   }
 }
+
+.scroll-btn {
+  margin-top: $spacing-unit;
+  opacity: 0.5;
+
+  img {
+    height: 75px;
+    border: $border;
+  }
+}
