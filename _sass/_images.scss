@@ -61,6 +61,10 @@ img {
     width: 100%;
     overflow: hidden;
 
+    &.full {
+    	height: 100%;
+    }
+
     &.photo {
     	height: 300px;
 
