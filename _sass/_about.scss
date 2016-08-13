@@ -45,6 +45,11 @@
 
 	&.full-height {
 		min-height: 100vh;
+
+		@media only screen and (max-width: 1024px) {
+			min-height: 125vh;
+			overflow: visible;
+		}
 	}
 }
 

@@ -55,6 +55,11 @@ a.link {
   font-weight: $weight-light;
   font-size: 1.25em;
 
+  @media screen and (max-width: 1024px) {
+    display: inline-block;
+    margin-bottom: $spacing-unit;
+  }
+
   &:hover {
     border-bottom: $border;
     border-color: $brand-color;
