@@ -113,10 +113,12 @@
 		@extend h1;
 		font-weight: $weight-heavy;
 		font-family: $logo-font-light;
+		font-size: 30px;
 	}
 
 	p.hello-title {
 		font-size: $post-title-size;
+		margin-bottom: 0;
 	}
 
 	h2.intro {
@@ -127,8 +129,7 @@
 	}
 
 	p {
-		line-height: 2em;
-		margin-top: $spacing-unit;
+		margin-top: calc(#{$spacing-unit} / 2);
 	}
 
 	&:before {
