@@ -54,9 +54,9 @@ strong {
 
 .summary {
     font-size: 1.2em;
-    font-weight: 100;
+    font-weight: $weight-heavy;
     text-align: center;
-    margin-bottom: 60px;
+    margin: calc(#{$spacing-unit} *2 ) 0;
 }
 
 h2, h3, h4 {
