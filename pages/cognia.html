@@ -1,6 +1,6 @@
 ---
 title: Cognia
-image: /images/portfolio/cognia/console-knowledgebase.png
+image: /images/portfolio/cognia/gunther-wide.jpg
 layout: case-study
 summary: In house projects from designing a knowledgebase and a whole around our API.
 ---
@@ -10,19 +10,79 @@ summary: In house projects from designing a knowledgebase and a whole around our
   <div class="objectives">
     <ol>
       <li><p>Create an experience for our API, from onboarding, integration and support</p></li>
-      <li><p>Design and build a knowledgebase for training and support for all clients</p></li>
+      <li><p>Provide a platform for Cognia and client developers to train and use the API service</p></li>
     </ol>
   </div>
 </section>
 
 <section>
   <h2>Challenges</h2>
+  <p>I had to design a template which aids developers in training, using and debugging our API.</p>
+  <p>Given the nature of the scenarios of developers using the tool, it needed to be well researched and tested.</p>
+  <p>As a product being sold, it also had to be something aesthetically pleasing, being used in demos and pitches by non-technical team members.</p>
 </section>
 
 <section>
   <h2>Process</h2>
+  <h3>Personas</h3>
+  <p>My first step in creating the API was to really understand what it is that developers need when debugging code. I interviewed the developers on my team and developers from the London Tech Community to understand what makes a good API. After speaking to a few developers, the first point that came up every time was good documentation. An API is nothing without a solid foundation around what it can do and how to use it.</p>
+
+  <p>The top four things that were mentioned by most developers I spoke to were:</p>
+
+  <ol>
+    <li>Documentation</li>
+    <li>Interactive documentation</li>
+    <li>Highlight versioning</li>
+    <li>Community</li>
+  </ol>
+
+  <p>The personas I made also took into account that the business had plans to expand into German, where English wasn't going to be someone's first language.</p>
+
+  <p>My final 3 personas were created to represent the 3 main scenarios developers use API documentation. Günther, the debugger; Joanna, the searcher; and Dave the new developer.</p>
+
+
+  <div class="images">
+    <img class="rounded square col-xs-6 col-sm-4" src="/images/portfolio/cognia/gunther.jpg" alt="">
+    <img class="rounded square col-xs-6 col-sm-4" src="/images/portfolio/cognia/joanna.jpg" alt="">
+    <img class="rounded square col-xs-6 col-sm-4" src="/images/portfolio/cognia/dave.jpg" alt="">
+  </div>
+
+  <h3>Empathy Maps</h3>
+  <p>I chose to do empathy maps to have on record how and when developers are mostly using API documentation. I used these to showcase all of the surroundings and the environment in which developers generally use APIs, plus specifically for those in work, because that was part of our primary persona.</p>
+  <p>Despite being a developer, I know that a UX myth is “You are not your user”. So even though I knew how to use an API and was a frequent user, I wanted to understand the different ways of those around me, at work but also within my network of the tech community. Empathy maps really enabled me to sit down and think about the questions I had asked developers, and put their scenarios into perspective.</p>
+
+  <img src="/images/portfolio/cognia/empathy.jpg" alt="Empathy map of Dave, showing his behaviours and scenarios of using our API" class="col-xs-12 col-md-10 position central">
+
+  <h3>Competitor Analysis</h3>
+  <p>After researching well known APIs I noticed a pattern of two consistent templates. After reviewing the patterns in my personas I chose the template which placed the code and explanation side by side. My aim was to reduce the need to scroll through documentation as much as possible.</p>
+
+  <p>The competitors I chose to focus on most were Amazon, Twitter and Stripe. These came up as good examples from users ni my interviews or had been used as examples and tools in the classes I had helped to teach.</p>
+
+  <figure class="col-xs-12 col-md-6">
+    <img class="same-height" src="/images/portfolio/cognia/template-1.jpg" alt="Top half of the empathy mapping, with sticky notes and a template demonstrating the user's emotions through their experience">
+    <figcaption>Tempate 1: The code example is shown alongside the associated description of the method</figcaption>
+  </figure>
+  <figure class="col-xs-12 col-md-6">
+    <img class="same-height" src="/images/portfolio/cognia/template-2.jpg" alt="Bottom half of the empathy mapping, with sticky notes and a template demonstrating the user's emotions through their experience">
+    <figcaption>Template 2: Code example is underneath the associated description of the method</figcaption>
+  </figure>
+
+  <p>We went with the split screen template, because it involved less scrolling and flicking between rereading the explanation and needing the code. At first I started to build my own template but came across <a href="https://github.com/tripit/slate">Slate</a> from a colleague. It offers the split screen, which means no excessive scrolling up and down between explanation and code. The template also highlights the category of where you are in the documentation as you scroll. <a href="http://tripit.github.io/slate/#introduction">They also offer a demo here</a>.</p>
+
+  <p>For testing in general <a href="http://echesters.co.uk/API-Documentation-Template/">I built a first look and feel template</a>. However under NDA I’m no longer permitted to test the templates with final content. The way I chose to build this template is a very close replica of the Stripe documentation. As our API was quite bit in terms of the number of sections, I broke it down into categories, each linking to that particular section for readability.</p>
 </section>
 
 <section>
   <h2>Results</h2>
+  <p>In the end we went with the Slate example, which offered an open source solution with much better usability. From a developer point of view, the code was easier the maintain.</p>
+  <p>I had researched, designed and built the final tool for their API.</p>
+
+  <img src="/images/portfolio/cognia/cognia-3-api.png">
+  <img src="/images/portfolio/cognia/cognia-api-4.png">
+
+  <p>We also used additional tools like Swagger, to offer users interactive tools. This is a well known tool for the industry, meaning the tool was consistent and well known to many developers.</p>
+
+  <h3>In the future</h3>
+  <p>Even though I have left Cognia I still want to test the two templates, with the hypothesis I had about users scrolling. I would use analytics on how fast it takes people to complete a code issue using the API documentation. I would also use eye tracking to see how much demand the templates have of flicking between the code and explanation. I would also monitor the amount of scrolling, since my hypothesis for discarding one of the templates is that it requires a lot of scrolling.</p>
+  <p>The dream would be to test with a range of developers, from the professional at work programming late at night to fix something quickly, to the junior developer who wants to impress his team at work.</p>
 </section>
