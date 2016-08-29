@@ -155,8 +155,8 @@ header .intro-text {
 }
 
 header .intro-text .intro-lead-in h1 {
-    margin-bottom: 25px;
-    font-family: $secondary-font;
+    margin-bottom: calc( #{$spacing-unit} / 2);
+    font-family: $logo-font-light;
     font-size: 22px;
     line-height: 22px;
     letter-spacing: 10px;
@@ -170,8 +170,9 @@ header .intro-text .intro-heading {
     line-height: 50px;
 
     h2 {
-        font-size: $post-title-size;
+        font-size: 1.1em;
         color: $actual-white;
+        text-transform: uppercase;
     }
 }
 
@@ -182,8 +183,8 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-lead-in h1 {
-        margin-bottom: calc( #{$spacing-unit} * 2);
-        font-family: $secondary-font;
+        margin-bottom: calc( #{$spacing-unit} / 2);
+        font-family: $logo-font-light;
         font-size: 40px;
         text-transform: uppercase;
         line-height: 40px;
