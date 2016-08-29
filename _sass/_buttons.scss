@@ -17,6 +17,10 @@
     color: $actual-white;
   }
 
+  &:visited {
+    color: $actual-white;
+  }
+
   @media screen and (max-width: 1024px) {
     width: 90%;
     padding: 15px 0;
