@@ -166,9 +166,13 @@ header .intro-text .intro-lead-in h1 {
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     font-family: $base-font-family;
-    font-size: 50px;
     font-weight: $weight-light;
     line-height: 50px;
+
+    h2 {
+        font-size: $post-title-size;
+        color: $actual-white;
+    }
 }
 
 @media(min-width:768px) {
@@ -178,7 +182,7 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-lead-in h1 {
-        margin-bottom: 25px;
+        margin-bottom: calc( #{$spacing-unit} * 2);
         font-family: $secondary-font;
         font-size: 40px;
         text-transform: uppercase;
@@ -196,12 +200,12 @@ header .intro-text .intro-heading {
 }
 
 section {
-    padding: 100px 0;
+    padding: 75px 0;
 }
 
 section h2.section-heading {
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: calc( #{$spacing-unit} * 2);
     font-size: 40px;
 }
 
@@ -215,7 +219,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 100px 0;
     }
 }
 
