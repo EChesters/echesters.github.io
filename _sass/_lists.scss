@@ -11,3 +11,11 @@ ul {
     }
   }
 }
+
+.talk {
+  border: $border;
+  border-color: $black;
+  margin: $spacing-unit 5px;
+  padding: $spacing-unit;
+  background-color: $actual-white;
+}

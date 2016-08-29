@@ -6,6 +6,10 @@
     margin: 0;
 }
 
+.margin-bottom {
+    margin-bottom: $spacing-unit;
+}
+
 .more-margin {
     margin-top: $spacing-unit;
     margin-bottom: $spacing-unit;
@@ -220,7 +224,6 @@
 }
 
 .content {
-    margin-bottom: $spacing-unit;
 
     h2 {
         font-size: 32px;

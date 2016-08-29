@@ -26,6 +26,7 @@ strong {
   text-align: right;
   font-family: $logo-font-light;
   text-transform: uppercase;
+  margin-top: calc( #{$spacing-unit} / 2);
 }
 
 .index-title {
@@ -60,8 +61,11 @@ strong {
 }
 
 h2, h3, h4 {
-  margin-top: 45px;
   margin-bottom: 20px;
+
+  &.light {
+    color: $actual-white;
+  }
 }
 
 h1 {
