@@ -19,3 +19,17 @@ ul {
   padding: $spacing-unit;
   background-color: $actual-white;
 }
+
+.teaching {
+  padding: calc(#{$spacing-unit} * 3) 0;
+  border-bottom: $border;
+  border-color: $black;
+
+  &:last-child {
+    border: none;
+  }
+
+  &:first-child {
+    padding-top: 0;
+  }
+}
