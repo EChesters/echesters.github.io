@@ -224,6 +224,7 @@
 }
 
 .content {
+    margin-bottom: calc( #{$spacing-unit} *2);
 
     h2 {
         font-size: 32px;
