@@ -37,19 +37,19 @@ img {
 	display: block;
 	overflow: auto;
 
+	img {
+		float: none;
+	}
+
 	img.two {
 		display: inline-block;
 		width: 49%;
 
-		&.left {
-			float: left;
-		}
-		&.right {
-			float: right;
-		}
+		&.left { float: left; }
+		&.right { float: right;	}
 	}
 
-	&.same-height {
+	.same-height {
 		height: 250px;
 		width: auto;
 	}

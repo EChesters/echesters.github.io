@@ -25,11 +25,16 @@ ul {
   border-bottom: $border;
   border-color: $black;
 
-  &:last-child {
+  &:last-of-type {
     border: none;
+    padding-bottom: 0;
   }
 
-  &:first-child {
+  &:first-of-type {
     padding-top: 0;
+  }
+
+  p {
+    line-height: 2em;
   }
 }
