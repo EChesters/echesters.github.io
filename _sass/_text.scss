@@ -33,7 +33,7 @@ strong {
   font-family: $logo-font;
   text-align: center;
   font-size: 60px;
-  margin: 60px 0;
+  margin: calc( #{$spacing-unit} * 4) 0 calc( #{$spacing-unit} * 2);
 }
 
 .bio {
