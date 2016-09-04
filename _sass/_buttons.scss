@@ -1,4 +1,4 @@
-a.btn {
+.btn {
   color: $actual-white;
   padding: 15px 50px;
   border: 2px solid darken($brand-color, 5%);
@@ -14,6 +14,10 @@ a.btn {
   &:hover {
     background-color: darken($brand-color, 5%);
     text-decoration: underline;
+    color: $actual-white;
+  }
+
+  &:visited {
     color: $actual-white;
   }
 

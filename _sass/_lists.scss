@@ -11,3 +11,30 @@ ul {
     }
   }
 }
+
+.talk {
+  border: $border;
+  border-color: $black;
+  margin: $spacing-unit 5px;
+  padding: $spacing-unit;
+  background-color: $actual-white;
+}
+
+.teaching {
+  padding: calc(#{$spacing-unit} * 3) 0;
+  border-bottom: $border;
+  border-color: $black;
+
+  &:last-of-type {
+    border: none;
+    padding-bottom: 0;
+  }
+
+  &:first-of-type {
+    padding-top: 0;
+  }
+
+  p {
+    line-height: 2em;
+  }
+}

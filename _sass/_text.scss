@@ -26,13 +26,14 @@ strong {
   text-align: right;
   font-family: $logo-font-light;
   text-transform: uppercase;
+  margin-top: calc( #{$spacing-unit} / 2);
 }
 
 .index-title {
   font-family: $logo-font;
   text-align: center;
   font-size: 60px;
-  margin: 60px 0;
+  margin: calc( #{$spacing-unit} * 4) 0 calc( #{$spacing-unit} * 2);
 }
 
 .bio {
@@ -56,12 +57,15 @@ strong {
     font-size: 1.2em;
     font-weight: $weight-heavy;
     text-align: center;
-    margin: calc(#{$spacing-unit} *2 ) 0;
+    margin-bottom: calc(#{$spacing-unit} *2 );
 }
 
 h2, h3, h4 {
-  margin-top: 45px;
   margin-bottom: 20px;
+
+  &.light {
+    color: $actual-white;
+  }
 }
 
 h1 {

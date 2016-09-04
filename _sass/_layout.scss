@@ -1,9 +1,13 @@
 .no-padding {
-    padding: 0;
+    padding: 0 !important;
 }
 
 .no-margin {
-    margin: 0;
+    margin: 0 !important;
+}
+
+.margin-bottom {
+    margin-bottom: $spacing-unit;
 }
 
 .more-margin {
@@ -197,7 +201,10 @@
     font-size: 24px;
 }
 
-
+.container-fluid {
+    overflow: visible;
+    min-height: 100%;
+}
 
 /**
  * Posts
@@ -217,7 +224,7 @@
 }
 
 .content {
-    margin-bottom: $spacing-unit;
+    margin-bottom: calc( #{$spacing-unit} *2);
 
     h2 {
         font-size: 32px;
