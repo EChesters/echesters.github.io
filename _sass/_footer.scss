@@ -45,4 +45,22 @@ footer {
 			}
 		}
 	}
+
+	p {
+		color: $grey-color-light;
+		font-size: $small-font;
+		display: inline-block;
+		margin: 0;
+	}
+
+	.copyright {
+		margin: $spacing-unit 0;
+
+		img {
+			height: 30px;
+			margin: 0;
+			position: absolute;
+			left: 50%;
+		}
+	}
 }
