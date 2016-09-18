@@ -1,16 +1,18 @@
 ---
 layout: default
 ---
-<div class="col-xs-12 col-sm-10 position central">
+<div class="col-xs-12 col-sm-11 col-md-10 position central">
   <h2 class="index-title more-margin">Blog</h2>
   <p class="col-xs-12 col-md-8 position central text-center bio">I am Elizabeth Chesters. My passion is UX. From pestering users, to caricature sketches. Help me achieve world domination in UX by reading a post!</p>
   <div class="posts">
     {% for post in paginator.posts %}
-      <div class="post col-xs-12 col-sm-4">
+      <div class="post col-xs-12 col-sm-6 col-md-4">
         <div class="post-container">
           {% if post.image %}
             <div class="post-image">
-              <img alt="" src={{post.image}}>
+              <div class="post-img-container">
+                <img alt="" src={{post.image}}>
+              </div>
             </div>
           {% endif %}
           <div class="post-info">
