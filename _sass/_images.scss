@@ -112,3 +112,7 @@ img {
 #portfolio iframe {
 	margin-bottom: $spacing-unit;
 }
+
+img.client {
+	max-height: 125px;
+}
