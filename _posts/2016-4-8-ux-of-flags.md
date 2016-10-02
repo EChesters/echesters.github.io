@@ -46,7 +46,7 @@ The first issue with using flags for languages is that it is not a one-to-one re
 
 Using flags to represent languages is a confusing design choice for everyone for more reasons than you might think. Language can be very personal, and is a huge part of your culture. I cannot stand it when I am presented with a Brazilian flag when selecting my resource in Portuguese. It’s not where the language originated from. It’s also the same when an American flag is used for selecting English. Language should balance reflecting the company's identity with target audience. It can be disheartening to see a British company use American spelling.
 
-> <i class="fa fa-quote-left"></i> I hate it when I get [X] flag for the [Y] language
+> I hate it when I get [X] flag for the [Y] language
 
 If you have ever brought this up for discussion, you’ll probably have heard that. You don’t want to be inducing hatred in your designs. Quite often the language selection comes very early on in your user journey. From there it doesn't set the right tone from the beginning.
 
@@ -111,7 +111,7 @@ Another  scenario ​in which you can use flags is showing international diallin
 
 ## In Summary
 
-> <i class="fa fa-quote-left"></i> Sometimes I bring up the topic of flags and people are like “I don’t care about flags”. Trust me, 100% of people care about flags. There’s just something about them that works on our emotions. - Roman Mars, [TED Talk]
+> Sometimes I bring up the topic of flags and people are like “I don’t care about flags”. Trust me, 100% of people care about flags. There’s just something about them that works on our emotions. - Roman Mars, [TED Talk]
 
 Flags mean a lot more to people than initially thought. It’s mindful to take a step back, realise what they actually mean and what they can be used to help with. Always analyse the relationship between the flag and what you’re using it for. Flags and an international dialling number is a 1 to 1 relationship, where as a flag and a language is many to many.
 

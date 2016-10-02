@@ -20,7 +20,7 @@ Growing up, I’ve had a few people in my life who have helped me become the per
 It seems obvious to say but without teachers there wouldn’t be any education. How else would you be reading this amazingly insightful blog post? While teaching is important, guiding someone who is beginning their journey is just as important as bringing people on yours. While you may think you’re the only one ever who has faced a certain challenge, you’ll always be surprised by the number of nodding heads at the end of your anecdote. 
 The best part of mentoring is always being the one who stands behind your students when they’re falling down and helping them through the tough situations. A couple of my students recently experienced being intimidated in a tech working space. 
 
-> <i class="fa fa-quote-left"></i> Being able to say “I’ve been there, and this is how you deal with it” and “this is how you move forward” is so valuable”*
+> Being able to say “I’ve been there, and this is how you deal with it” and “this is how you move forward” is so valuable”*
 
 This is where experience comes in, rather than just knowledge.
 
