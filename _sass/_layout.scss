@@ -6,6 +6,12 @@
     margin: 0 !important;
 }
 
+.remove-margin {
+    &.top {
+        margin-top: 0;
+    }
+}
+
 .margin-bottom {
     margin-bottom: $spacing-unit;
 }

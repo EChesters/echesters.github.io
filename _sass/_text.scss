@@ -61,6 +61,7 @@ strong {
 
 h2, h3, h4 {
   margin-top: calc( #{$spacing-unit} * 1.5);
+  margin-bottom: 5px;
 
   &.light {
     color: $actual-white;
@@ -102,7 +103,7 @@ h4 {
 
 p {
   margin-bottom: calc( #{$spacing-unit} / 2);
-  line-height: 2em;
+  line-height: 1.7em;
 }
 
 .exp-dates {
