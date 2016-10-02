@@ -343,6 +343,10 @@ section h3.section-subheading {
     width: 100%;
     padding: 0 20px 0 100px;
     text-align: left;
+
+    a {
+        text-decoration: none;
+    }
 }
 
 .timeline>li .timeline-panel:before {
@@ -420,7 +424,6 @@ section h3.section-subheading {
     font-family: $secondary-font;
     font-size: $smaller-font;
     letter-spacing: $additional-spacing;  
-    text-decoration: none; 
 }
 
 .timeline-panel a {
@@ -466,6 +469,7 @@ a>.timeline-heading h4 {
         margin-top: 16px;
         font-size: 13px;
         line-height: 18px;
+        color: $actual-white;
     }
 
     .timeline>li.timeline-inverted>.timeline-panel {
