@@ -44,7 +44,7 @@
 	}
 
 	&.full-height {
-		min-height: 100vh;
+		min-height: 80vh;
 
 		@media only screen and (max-width: 767px) {
 			min-height: 125vh;
@@ -81,7 +81,6 @@
 .banner-title {
 	min-height: 50vh;
 	border: $border;
-	border-width: 10px;
 	margin-top: 2%;
 	overflow: auto;
 	background-color: $actual-white;

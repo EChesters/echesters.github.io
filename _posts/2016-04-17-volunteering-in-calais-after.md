@@ -74,7 +74,7 @@ We did find out that people in the camp didn’t share phones. Everyone had thei
 Zach, Paula and myself exchanged Facebook names, told him to be safe and headed our separate ways. We both felt weird after getting back to the hostel. We felt so anti-social and needed to time to wrap our heads around things. Despite Dunkirk being in a much better state that Calais, the time with Zach felt more intimate. Back in the pub we treated ourselves to some steaks. 
 On the way home we were called over by a French volunteer we knew. It was pouring it down with rain, but he had bumped into 2 Arab guys trying to get to the Jungle. It seemed like it was there first time there. They were an hour and a half away walking. Even though they were well dressed and clean, they had socks for gloves. Neither of them spoke any English. The only thing helpful I could say was “I don’t understand” in Arabic. Huge mistake. They took it as though I could speak Arabic! The only word in English they knew was “Jungle”.
 
-> <i class="fa fa-quote-left"></i> Jungle. Jungle.
+> Jungle. Jungle.
 
 Thankfully with Network 3’s Feel at Home, I was able to pull up Google Translate. I told them to take a photo of the map we had on the other phone and warned them of the fascists who would eagerly wait for anyone going into camp.
 
@@ -85,7 +85,7 @@ Halfway through the afternoon, Grazia magazine turned up. What a joke. They were
 
 In terms of sharing their story it wasn’t something that seemed to be a necessity. It seemed to be about building a connection with the volunteers already there. I don’t know if it was me, but painting someone’s nails and not knowing what to ask or how to communicate in their language well made things really awkward. In addition, some of the women were the rudest people I have met. To put it into perspective, a majority of the refugees in Calais were rich back in their country. It costs thousands to pay smugglers to get you to this point. When you’re the one painting their nails, they’re the ones used to talking down to you. I never speak to service staff such as waiters like shit anyway, but my God that was a wake up call. They get treated like dirt. 
 
-> <i class="fa fa-quote-left"></i> No, I don’t like it. Do it again.
+> No, I don’t like it. Do it again.
 
 One woman went through what felt like every nail varnish colour we had. After 4 colours including base coat, she settled on a colour and 5 minutes later was removing it in the corner. Needless to say my nailbar was not busy. The next woman though was a really nice Iranian woman who had her 2 year old with her. It was a little awkward when she boshed out her boob to breastfeed her child, but I had to lean into her direction to reach her hand.
 The best person by far who I met that day was a little girl. She was from Syria and had lived in Germany for 2 years. She spoken perfect German. She attacked me with her makeup palette. I got my own back but the little bugger managed to find the makeup remover before I did. I was informed that it looked like I had been punched.
@@ -102,7 +102,7 @@ After lunch we stayed for another 2 hours or so. Towards the end of the day we h
 No shoes. No passport. No lift.
 Getting angry over them stealing my shoes seemed petty to the other volunteers. It was just “self-distribution”. But that wasn’t what I was getting angry over. Someone just left me stranded in the Jungle and after hours of back breaking work, painting the same nails over and over, they stole my shoes.
 
-> <i class="fa fa-quote-left"></i> They must have been pretty.
+> They must have been pretty.
 
 I did not need my sense of style confirmed by having my shoes stolen! You’re damn right I got stressed. Granted these people didn’t know me. But I was heading home the next day. I couldn’t just wait to see this woman again to get my passport back. What was I supposed to do with no shoes?! I say this, in front of a refugee who had trekked it across more countries I’ve visited.
 

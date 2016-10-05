@@ -31,9 +31,9 @@ The differences between [the context types of cultures] can have a huge impact o
 
 As we can see here, it’s has a strong use of imagery and the words are quite minimal. The language used is aimed at the individual. It concentrates on being quite direct in solving your hunger problem, or money matters.
 
-> <i class="fa fa-quote-left"></i> You better come twice as hungry
+> You better come twice as hungry
 
-> <i class="fa fa-quote-left"></i> [...] for just £15
+> [...] for just £15
 
 The Chinese version of the website is different, as we see below. The use of people with positive emotions is prominent. The colours are a lot brighter, with blues, greens, pinks and oranges, as opposed to the dark reds and browns on the UK version. “Wow” is repeated multiple times across the sections, and even on the packaging! There are a lot more options than low context cultures, with the nav bar having two rows.
 
