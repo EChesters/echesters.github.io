@@ -426,6 +426,10 @@ section h3.section-subheading {
 
 a>.timeline-heading h4 {
     text-decoration: underline;
+
+    &.subheading {
+        text-decoration: none;
+    }
 }
 
 .timeline .timeline-body>p,
