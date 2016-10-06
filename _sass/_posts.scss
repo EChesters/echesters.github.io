@@ -76,7 +76,12 @@
   overflow: auto;
 }
 
+.content, .post-content {
+  font-size: 20px;
+}
+
 /* PAGE NAVIGATION */
 .page-navigation {
   margin-top: calc(#{$spacing-unit} * 2);
+  font-size: $base-font-size;
 }

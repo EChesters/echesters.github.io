@@ -100,8 +100,13 @@ h4 {
 }
 
 p {
-  margin-bottom: calc( #{$spacing-unit} / 2);
+  margin-bottom: $spacing-unit;
   line-height: 1.7em;
+
+  &.disclaimer {
+    font-size: $disclaimer-size;
+    font-style: italic;
+  }
 }
 
 .exp-dates {

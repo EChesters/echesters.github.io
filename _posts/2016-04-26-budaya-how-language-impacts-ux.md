@@ -153,7 +153,7 @@ Another characteristic of language is how they story tell. So this is less to do
 
 ---
 
-*The Budaya series aim to provide both user experiencers and developers with a template of what needs to be considered when taking your brand across cultures. With code snippets and real world design examples, here explores the differences from top to bottom, from all around the globe addressing why this is important for your product.*
+<p class="disclaimer">The Budaya series aim to provide both user experiencers and developers with a template of what needs to be considered when taking your brand across cultures. With code snippets and real world design examples, here explores the differences from top to bottom, from all around the globe addressing why this is important for your product.</p>
 
 [Language is also difficult to represent]:/2016/04/08/ux-of-flags.html
 [London alone there are over 300 languages spoken]:http://www.bbc.co.uk/languages/european_languages/definitions.shtml
