@@ -27,6 +27,16 @@ layout: default
 		<div class="col-xs-12 col-sm-10 position central">
 			{{ content }}
 		</div>
+
+		<div class="page-navigation">
+		  {% if page.previous.url %}
+		    <p class="position left col-xs-12 col-sm-4"><span class="col-xs-12 no-padding">Previous post:</span> <a href="{{page.previous.url}}">{{page.previous.title}}</a></p>
+		  {% endif %}
+		  {% if page.next.url %}
+		    <p class="position right col-xs-12 col-sm-4 text-right"><span class="col-xs-12 no-padding">Next post:</span> <a class="no-padding" href="{{page.next.url}}">{{page.next.title}}</a></p>
+		  {% endif %}
+		</div>
 	</div>
 </div>
+
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55be4e861dc233de" async="async"></script>

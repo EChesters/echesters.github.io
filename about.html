@@ -5,25 +5,22 @@ title: About Me  |  EChesters
 <div class="parallax">
 
   <div id="banner" class="slide full-height">
-    <div class="col-xs-12 col-md-10 banner-title position central">
+    <div class="col-xs-12 col-md-7 banner-title position central">
       <div class="row">
-        <div class="col-xs-12 col-sm-6 about-img no-padding hidden-xs hidden-sm" ">
-          <div class="img-container full">
-            <img src="/images/portfolio/empowerhack/eh-2.png" alt="Selfie of Elizabeth Chesters (me)" class="no-margin">
+        <div class="col-xs-12 description">
+          <div class="col-xs-12">
+            <p class="hello-title">Hello!</p>
+            <h2 class="remove-margin top">I'm Elizabeth Chesters</h2>
           </div>
-        </div>
-        <div class="col-xs-12 col-sm-6 description">
-          <p class="hello-title">Hello!</p>
-          <h1>I'm Elizabeth Chesters</h1>
-          <h2 class="intro">User Experiencer and Developer</h2>
-          <p>Welcome! I am a UX consultant in London and a freelance UX-er, with a Computer Science background. Here, you can find my work or connect with me if you have a project or question in mind!</p>
-          <p class="text-center">I'm also a <a href="http://www.codefirstgirls.org.uk/ones-to-watch-2016.html">One to Watch 2016</a>!</p>
+          <div class="col-xs-12">
+            <p class="col-xs-12 bio no-padding no-margin">A UX consultant in London and a freelance UX-er, with a Computer Science background. Here, you can find my work or connect with me if you have a project or question in mind!</p>
+          </div>
+            <p class="col-xs-12">I'm also a <a href="http://www.codefirstgirls.org.uk/ones-to-watch-2016.html">One to Watch 2016</a>!</p>
           <div class="text-center">
             <a href="/" class="link margin-horizontal">My blog</a>
             <a href="/portfolio.html" class="link margin-horizontal">My portfolio</a>
           </div>
-          <a href="#brief-cv" class="scroll-btn position central text-center hidden-xs col-xs-6 animated-bounce bounce"><img src="/images/chevron-down.png" alt="" aria-hidden="true" class="no-margin"></a>
-        </div>
+        </div> 
       </div>
     </div>
   </div>
@@ -121,27 +118,7 @@ title: About Me  |  EChesters
     </div>
   </div>
 
-  <div class="text-center" id="my-photographs">
-    <h2>Photography</h2>
-    <div id="photographs" class="clearfix grid">
-      <figure class="wowload fadeInUp animated">
-        <img src="/images/photos/india-1.jpg" alt="Mosque in the sea, Mumbia, India">
-      </figure>
-
-      <figure class="wowload fadeInUp animated">
-        <img src="/images/photos/italy-4.jpg" alt="Distant view of the Duomo in Florence, Italy">
-      </figure>
-
-      <figure class="wowload fadeInUp animated">
-        <img src="/images/photos/portugal-3.jpg" alt="View from a mountain of the National Palace in Portugal">
-      </figure>
-
-      <figure class="wowload fadeInUp animated visible-xs visible-sm">
-        <img src="/images/photos/reenacting-2.jpg" alt="View from a mountain of the National Palace in Portugal">
-      </figure>
-    </div>
-    <a href="/pages/photography.html" class="btn">View all photography</a>
-  </div>
+  {% include _portfolio/photography.html %}
 </div>
 
 <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>

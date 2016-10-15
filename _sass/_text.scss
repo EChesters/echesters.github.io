@@ -31,9 +31,8 @@ strong {
 
 .index-title {
   font-family: $logo-font;
-  text-align: center;
   font-size: 60px;
-  margin: calc( #{$spacing-unit} * 4) 0 calc( #{$spacing-unit} * 2);
+  margin-top: calc( #{$spacing-unit} * 4);
 }
 
 .bio {
@@ -94,7 +93,7 @@ h3 {
 h4 {
     font-size: 22px;
     font-family: $logo-font-light;
-    color: $grey-color;
+    color: $grey-color-dark;
 
     @include media-query($on-laptop) {
         font-size: 20px;
@@ -102,8 +101,13 @@ h4 {
 }
 
 p {
-  margin-bottom: calc( #{$spacing-unit} / 2);
+  margin-bottom: $spacing-unit;
   line-height: 1.7em;
+
+  &.disclaimer {
+    font-size: $disclaimer-size;
+    font-style: italic;
+  }
 }
 
 .exp-dates {

@@ -71,7 +71,17 @@
 }
 
 .post-content {
-    padding: 90px 60px 60px;
-    background-color: $white;
+  padding: 90px 60px 60px;
+  background-color: $white;
+  overflow: auto;
+}
 
+.content, .post-content {
+  font-size: 20px;
+}
+
+/* PAGE NAVIGATION */
+.page-navigation {
+  margin-top: calc(#{$spacing-unit} * 2);
+  font-size: $base-font-size;
 }

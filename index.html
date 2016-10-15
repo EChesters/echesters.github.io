@@ -2,44 +2,51 @@
 layout: default
 ---
 <div class="col-xs-12 col-sm-11 col-md-10 position central">
-  <h2 class="index-title more-margin">Blog</h2>
-  <p class="col-xs-12 col-md-8 position central text-center bio">I am Elizabeth Chesters. My passion is UX. From pestering users, to caricature sketches. Help me achieve world domination in UX by reading a post!</p>
-  <div class="posts">
-    {% for post in paginator.posts %}
-      <div class="post col-xs-12 col-sm-6 col-md-4">
-        <div class="post-container">
-          {% if post.image %}
-            <div class="post-image">
-              <div class="post-img-container">
-                <img alt="" src={{post.image}}>
-              </div>
-            </div>
-          {% endif %}
-          <div class="post-info">
-            <a href="{{ post.url }}">
-              <h3>{{ post.title }}</h3>
-              <p class="post-description">{{ post.description }}</p>
-              <p class="date">{{ post.date | date: "%B %e, %Y" }}</p>
-            </a>
-          </div>
-        </div>
-      </div>
-    {% endfor %}
+  <div class="col-xs-12">
+    <h2 class="index-title col-xs-12">Blog</h2>
+  </div>
+  <div class="col-xs-12">
+    <p class="col-xs-12 col-sm-8 col-md-6 col-lg-5 bio">I am Elizabeth Chesters. My passion is UX. From pestering users, to caricature sketches. Help me achieve world domination in UX by reading a post.</p>
   </div>
 
-  <div class="col-xs-12 text-center">
-    <div class="pagination">
-      {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-      {% else %}
-        <span class="previous"></span>
-      {% endif %}
-      <span class="page_number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-      {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-      {% else %}
-        <span class="next"></span>
-      {% endif %}
+  <div class="col-xs-12">
+    <div class="posts">
+      {% for post in paginator.posts %}
+        <div class="post col-xs-12 col-sm-6 col-md-4">
+          <div class="post-container">
+            {% if post.image %}
+              <div class="post-image">
+                <div class="post-img-container">
+                  <img alt="" src={{post.image}}>
+                </div>
+              </div>
+            {% endif %}
+            <div class="post-info">
+              <a href="{{ post.url }}">
+                <h3>{{ post.title }}</h3>
+                <p class="post-description">{{ post.description }}</p>
+                <p class="date">{{ post.date | date: "%B %e, %Y" }}</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="col-xs-12 text-center">
+      <div class="pagination">
+        {% if paginator.previous_page %}
+          <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+        {% else %}
+          <span class="previous"></span>
+        {% endif %}
+        <span class="page_number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+        {% if paginator.next_page %}
+          <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+        {% else %}
+          <span class="next"></span>
+        {% endif %}
+      </div>
     </div>
   </div>
 </div>

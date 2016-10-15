@@ -10,6 +10,7 @@
   box-shadow: 0 2px darken($brand-color, 25%);
   text-shadow: none;
   font-size: 1.1em;
+  text-decoration: none;
 
   &:hover {
     background-color: darken($brand-color, 5%);

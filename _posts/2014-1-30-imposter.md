@@ -10,15 +10,15 @@ During the event, when I was explaining why I had been asked to speak at the eve
 
 Last night, we were shown quotes from Alicia Lui’s blog, about overcoming imposter syndrome. One in particular really hit home;
 
-> <i class="fa fa-quote-left"></i> …And surely the nail in the coffin was that I had not watched a single episode of Star Trek."
+> …And surely the nail in the coffin was that I had not watched a single episode of Star Trek."
 
 Looking back at first year I was talking with a friend, and Patrick Stewart came up in conversation. After admitting I didn’t have a clue who he was, my friend then proceeded to tell everyone the upsetting news that I didn’t know who he was. One guy perked up over the computer screens and gasped in disbelief.
 
-> <i class="fa fa-quote-left"></i> If you don’t know who Patrick Stewart is, you shouldn’t even be on this course!"
+> If you don’t know who Patrick Stewart is, you shouldn’t even be on this course!"
 
 There is was again, but at least this time I knew why I was being told I shouldn’t be here. Even last night at the event someone made me feel like a last minute resort due to speaker cancellations.
 
-> <i class="fa fa-quote-left"></i> Oh are you here as a last minute speaker, are you?"
+> Oh are you here as a last minute speaker, are you?"
 
 Despite my picture and my biography being published in the event newsletter, in the same newsletter they had been a part of and received there was still a sense of doubt from someone who didn’t know me. Oh did I mention this came from a female tutor?
 
