@@ -56,6 +56,10 @@ strong {
     font-weight: $weight-heavy;
     text-align: center;
     margin-bottom: calc(#{$spacing-unit} *2 );
+    @media only screen and (max-width: 768px) {
+      font-size: 1em;
+      text-align: left;
+    }
 }
 
 h2, h3, h4 {
@@ -75,10 +79,6 @@ h2 {
     font-size: 36px;
     color: $header;
     font-family: $logo-font;
-
-    @include media-query($on-laptop) {
-        font-size: 32px;
-    }
 }
 
 h3 {

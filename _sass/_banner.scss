@@ -10,7 +10,7 @@
 	background-size: cover; 
 	background-attachment: scroll;
 	background-repeat: no-repeat;
-	height: 100vh;
+	height: 80vh;
 	margin-bottom: calc( #{$spacing-unit} *2);
 
 	&:before {
@@ -26,6 +26,10 @@
 	    background: -o-linear-gradient(rgba(20,20,20, .8), rgba(255,255,255, 0)); /* For Opera 11.1 to 12.0 */
 	    background: -moz-linear-gradient(rgba(20,20,20, .8), rgba(255,255,255, 0)); /* For Firefox 3.6 to 15 */
 	    background: linear-gradient(rgba(20,20,20, .8), rgba(255,255,255, 0)); /* Standard syntax */
+
+	    @media only screen and (max-width: 768px) {
+	    	max-height: 85vh;
+	    }
 	}
 
 	.background-cover {
@@ -72,30 +76,23 @@
 	}
 }
 
-.site-heading,
-.post-heading,
-.page-heading{
+.site-heading, .post-heading, .page-heading{
 	color: white;
-	@media only screen and (min-width: 768px) {
-		// padding: 100px 0;
-	}
+
 }
 
-.site-heading,
-.page-heading {
+.site-heading, .page-heading {
 	text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
-		font-family: $logo-font;
-		margin-top: 60%;
+	font-family: $logo-font;
+	@include vertical-align(-350%);
 	
 	h1 {
-		font-size: 40px;
+		font-size: 60px;
 	}
 
-	@media only screen and (min-width: 768px) {
-		h1 {
-			margin-top: 0;
-			@include vertical-align(150%);
-			font-size: 60px;
-		}
+	@media (max-width: 768px) {
+		margin-top: 200px;
+		@include vertical-align(0);
+		font-size: 60px;
 	}
 }

@@ -162,7 +162,6 @@ header .intro-text .intro-heading {
     line-height: 50px;
 
     h2 {
-        font-size: 1.1em;
         color: $actual-white;
         text-transform: uppercase;
     }
@@ -189,6 +188,10 @@ header .intro-text .intro-heading {
         font-size: 75px;
         font-weight: $weight-light;
         line-height: 75px;
+
+        h2 {
+            font-size: 75px;
+        }
     }
 }
 
