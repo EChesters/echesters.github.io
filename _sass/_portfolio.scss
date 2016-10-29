@@ -123,17 +123,30 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
-    margin-top: -70px;
-    text-align: center;
+    margin-top: $nav-bar-height;
+    text-shadow: 0px 1px 5px $black;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('/images/portfolio/background.jpg');
+    background-image: url('/images/portfolio/portfolio-header.jpg');
     background-position: center center;
     background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    @include background-size(cover);
+
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        opacity: .8; 
+        max-height: 680px;
+        @include background-gradient(rgba(20,20,20, .8), rgba(255,255,255, 0));
+
+        @media only screen and (max-width: 768px) {
+            // max-height: 85vh;
+        }
+    }
 
     &.photography-header {
         background-image: none;
@@ -141,57 +154,44 @@ header {
     }
 }
 
-header .intro-text {
-    padding-top: 100px;
-    padding-bottom: 50px;
-}
-
 header .intro-text .intro-lead-in h1 {
-    margin-bottom: calc( #{$spacing-unit} / 2);
-    font-family: $logo-font-light;
+    margin: calc( #{$spacing-unit} / 2) 0;
+    font-family: $logo-font;
     font-size: 22px;
-    line-height: 22px;
     letter-spacing: 10px;
     text-transform: uppercase;
+    position: relative;
 }
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
-    font-family: $base-font-family;
     font-weight: $weight-light;
-    line-height: 50px;
 
     h2 {
+        font-family: $logo-font-light;
         color: $actual-white;
-        text-transform: uppercase;
+        font-size: 30px;
+        margin-top: 0;
     }
 }
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
+        padding-top: 150px;
+        padding-bottom: 400px;
     }
 
     header .intro-text .intro-lead-in h1 {
         margin-bottom: calc( #{$spacing-unit} / 2);
-        font-family: $logo-font-light;
-        font-size: 40px;
-        text-transform: uppercase;
+        font-family: $logo-font;
+        font-size: 45px;
         line-height: 40px;
         letter-spacing: $additional-spacing;
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 50px;
-        font-family: $base-font-family;
-        font-size: 75px;
+        font-size: 50px;
         font-weight: $weight-light;
-        line-height: 75px;
-
-        h2 {
-            font-size: 75px;
-        }
     }
 }
 
@@ -214,7 +214,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 100px 0;
+        padding: 75px 0;
     }
 }
 

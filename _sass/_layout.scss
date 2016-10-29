@@ -2,6 +2,12 @@
     padding: 0 !important;
 }
 
+.remove-padding {
+    &.left {
+        padding-left: 0;
+    }
+}
+
 .no-margin {
     margin: 0 !important;
 }
