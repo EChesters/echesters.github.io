@@ -21,6 +21,16 @@
     margin-bottom: $spacing-unit;
 }
 
+.add-margin {
+    &.top {
+        margin-top: $spacing-unit;
+    }
+
+    &.bottom {
+        margin-bottom: $spacing-unit;
+    }
+}
+
 .margin-horizontal {
     margin-right: $spacing-unit;
     margin-left: $spacing-unit;
