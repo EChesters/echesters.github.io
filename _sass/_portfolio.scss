@@ -551,3 +551,23 @@ aside.clients img {
         min-height: 100%;
     }
 }
+
+/* IN PAGE NAV */
+
+ul.portfolio-nav {
+    list-style: none;
+
+    li {
+        display: inline-block;
+
+        a {
+            padding-right: calc( #{$spacing-unit} * 2);
+            color: $actual-white;
+            font-size: 19px;
+
+            &:hover {
+                color: $nav-hover;
+            }
+        }
+    }
+}
