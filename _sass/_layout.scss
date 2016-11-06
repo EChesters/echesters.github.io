@@ -16,6 +16,10 @@
     &.top {
         margin-top: 0;
     }
+
+    &.bottom {
+        margin-bottom: 0;
+    }
 }
 
 .margin-bottom {
@@ -34,6 +38,10 @@
 
     &.bottom {
         margin-bottom: $spacing-unit;
+    }
+
+    &.bottom-dbl {
+        margin-bottom: calc( #{$spacing-unit} * 2);
     }
 }
 
