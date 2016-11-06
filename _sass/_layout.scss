@@ -39,10 +39,6 @@
     &.bottom {
         margin-bottom: $spacing-unit;
     }
-
-    &.bottom-dbl {
-        margin-bottom: calc( #{$spacing-unit} * 2);
-    }
 }
 
 .margin-horizontal {

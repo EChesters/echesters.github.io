@@ -113,3 +113,23 @@ p {
 .exp-dates {
   display: inline;
 }
+
+/* SPEAKING LIST */
+#speaking {
+  color: $actual-white;
+
+  h3 {
+    color: $brand-color;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+
+  .speaking-date {
+    font-size: $small-font;
+    font-family: $logo-font-light;
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+}

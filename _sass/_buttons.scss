@@ -60,6 +60,7 @@ a.link {
   border-color: $grey-color-light;
   font-weight: $weight-light;
   font-size: 1.25em;
+  color: $brand-secondary;
 
   @media screen and (max-width: 1024px) {
     display: inline-block;
@@ -69,6 +70,7 @@ a.link {
   &:hover {
     border-bottom: $border;
     border-color: $brand-color;
+    color: $brand-color;
   }
 }
 
