@@ -71,7 +71,8 @@
 }
 
 .post-content {
-  padding: 90px 60px 60px;
+  padding: calc(#{$spacing-unit} * 3) calc(#{$spacing-unit} * 2) calc(#{$spacing-unit} * 2);
+  // padding: 90px 60px 60px;
   background-color: $white;
   overflow: auto;
 }
