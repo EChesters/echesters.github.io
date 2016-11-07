@@ -1,14 +1,14 @@
-$muted:			#777777;
-$primary:		#ad0736;
-$secondary:		#790527;
+$muted:     #777777;
+$primary:   #ad0736;
+$secondary:   #790527;
 
 /* TEXT */
 .text-muted {
-	color: $muted;
+  color: $muted;
 }
 
 .text-primary {
-	color: $primary;
+  color: $primary;
 }
 
 /* BG COLOURS */
@@ -17,7 +17,7 @@ $secondary:		#790527;
 }
 
 .bg-darkest-gray {
-	background-color: $grey-color-dark;
+  background-color: $grey-color-dark;
 }
 
 /* BTNS */
@@ -132,6 +132,11 @@ header {
     background-repeat: none;
     @include background-size(cover);
 
+    @media only screen and (max-width: 768px) {
+        height: 550px;
+        padding: $spacing-unit;
+    }
+
     &:before {
         content: '';
         position: absolute;
@@ -144,7 +149,7 @@ header {
         @include background-gradient(rgba(20,20,20, .8), rgba(255,255,255, 0));
 
         @media only screen and (max-width: 768px) {
-            // max-height: 85vh;
+            height: 550px;
         }
     }
 
@@ -371,7 +376,7 @@ section h3.section-subheading {
     background-color: $primary;
 
     &.white {
-    	background-color: $actual-white;
+      background-color: $actual-white;
     }
 }
 
@@ -406,14 +411,14 @@ section h3.section-subheading {
 }
 
 .timeline .timeline-heading h4 {
-	font-size: $post-title-size;
+  font-size: $post-title-size;
     margin-top: 0;
     color: inherit;
 }
 
 .timeline a>.timeline-heading h4.subheading,
 .timeline .timeline-heading h4.subheading {
-	color: $grey-color-light;
+  color: $grey-color-light;
     text-transform: uppercase;
     font-family: $secondary-font;
     font-size: $smaller-font;
@@ -539,7 +544,7 @@ aside.clients img {
 }
 
 .img-responsive {
-	min-height: 100%;
+  min-height: 100%;
 }
 
 .portfolio-img-container {
