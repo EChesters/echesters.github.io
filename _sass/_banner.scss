@@ -1,95 +1,119 @@
 
 .header-container {
-	height: 100vh;
-	position: fixed;
-	width: 100%;
+  height: 100vh;
+  position: fixed;
+  width: 100%;
+}
+
+.post-header {
+  background-size: cover; 
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin-bottom: calc( #{$spacing-unit} *2);
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: .8; 
+    max-height: 80vh;
+      @include background-gradient(rgba(20,20,20, .8), rgba(255,255,255, 0));
+
+      @media only screen and (max-width: 768px) {
+        max-height: 85vh;
+      }
+  }
 }
 
 .intro-header {
-	background-color: $grey-color; 
-	background-size: cover; 
-	background-attachment: scroll;
-	background-repeat: no-repeat;
-	height: 80vh;
-	margin-bottom: calc( #{$spacing-unit} *2);
+  background-color: $grey-color; 
+  background-size: cover; 
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  height: 80vh;
+  margin-bottom: calc( #{$spacing-unit} *2);
 
-	&:before {
-	    content: '';
-		position: absolute;
-		top: 0;
-		right: 0;
-		bottom: 0;
-		left: 0;
-		opacity: .8; 
-		max-height: 80vh;
-	    @include background-gradient(rgba(20,20,20, .8), rgba(255,255,255, 0));
+  &:before {
+      content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: .8; 
+    max-height: 80vh;
+      @include background-gradient(rgba(20,20,20, .8), rgba(255,255,255, 0));
 
-	    @media only screen and (max-width: 768px) {
-	    	max-height: 85vh;
-	    }
-	}
+      @media only screen and (max-width: 768px) {
+        max-height: 85vh;
+      }
+  }
 
-	.background-cover {
-		margin-bottom: 50px;
-	}
+  .background-cover {
+    margin-bottom: 50px;
+  }
 
-	.post-heading {
-		h1 {
-			font-size: 35px;
-		}
-		.subheading,
-		.meta {
-			line-height: 1.1;
-			display: block;
-		}
-		.subheading {
-			font-size: 24px;
-			margin: 10px 0 30px;
-			font-weight: 600;
-		}
-		.meta {
-			font-style: italic;
-			font-weight: 300;
-			font-size: 20px;
-			a {
-				color: white;
-			}
-		}
-		@media only screen and (min-width: 768px) {
-			h1 {
-				font-size: 55px;
-			}
-			.subheading {
-				font-size: 30px;
-			}
-		}
-	}
+  .post-heading {
+    h1 {
+      font-size: 35px;
+    }
+    .subheading,
+    .meta {
+      line-height: 1.1;
+      display: block;
+    }
+    .subheading {
+      font-size: 24px;
+      margin: 10px 0 30px;
+      font-weight: 600;
+    }
+    .meta {
+      font-style: italic;
+      font-weight: 300;
+      font-size: 20px;
+      a {
+        color: white;
+      }
+    }
+    @media only screen and (min-width: 768px) {
+      h1 {
+        font-size: 55px;
+      }
+      .subheading {
+        font-size: 30px;
+      }
+    }
+  }
 
-	img {
-		@include dynamic-sizing();
-		min-width: 100%;
-		margin: 0;
-		max-height: none;
-	}
+  img {
+    @include dynamic-sizing();
+    min-width: 100%;
+    margin: 0;
+    max-height: none;
+  }
 }
 
 .site-heading, .post-heading, .page-heading{
-	color: white;
-
+  color: white;
 }
 
 .site-heading, .page-heading {
-	text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
-	font-family: $logo-font;
-	@include vertical-align(-350%);
-	
-	h1 {
-		font-size: 60px;
-	}
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+  font-family: $logo-font;
+  @include vertical-align(-80%);
+  margin-bottom: 300px;
+  
+  h1 {
+    font-size: 60px;
+  }
 
-	@media (max-width: 768px) {
-		margin-top: 200px;
-		@include vertical-align(0);
-		font-size: 60px;
-	}
+  @media (max-width: 768px) {
+    margin-top: 200px;
+    @include vertical-align(0);
+    font-size: 60px;
+  }
 }
