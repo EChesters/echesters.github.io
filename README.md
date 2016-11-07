@@ -1,5 +1,5 @@
 # echesters.github.io
-Hre, you will find my personal website, filled my thoughts, snippets of my research and an idea of what I get up to in my portfolio. This will always be a work in progress. 
+Here, you will find my personal website, filled my thoughts, snippets of my research and an idea of what I get up to in my portfolio. This will always be a work in progress. 
 
 What's included:
 + Blog posts
