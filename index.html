@@ -22,12 +22,12 @@ layout: default
             <div class="portfolio-img-container">
               <img src="{{post.image}}">
             </div>
+            <div class="portfolio-caption">
+              <h4>{{ post.title }}</h4>
+              <p class="text-muted text-left">{{ post.description }}</p>
+              <p class="date no-margin">{{ post.date | date: "%B %e, %Y" }}</p>
+            </div>
           </a>
-          <div class="portfolio-caption">
-            <h4>{{ post.title }}</h4>
-            <p class="text-muted text-left">{{ post.description }}</p>
-            <p class="date no-margin">{{ post.date | date: "%B %e, %Y" }}</p>
-          </div>
         </div>
       {% endfor %}
     </div>
