@@ -9,29 +9,30 @@ layout: default
     <p class="col-xs-12 col-sm-8 col-md-6 col-lg-5 bio">I am Elizabeth Chesters. My passion is UX. From pestering users, to caricature sketches. Help me achieve world domination in UX by reading a post.</p>
   </div>
 
-  <div class="col-xs-12">
-    <div class="posts">
+  <div class="row">
+    <div class="portfolio-items">
       {% for post in paginator.posts %}
-        <div class="post col-xs-12 col-sm-6 col-md-4">
-          <div class="post-container">
-            {% if post.image %}
-              <div class="post-image">
-                <div class="post-img-container">
-                  <img alt="" src={{post.image}}>
-                </div>
+        <div class="col-md-4 col-sm-6 portfolio-item"> 
+          <a href="{{ post.url }}" class="portfolio-link" data-toggle="modal">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fa fa-eye" aria-hidden="true"></i>
               </div>
-            {% endif %}
-            <div class="post-info">
-              <a href="{{ post.url }}">
-                <h3>{{ post.title }}</h3>
-                <p class="post-description">{{ post.description }}</p>
-                <p class="date no-margin">{{ post.date | date: "%B %e, %Y" }}</p>
-              </a>
             </div>
+            <div class="portfolio-img-container">
+              <img src="{{post.image}}">
+            </div>
+          </a>
+          <div class="portfolio-caption">
+            <h4>{{ post.title }}</h4>
+            <p class="text-muted text-left">{{ post.description }}</p>
+            <p class="date no-margin">{{ post.date | date: "%B %e, %Y" }}</p>
           </div>
         </div>
       {% endfor %}
     </div>
+  </div>
+
 
     <div class="col-xs-12 text-center">
       <div class="pagination">
