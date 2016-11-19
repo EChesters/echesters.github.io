@@ -91,16 +91,6 @@
 	}
 }
 
-.description {
-	margin-top: $spacing-unit;
-	padding: 0 calc(#{$spacing-unit}*2);
-
-	@media only screen and (max-width: 1330px) {
-		margin: 0;
-		padding: 10px;
-	}
-}
-
 #banner {
 	background-size: cover;
 	background-image: url("/images/portfolio/empowerhack/eh-2-blurred.png");
@@ -182,13 +172,6 @@
 	    background: -moz-linear-gradient(rgba(20,20,20, .9), rgba(50,50,50, 0.3)); /* For Firefox 3.6 to 15 */
 	    background: linear-gradient(rgba(20,20,20, .9), rgba(50,50,50, 0.3)); /* Standard syntax */
 	}
-}
-
-/* Contact page */
-#contact {
-	@extend #banner;
-	background-image: url("/images/cfg-students-blurred.jpg");
-	z-index: 1000;
 }
 
 #speaking {
