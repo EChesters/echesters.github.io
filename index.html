@@ -8,53 +8,56 @@ layout: default
   <div class="col-xs-12">
     <p class="col-xs-12 col-sm-8 col-md-6 col-lg-5 bio">I am Elizabeth Chesters. My passion is UX. From pestering users, to caricature sketches. Help me achieve world domination in UX by reading a post.</p>
   </div>
+  
+  <div class="row">
+    <div class="portfolio-items">
+      {% for post in paginator.posts %}
+        {% assign mod3 = forloop.index | modulo: 3 %}
+        {% assign mod4 = forloop.index | modulo: 4 %}
+          {% if mod3 == 0 %}
+          {% endif %}
+            <div class="col-md-4 col-sm-6 portfolio-item"> 
+              <a href="{{ post.url }}" class="portfolio-link" data-toggle="modal">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fa fa-eye" aria-hidden="true"></i>
+                  </div>
+                </div>
+                {% if post.image %}
+                <div class="portfolio-img-container">
+                  <img src="{{post.image}}">
+                </div>
+                {% endif %}
+                <div class="portfolio-caption">
+                  <h4>{{ post.title }}</h4>
+                  <p class="text-muted text-left">{{ post.description }}</p>
+                  <p class="date no-margin">{{ post.date | date: "%B %e, %Y" }}</p>
+                </div>
+              </a>
+            </div>
+          {% if mod3 == 0 %}
+            <div class="clearfix visible-md-block"></div>
+          {% endif %}
+          {% if mod4 == 0 %}
+            <div class="clearfix visible-sm-block"></div>
+          {% endif %}
+      {% endfor %}
+    </div>
+  </div>
 
-  {% for post in paginator.posts %}
-    {% assign mod = forloop.index | modulo: 3 %}
-      {% if mod == 0 %}
-        <div class="row">
-          <div class="portfolio-items">
+  <div class="col-xs-12 text-center">
+    <div class="pagination">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+      {% else %}
+        <span class="previous"></span>
       {% endif %}
-        <div class="col-md-4 col-sm-6 portfolio-item"> 
-          <a href="{{ post.url }}" class="portfolio-link" data-toggle="modal">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fa fa-eye" aria-hidden="true"></i>
-              </div>
-            </div>
-            {% if post.image %}
-            <div class="portfolio-img-container">
-              <img src="{{post.image}}">
-            </div>
-            {% endif %}
-            <div class="portfolio-caption">
-              <h4>{{ post.title }}</h4>
-              <p class="text-muted text-left">{{ post.description }}</p>
-              <p class="date no-margin">{{ post.date | date: "%B %e, %Y" }}</p>
-            </div>
-          </a>
-        </div>
-      {% if mod == 0 %}
-        <div class="clearfix"></div>
-            </div>
-          </div>
+      <span class="page_number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+      {% else %}
+        <span class="next"></span>
       {% endif %}
-  {% endfor %}
-
-    <div class="col-xs-12 text-center">
-      <div class="pagination">
-        {% if paginator.previous_page %}
-          <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-        {% else %}
-          <span class="previous"></span>
-        {% endif %}
-        <span class="page_number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-        {% if paginator.next_page %}
-          <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-        {% else %}
-          <span class="next"></span>
-        {% endif %}
-      </div>
     </div>
   </div>
 </div>
