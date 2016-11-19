@@ -200,8 +200,12 @@ header .intro-text .intro-heading {
   }
 }
 
-section {
+#portfolio section {
   padding: 75px 0;
+
+  @media(min-width:768px) {
+    padding: 75px 0;
+  }
 }
 
 section h2.section-heading {
@@ -216,12 +220,6 @@ section h3.section-subheading {
   font-size: 16px;
   font-weight: $weight-light;
   margin-top: 0;
-}
-
-@media(min-width:768px) {
-  section {
-    padding: 75px 0;
-  }
 }
 
 .service-heading {
