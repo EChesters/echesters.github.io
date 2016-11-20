@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What changes across cultures - The Budaya Series 
+title: What changes across cultures. Part I - The Budaya Series 
 description: The budaya series explores what consistently changes across cultures and how this impacts our UX. Here, we take a look at a high level list of just what aspects of a culture need to be considered when you localise digital services.
 image: "/images/posts/budaya.jpg"
 ---
