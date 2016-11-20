@@ -111,6 +111,10 @@ Timezones are the bane of a developer’s life because of their complexity. Well
 
 From this, it’s not uncommon for your users to not know important dates like their birthday. 
 
+## To summarise
+
+These are just three aspects which change when localising your app. Watch out for more posts, exploring in detail more of what changes, and how to accommodate for these differences!
+
 <hr>
 
 <p class="disclaimer">This project has been done by Elizabeth Chesters, a Westerner who grew up in the UK. All of this research is biased from a Westerner’s point of view. Everything here has been noted as different, because it is different to the upbringing and culture the author has experienced. This project is forever growing, with additional research and points of view.</p>
