@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Digital Confidence Survey
-description: A simple survey for recruiting participants with low confidence with technology
+description: A simple survey for recruiting participants with low confidence with technology.
 ---
+<p class="summary">{{ page.description }}</p>
 
 <span class="emphasise">Please score yourself on how comfortable/able you are doing the following tasks online, where the scoring is:</span>
 
