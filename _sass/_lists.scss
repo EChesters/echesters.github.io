@@ -1,4 +1,5 @@
 ul {
+
   &.skills {
     color: lighten($brand-color, 15%);
     margin-left: 0;
@@ -8,6 +9,14 @@ ul {
       list-style: none;
       padding: 10px 15px;
       border: lighten($brand-color, 15%) 2px solid;
+    }
+  }
+
+  &.no-bullets {
+    margin-bottom: $spacing-unit;
+    
+    li {
+      list-style-type: none;
     }
   }
 }
