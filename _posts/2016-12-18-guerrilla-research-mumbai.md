@@ -5,7 +5,7 @@ description: During my travels in Mumbai, I connected with a local UX designer t
 image: "/images/posts/culture-a11y/mumbai/sanket-me.jpg"
 ---
 
-Not only is user experience different all around the world, so is how to conduct research. Myself, along with Sanket, a UXer from Mumbai, set out to discover how moderation changes with Indians. We planned a day of getting stuck in and approaching Indian people to learn about their lives with tech.
+<p class="summary"> Not only is user experience different all around the world, so is how to conduct research. Myself, along with Sanket, a UXer from Mumbai, set out to discover how to change our moderation style with Indians. We planned a day of getting stuck in and approaching Indian people to learn about their lives with tech.</p>
 
 ## The plan
 
