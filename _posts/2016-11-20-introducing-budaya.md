@@ -68,6 +68,16 @@ Metaphors are forever changing, even within a culture. Take the floppy disk icon
 
 Not only does the meaning of a colour change, but the same colour may mean the complete opposite in different countries. Take white as an example. In the Western world, it’s the predominant colour on a lot of websites. It’s clean, it’s pure, it’s neutral. Yet where it means life in Western culture, it also means death in places like Mexico. Colours have a huge impact on how we perceive things and how we feel. 
 
+<figure class="text-center">
+	<img src="/images/posts/budaya/intro/vodafone.png" alt="British Vodafone website, using the colour red to show empowerment; alongside their slogan 'Power to you'" class=" position central">
+	<figcaption>British Vodafone website, using the colour red to show empowerment; alongside their slogan 'Power to you'</figcaption>
+</figure>
+
+<figure class="text-center">
+	<img src="/images/posts/budaya/intro/bank-of-china.png" alt="Bank of China using red in small parts of their website, branding and imagery" class="position central">
+	<figcaption>Bank of China using red in small parts of their website, branding and imagery</figcaption>
+</figure>
+
 #### Fonts
 
 Typography again is a huge part of aesthetics, and again is another aspect which changes. Fonts have meaning. Some have their own cultures, positive or negative, like Comic Sans. Others are famous through their uses in particular cultural industries.
@@ -76,13 +86,23 @@ Typography again is a huge part of aesthetics, and again is another aspect which
 
 <span class="emphasise">The [Trajan font is a renowned font used in film posters and has a YouTube video] dedicated to this.</span>
 
+<figure class="text-center">
+	<img src="/images/posts/budaya/intro/trajan.jpg" alt="Three Western films all using the Trajan font in their posters; Perfect Stranger, I am Legend and Black Swan" class="position central">
+	<figcaption>Three Western films all using the Trajan font in their posters; Perfect Stranger, I am Legend and Black Swan</figcaption>
+</figure>
+
 #### Animals
 
 Attitudes towards animals in certain cultures can impact more of the UX than at first thought. For example, it’s well known that Indians treat cows with the utmost respect. Religious cultures like Judaism and Islam also consider pigs to be dirty. But how does this affect UX? Well, if you have an animal in your logo, it affects how people perceive your business and your app. 
 
 Take Deliveroo as an example, a food delivery service who have a kangaroo in their logo. As part of their cultural research, they discovered people’s opinions and interpretations. In Paris, France participants thought the logo was a rat. In other countries, they considered the kangaroo to be dirty. This meant it was one of the last animals they wanted to associate with a food service. 
 
-<span class="emphasise">Did you know: even the ‘noise’ an animal makes is different depending on the language.</span>
+<span class="emphasise">Did you know: even [the ‘noise’ an animal makes is different depending on the language].</span>
+
+<figure class="text-center">
+	<img src="/images/posts/budaya/intro/deliveroo-logo.jpg" alt="TThe Kangaroo mascot/logo for Deliveroo, mistaken for a rat in Paris" class="medium position central">
+	<figcaption>The Kangaroo mascot/logo for Deliveroo, mistaken for a rat in Paris</figcaption>
+</figure>
 
 ### Data
 Data is one of the biggest and most important aspects in a culture which affects our user experiences. Without catering for different circumstances and validation, how will users fill out the forms that we've spent so much time on? 
@@ -93,9 +113,24 @@ Data is one of the biggest and most important aspects in a culture which affects
 
 Names are so important, not only to someone, but to us as designers, markets and UX-ers, to build a relationship with our users and customers. But there can be more than a few complications when building to cater for different names. In Southern India, it’s common to not have a last name or surname. In China, their family name is their first name, and comes before their forename. Romanians for official circumstances like school exams, present their surname first, before their given name.
 
+<figure class="text-center">
+	<img src="/images/posts/budaya/intro/blueair.png" alt="Romanian airline, Blueair isn’t localised for English, and still asks for surname first on forms" class="position central">
+	<figcaption>Romanian airline, Blueair isn’t localised for English, and still asks for surname first on forms</figcaption>
+</figure>
+
 #### Addresses
 
 In places like the UK, we have an amazing infrastructure when it comes to addresses. So mail and online shopping is a doozy because delivery is reliable (courier depending). Yet, not every country has the same foundations or need for such a service. The UAE for example, does not have postcodes, zip codes or an equivalent. Additionally, they have a building called Burj Khalifa, a boulevard called Burj Khalifa, a lake with the name Burj Khalifa, and a metro station named Burj Khalifa. With no postcodes, a culture using landmarks to navigate, and buildings with 163 floors; delivery apps need to be accommodating.
+
+<figure class="text-center">
+	<img src="/images/posts/budaya/intro/talabat-arabic.png" alt="Saudi Arabian food delivery website Talabat, asking for an address without a postcode field [Original]" class="medium position central">
+	<figcaption>Saudi Arabian food delivery website Talabat, asking for an address without a postcode field [Original]</figcaption>
+</figure>
+
+<figure class="text-center">
+	<img src="/images/posts/budaya/intro/talabat-english-translated.png" alt="Saudi Arabian food delivery website Talabat, asking for an address without a postcode field [Translated]" class="medium position central">
+	<figcaption>Saudi Arabian food delivery website Talabat, asking for an address without a postcode field [Translated]</figcaption>
+</figure>
 
 #### Navigation
 
@@ -120,7 +155,7 @@ These are just three aspects which change when localising your app. Watch out fo
 <p class="disclaimer">This project has been done by Elizabeth Chesters, a Westerner who grew up in the UK. All of this research is biased from a Westerner’s point of view. Everything here has been noted as different, because it is different to the upbringing and culture the author has experienced. This project is forever growing, with additional research and points of view.</p>
 
 
-
+[the ‘noise’ an animal makes is different depending on the language]:https://www.buzzfeed.com/robinedds/what-noises-do-animals-make-in-other-languages-here-is-an-im?utm_term=.ibO9JDkwA#.cverj2YxL
 [Language]:/2016/04/26/budaya-how-language-impacts-ux.html
 [Trajan font is a renowned font used in film posters and has a YouTube video]:https://www.youtube.com/watch?v=t87QKdOJNv8
 [Beirut]:https://now.mmedia.me/lb/en/features/where_the_streets_have_no_names
