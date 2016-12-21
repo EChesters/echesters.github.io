@@ -5,7 +5,7 @@ description: During my travels in Mumbai, I connected with a local UX designer t
 image: "/images/posts/culture-a11y/mumbai/sanket-me.jpg"
 ---
 
-<p class="summary"> Not only is user experience different all around the world, so is how to conduct research. Myself, along with Sanket, a UXer from Mumbai, set out to discover how to change our moderation style with Indians. We planned a day of getting stuck in and approaching Indian people to learn about their lives with tech.</p>
+<p class="summary"> Not only is user experience different all around the world, so is how to conduct research. Myself, along with <a href="https://sanketpathak.com/">Sanket, a UXer from Mumbai</a>, set out to discover how to change our moderation style with Indians. We planned a day of getting stuck in and approaching Indian people to learn about their lives with tech.</p>
 
 ## The plan
 
@@ -150,10 +150,12 @@ On a personal level, it highlighted gaps in my experience of different research 
 
 Overall Indian people were approachable. Some were more inquisitive than others regarding our purpose of being there. Especially since it wasn’t for a company, and we were honest about the fact that it was a personal project. It was quite difficult also to explain what we were doing, as guerrilla or UX research isn’t commonplace. With my hoping for the best and lack of guidance, it made for a situation of short attention spans and interest. People were still grateful for the chocolate though.
 
-But the biggest success for me was connecting with fellow UX member of the Designer Hangout community, Sanket! The ability to connect with a UX designer **5445.697 miles** away, and plan a day of testing with no budget, is an incredible personal achievement! One I’ll never forget, and one I owe a huge thank you to Sanket for.
+But the biggest success for me was connecting with fellow UX member of the Designer Hangout community, Sanket! The ability to connect with a UX designer **5445.697 miles** away, and plan a day of testing with no budget, is an incredible personal achievement! One I’ll never forget, and one I owe a huge thank you to [Sanket] for.
 
 <img src="/images/posts/culture-a11y/mumbai/sanket-me.jpg" alt="Sanket and Elizabeth on a train to Bandra">
 
+
+[Sanket]:https://sanketpathak.com/
 [Zomato]:/www.zomato.com/mumbai
 [Flipkart]:www.flipkart.com
 [Reports of deaths rose]:http://www.huffingtonpost.in/2016/11/16/day-8-demonetisation-death-toll-rises-to-47/
