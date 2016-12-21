@@ -5,9 +5,9 @@ description: If there’s one thing I can do, it is talk. All the time. Ask any 
 image: "/images/portfolio/speaking/channel-5.png"
 ---
 
-<p class="summary">If there’s one thing I can do, it is talk. All the time. Ask any of my friends. If there’s a topic I’m passionate about, I don’t stop talking about it. But I make sure to put my talking to good use.</p>
+<p class="summary">If there’s one thing I can do, it is talk. All the time. Ask any of my friends. If there’s <a href="https://www.youtube.com/watch?v=9Qxcn9Qlz5A&t=684s">a topic I’m passionate about</a>, I don’t stop talking about it. But I make sure to put my talking to good use.</p>
 
-I’ve spoken at a range of meetups from Talk UX to multiple Java Communities, and taught on behalf of organisations like CodeFirst:Girls and 23Code Street. I may not be an expert, but I have a few tips and tricks which I’ve shared with some, and now with you.
+I’ve spoken at a range of meetups from [Talk UX] to multiple Java Communities, and taught on behalf of organisations like CodeFirst:Girls and 23Code Street. I may not be an expert, but I have a few tips and tricks which I’ve shared with some, and now with you.
 
 ## The audience
 
@@ -61,7 +61,7 @@ Where possible, for big conference talks, practice at smaller meetups. Feedback 
 Your audience is listening to you because they haven’t heard it before. While they have a presentation title and a tagline, they have no idea what you’re going to say. If they did know what you were going to say, why would they be there? This means if you do make a mistake, say something else they have no idea what you were supposed to say.
 And if you do make a mistake and it makes your nerves worse, taking a drink and a pause to gather your thoughts is also fine. You’re still a human. Pausing is not just for you either. Your audience may look like a pack of lions, but they are human. Give them time to take notes and gather their thoughts on what you’re saying. If you don’t have water, breathing is just as fine!
 
-*At the London Java Community speaking on behalf of UX in front of a renowned hard-core techie community, I forgot my intro! I had already started talking, and actually went back and started my whole talk again within the first 2 minutes. In hindsight I should have kept going. They had no idea I was supposed to subject them to an introduction in Arabic.*
+*At the [London Java Community] speaking on behalf of UX in front of a renowned hard-core techie community, I forgot my intro! I had already started talking, and actually went back and started my whole talk again within the first 2 minutes. In hindsight I should have kept going. They had no idea I was supposed to subject them to an introduction in Arabic.*
 
 <figure>
 	<img src="/images/portfolio/speaking/LJC.jpg" alt="Elizabeth speaking at London Java Community" class="position central">
@@ -83,5 +83,7 @@ Breathe, emphasise in the right places, crack a joke, and you’ve already naile
 You can [find recordings of me talking a lot on my portfolio here].
 
 
+[London Java Community]:https://www.youtube.com/watch?v=FI4pWcHLL8I
+[Talk UX]:https://www.youtube.com/watch?v=KlGczAq7r6w
 [find recordings of me talking a lot on my portfolio here]:http://echesters.co.uk/pages/speaking.html
 
