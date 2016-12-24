@@ -568,7 +568,6 @@ aside.clients img {
 }
 
 /* IN PAGE NAV */
-
 ul.portfolio-nav {
   list-style: none;
 
@@ -583,6 +582,25 @@ ul.portfolio-nav {
       &:hover {
         color: $nav-hover;
       }
+    }
+  }
+}
+
+ul.clients {
+  padding: $spacing-unit 0;
+
+  li {
+    list-style: none;
+    display: inline-block;
+    padding-right: $spacing-unit;
+  }
+  
+  img {
+    max-height: 35px;
+    width: auto;
+
+    &.large {
+      max-height: 70px;
     }
   }
 }
