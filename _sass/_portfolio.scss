@@ -202,6 +202,7 @@ header .intro-text .intro-heading {
 
 #portfolio section {
   padding: 75px 0;
+  overflow: auto;
 
   @media(min-width:768px) {
     padding: 75px 0;
@@ -603,4 +604,8 @@ ul.clients {
       max-height: 70px;
     }
   }
+}
+
+.img-control {
+  height: 100px;
 }
