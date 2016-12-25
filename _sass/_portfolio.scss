@@ -606,12 +606,17 @@ ul.clients {
   }
 }
 
+img.img-control {
+  filter: grayscale(100%);
+}
+
 .img-control {
   margin-top: $spacing-unit;
   height: 175px;
   border: $border;
 
   &:hover {
+    filter: grayscale(0%);
     border: $border;
     border-color: $brand-color;
   }
