@@ -607,5 +607,12 @@ ul.clients {
 }
 
 .img-control {
-  height: 100px;
+  margin-top: $spacing-unit;
+  height: 175px;
+  border: $border;
+
+  &:hover {
+    border: $border;
+    border-color: $brand-color;
+  }
 }
