@@ -601,7 +601,11 @@ ul.clients {
     width: auto;
 
     &.large {
-      max-height: 70px;
+      max-height: 55px;
+    }
+
+    &.small {
+      max-height: 20px;
     }
   }
 }
