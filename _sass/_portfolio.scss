@@ -615,7 +615,7 @@ img.img-control {
 }
 
 .img-control {
-  margin-top: $spacing-unit;
+  margin-top: calc(#{$spacing-unit} * 2);
   height: 175px;
   border: $border;
 
