@@ -213,15 +213,15 @@
     bottom: 0;
     left: 0;
     opacity: .8; 
-    max-height: 680px;
-    @include background-gradient(rgba(20,20,20, .8), rgba(255,255,255, 0));
+    @include background-gradient(rgba(10,10,10, 1), rgba(255,255,255, 0));
   }
 
   p {
   	color: $actual-white;
   	font-family: $logo-font-light;
-    font-size: calc( #{$base-font-size} * 1.5);
+    font-size: calc( #{$base-font-size} * 1.4);
     margin-top: 0;
+    line-height: 1.5em;
   }
 
   @media only screen and (max-width: 768px) {
