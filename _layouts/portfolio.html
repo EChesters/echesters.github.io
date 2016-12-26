@@ -17,10 +17,13 @@
 	  <link rel="stylesheet" type="text/css" href="/css/portfolio.css">
 	</head>
   <body id="page-top" class="index">
+  	<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
   	<div class="footer-padding">
 		<div id="portfolio">
 		  	{% include navbar.html %}
-	  		{{ content }}
+		  	<div id="content" id="content" tabindex="-1">
+	  			{{ content }}
+	  		</div>
 	  		{% include footer.html %}
 	  	</div>
 	</div>

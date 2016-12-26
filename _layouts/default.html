@@ -3,13 +3,15 @@
   {% include head.html %}
   
   <body>
+    <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+
     <div class="footer-padding">
       <div class="container-fluid no-padding">
         <div class="row">
           {% include navbar.html %}
         </div>
 
-        <div role="main">
+        <div role="main" id="content" tabindex="-1">
           {{ content }}
         </div>
       </div>
