@@ -1,65 +1,65 @@
 .parallax {
-	perspective: 1px;
-	overflow-x: hidden;
-	overflow-y: auto;
-	-webkit-perspective: 1px;
-	transform-style: preserve-3d;
+  perspective: 1px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-perspective: 1px;
+  transform-style: preserve-3d;
 
-	h4 {
-    	margin-top: 0;
-	}
+  h4 {
+      margin-top: 0;
+  }
 }
 
 .slide {
-	position: relative;
-	padding: 10vh 10%;
-	overflow: visible;
-	width: 100vw;
-	box-sizing: border-box;
-	transform-style: inherit;
-	color: $black;
+  position: relative;
+  padding: 10vh 10%;
+  overflow: visible;
+  width: 100vw;
+  box-sizing: border-box;
+  transform-style: inherit;
+  color: $black;
 
-	@media only screen and (max-width: 1024px) {
-		padding: 10vh 5%;
-	}
+  @media only screen and (max-width: 1024px) {
+    padding: 10vh 5%;
+  }
 
-	&:before {
-		content: "";
-		position: absolute;
-		top: 0;
-		bottom: 0;
-		left: 0;
-		right: 0;
-	}
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
 
-	&.title .left {
-		margin-left: 0;
-		margin-right: auto;
-	}
+  &.title .left {
+    margin-left: 0;
+    margin-right: auto;
+  }
 
-	&.title .right {
-		margin-left: auto;
-		margin-right: 0;
-	}
+  &.title .right {
+    margin-left: auto;
+    margin-right: 0;
+  }
 
-	&.full-height {
-		min-height: 80vh;
+  &.full-height {
+    min-height: 80vh;
 
-		@media only screen and (max-width: 767px) {
-			min-height: 125vh;
-			overflow: visible;
-		}
-	}
+    @media only screen and (max-width: 767px) {
+      min-height: 125vh;
+      overflow: visible;
+    }
+  }
 }
 
 .slide, .slide:before {
-	background-size: cover;
+  background-size: cover;
 }
 
 .small-slide {
-	min-height: 500px;
-	padding: 10vh 10%;
-	overflow: auto;
+  min-height: 500px;
+  padding: 10vh 10%;
+  overflow: auto;
 }
 
 .title {
@@ -73,126 +73,133 @@
   position: relative;
 
   &.white {
-  	background-color: $background-color;
+    background-color: $background-color;
   }
 }
 
 .banner-title {
-	min-height: 50vh;
-	border: $border;
-	margin-top: 2%;
-	overflow: auto;
-	background-color: $actual-white;
-	z-index: -1;
+  min-height: 50vh;
+  border: $border;
+  margin-top: 2%;
+  overflow: auto;
+  background-color: $actual-white;
+  z-index: -1;
 
-	@media only screen and (max-width: 1024px) {
-		margin-top: 0;
-	}
+  @media only screen and (max-width: 1024px) {
+    margin-top: 0;
+  }
 }
 
 #banner {
-	background-size: cover;
-	background-image: url("/images/portfolio/empowerhack/eh-2-blurred.png");
-	background-attachment: fixed;
-	z-index: -10;
-	color: $black;
+  background-size: cover;
+  background-image: url("/images/portfolio/empowerhack/eh-2-blurred.png");
+  background-attachment: fixed;
+  z-index: -10;
+  color: $black;
 
-	h1, .hello-title {
-		@extend h1;
-		font-weight: $weight-heavy;
-		font-family: $logo-font-light;
-		font-size: 30px;
-	}
+  h1, .hello-title {
+    @extend h1;
+    font-weight: $weight-heavy;
+    font-family: $logo-font-light;
+    font-size: 30px;
+  }
 
-	p.hello-title {
-		font-size: $post-title-size;
-		margin-bottom: 0;
-	}
+  p.hello-title {
+    font-size: $post-title-size;
+    margin-bottom: 0;
+  }
 
-	h2.intro {
-		margin: 0;
-		font-weight: $weight-light;
-		font-family: $base-display-font;
-		font-size: $font-button;
-	}
+  h2.intro {
+    margin: 0;
+    font-weight: $weight-light;
+    font-family: $base-display-font;
+    font-size: $font-button;
+  }
 
-	p {
-		margin-top: calc(#{$spacing-unit} / 2);
-	}
+  p {
+    margin-top: calc(#{$spacing-unit} / 2);
+  }
 
-	&:before {
-	    content: '';
-		position: absolute;
-		top: 0;
-		right: 0;
-		bottom: 0;
-		left: 0;
-		opacity: .9; 
+  &:before {
+      content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: .9; 
     background: -webkit-linear-gradient(rgba(200,200,200, .9), rgba(160,160,160, 0.3)); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(rgba(200,200,200, .9), rgba(160,160,160, 0.3)); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(rgba(200,200,200, .9), rgba(160,160,160, 0.3)); /* For Firefox 3.6 to 15 */
     background: linear-gradient(rgba(200,200,200, .9), rgba(160,160,160, 0.3)); /* Standard syntax */
     z-index: -9;
-	}
+  }
 }
 
 #brief-cv:before {
-	transform: translateZ(-1px) scale(2);
-	z-index: -1;
-	background-size: cover;
+  transform: translateZ(-1px) scale(2);
+  z-index: -1;
+  background-size: cover;
 }
 
 .buttons {
-	margin: 0 auto;
-	text-align: center;
+  margin: 0 auto;
+  text-align: center;
 }
 
 #challenges {
-	background-image: url('../../images/challenges.jpg');
-	background-attachment: fixed;
-	z-index: 10;
+  background-image: url('../../images/challenges.jpg');
+  background-attachment: fixed;
+  z-index: 10;
 }
 
 #personal-projects {
-	background-image: url('/images/posts/budaya.jpg');
-	background-attachment: fixed;
-	z-index: 10;
+  background-image: url('/images/posts/budaya.jpg');
+  background-attachment: fixed;
+  z-index: 10;
 
-	&:before {
-	  content: '';
-		position: absolute;
-		top: 0;
-		right: 0;
-		bottom: 0;
-		left: 0;
-		opacity: .9; 
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: .9; 
     background: -webkit-linear-gradient(rgba(20,20,20, .9), rgba(50,50,50, 0.3)); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(rgba(20,20,20, .9), rgba(50,50,50, 0.3)); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(rgba(20,20,20, .9), rgba(50,50,50, 0.3)); /* For Firefox 3.6 to 15 */
     background: linear-gradient(rgba(20,20,20, .9), rgba(50,50,50, 0.3)); /* Standard syntax */
-	}
+  }
 }
 
 #speaking {
-	background-color: $actual-black;
-	background-image: url("/images/portfolio/speaking/talkux-1.jpg");
-	background-size: cover;
-	z-index: 0;
+  background-color: $actual-black;
+  background-image: url("/images/portfolio/speaking/talkux-1.jpg");
+  background-size: cover;
+  z-index: 0;
 
-	&:before {
-	   content: '';
-		position: absolute;
-		top: 0;
-		right: 0;
-		bottom: 0;
-		left: 0;
-		opacity: 1; 
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 1; 
     background: -webkit-linear-gradient(rgba(20,20,20, .9), rgba(50,50,50, 0.3)); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(rgba(20,20,20, .9), rgba(50,50,50, 0.3)); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(rgba(20,20,20, .9), rgba(50,50,50, 0.3)); /* For Firefox 3.6 to 15 */
     background: linear-gradient(rgba(20,20,20, .9), rgba(50,50,50, 0.3)); /* Standard syntax */
     z-index: -1;
-	}
+  }
+}
+
+#speak-port {
+  background-image: url("/images/portfolio/empowerhack/eh-2.jpg");
+  background-attachment: fixed;
+  height: 60vh;
+  h2, p { color: $actual-white; }
 }
 
 #portfolio-banner {
@@ -217,15 +224,15 @@
   }
 
   p {
-  	color: $actual-white;
-  	font-family: $logo-font-light;
+    color: $actual-white;
+    font-family: $logo-font-light;
     font-size: calc( #{$base-font-size} * 1.4);
     margin-top: 0;
     line-height: 1.5em;
   }
 
   @media only screen and (max-width: 768px) {
-  	background-position: center center;
+    background-position: center center;
     height: 550px;
   }
 }
