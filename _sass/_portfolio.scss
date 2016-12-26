@@ -561,6 +561,8 @@ ul.portfolio-nav {
 
 ul.clients {
   padding: $spacing-unit 0;
+  margin-left: 0;
+  margin-bottom: calc( #{$spacing-unit} * 2);
 
   li {
     list-style: none;
