@@ -21,7 +21,7 @@
     left: 0;
     opacity: .8; 
     max-height: 80vh;
-      @include background-gradient(rgba(20,20,20, .8), rgba(255,255,255, 0));
+    @include background-gradient(rgba(20,20,20, .8), rgba(255,255,255, 0));
 
       @media only screen and (max-width: 768px) {
         max-height: 85vh;
@@ -34,22 +34,22 @@
   background-size: cover; 
   background-attachment: scroll;
   background-repeat: no-repeat;
-  height: 80vh;
+  height: 60vh;
   margin-bottom: calc( #{$spacing-unit} *2);
 
   &:before {
-      content: '';
+    content: '';
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
     opacity: .8; 
-    max-height: 80vh;
+    max-height: 70vh;
       @include background-gradient(rgba(20,20,20, .8), rgba(255,255,255, 0));
 
       @media only screen and (max-width: 768px) {
-        max-height: 85vh;
+        max-height: 70vh;
       }
   }
 
@@ -104,7 +104,7 @@
 .site-heading, .page-heading {
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
   font-family: $logo-font;
-  @include vertical-align(-80%);
+  @include vertical-align(-225%);
   margin-bottom: 300px;
   
   h1 {
@@ -116,4 +116,8 @@
     @include vertical-align(0);
     font-size: 60px;
   }
+}
+
+.site-heading {
+  @include vertical-align(-90%);
 }
