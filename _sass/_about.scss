@@ -1,6 +1,5 @@
 .parallax {
 	perspective: 1px;
-	// height: 100vh;
 	overflow-x: hidden;
 	overflow-y: auto;
 	-webkit-perspective: 1px;
@@ -198,6 +197,7 @@
 
 #portfolio-banner {
   background-image: url('/images/portfolio/portfolio-header.jpg');
+  background-position: right 10px top;
   background-repeat: none;
   @include background-size(cover);
   z-index: -10;

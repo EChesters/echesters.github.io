@@ -2,6 +2,12 @@
     padding: 0 !important;
 }
 
+.no-padding-mob {
+    @media only screen and (max-width: 768px) {
+        padding: 0 !important;
+    }
+}
+
 .remove-padding {
     &.left {
         padding-left: 0;
