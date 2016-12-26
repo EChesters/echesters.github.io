@@ -129,11 +129,11 @@
 		bottom: 0;
 		left: 0;
 		opacity: .9; 
-	    background: -webkit-linear-gradient(rgba(200,200,200, .9), rgba(160,160,160, 0.3)); /* For Safari 5.1 to 6.0 */
-	    background: -o-linear-gradient(rgba(200,200,200, .9), rgba(160,160,160, 0.3)); /* For Opera 11.1 to 12.0 */
-	    background: -moz-linear-gradient(rgba(200,200,200, .9), rgba(160,160,160, 0.3)); /* For Firefox 3.6 to 15 */
-	    background: linear-gradient(rgba(200,200,200, .9), rgba(160,160,160, 0.3)); /* Standard syntax */
-	    z-index: -9;
+    background: -webkit-linear-gradient(rgba(200,200,200, .9), rgba(160,160,160, 0.3)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(200,200,200, .9), rgba(160,160,160, 0.3)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(200,200,200, .9), rgba(160,160,160, 0.3)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(200,200,200, .9), rgba(160,160,160, 0.3)); /* Standard syntax */
+    z-index: -9;
 	}
 }
 
@@ -160,17 +160,17 @@
 	z-index: 10;
 
 	&:before {
-	    content: '';
+	  content: '';
 		position: absolute;
 		top: 0;
 		right: 0;
 		bottom: 0;
 		left: 0;
 		opacity: .9; 
-	    background: -webkit-linear-gradient(rgba(20,20,20, .9), rgba(50,50,50, 0.3)); /* For Safari 5.1 to 6.0 */
-	    background: -o-linear-gradient(rgba(20,20,20, .9), rgba(50,50,50, 0.3)); /* For Opera 11.1 to 12.0 */
-	    background: -moz-linear-gradient(rgba(20,20,20, .9), rgba(50,50,50, 0.3)); /* For Firefox 3.6 to 15 */
-	    background: linear-gradient(rgba(20,20,20, .9), rgba(50,50,50, 0.3)); /* Standard syntax */
+    background: -webkit-linear-gradient(rgba(20,20,20, .9), rgba(50,50,50, 0.3)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(20,20,20, .9), rgba(50,50,50, 0.3)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(20,20,20, .9), rgba(50,50,50, 0.3)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(20,20,20, .9), rgba(50,50,50, 0.3)); /* Standard syntax */
 	}
 }
 
@@ -181,17 +181,51 @@
 	z-index: 0;
 
 	&:before {
-	    content: '';
+	   content: '';
 		position: absolute;
 		top: 0;
 		right: 0;
 		bottom: 0;
 		left: 0;
 		opacity: 1; 
-	    background: -webkit-linear-gradient(rgba(20,20,20, .9), rgba(50,50,50, 0.3)); /* For Safari 5.1 to 6.0 */
-	    background: -o-linear-gradient(rgba(20,20,20, .9), rgba(50,50,50, 0.3)); /* For Opera 11.1 to 12.0 */
-	    background: -moz-linear-gradient(rgba(20,20,20, .9), rgba(50,50,50, 0.3)); /* For Firefox 3.6 to 15 */
-	    background: linear-gradient(rgba(20,20,20, .9), rgba(50,50,50, 0.3)); /* Standard syntax */
-	    z-index: -1;
+    background: -webkit-linear-gradient(rgba(20,20,20, .9), rgba(50,50,50, 0.3)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(20,20,20, .9), rgba(50,50,50, 0.3)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(20,20,20, .9), rgba(50,50,50, 0.3)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(20,20,20, .9), rgba(50,50,50, 0.3)); /* Standard syntax */
+    z-index: -1;
 	}
+}
+
+#portfolio-banner {
+  background-image: url('/images/portfolio/portfolio-header.jpg');
+  background-repeat: none;
+  @include background-size(cover);
+  z-index: -10;
+  background-attachment: fixed;
+  color: $actual-white;
+  text-shadow: 0px 1px 5px $black;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: .8; 
+    max-height: 680px;
+    @include background-gradient(rgba(20,20,20, .8), rgba(255,255,255, 0));
+  }
+
+  p {
+  	color: $actual-white;
+  	font-family: $logo-font-light;
+    font-size: calc( #{$base-font-size} * 1.5);
+    margin-top: 0;
+  }
+
+  @media only screen and (max-width: 768px) {
+  	background-position: center center;
+    height: 550px;
+  }
 }
