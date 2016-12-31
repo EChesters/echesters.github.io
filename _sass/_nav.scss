@@ -2,100 +2,110 @@
 @import '_mixins';
 
 nav {
-	z-index: 100;
+  z-index: 100;
 
-	.site-title {
-		letter-spacing: 5px;
-		border: $border;
-		height: auto;
-		margin: 5px 0;
-		text-transform: uppercase;
+  .site-title {
+    letter-spacing: 5px;
+    border: $border;
+    height: auto;
+    margin: 8px 0;
+    text-transform: uppercase;
 
-		&.navbar-brand {
-			color: $actual-white;
-			padding: 10px;
-		}
+    &.navbar-brand {
+      color: $actual-white;
+      padding: 5px;
+      font-size: $smaller-font;
+    }
 
-		a { 
-			&:hover {
-				text-decoration: none;
-				color: $actual-white;
-			}
+    a { 
+      &:hover {
+        text-decoration: none;
+        color: $actual-white;
+      }
 
-			&:visited {
-				color: $actual-white;
-			}
-		}
-	}
+      &:visited {
+        color: $actual-white;
+      }
+    }
+  }
 
-	a {
-		padding: 15px 30px;
-		transition: box-shadow 0.3s;
-		position: relative;
-  		color: $nav-text;
-  		text-decoration: none;
-  		font-weight: 300;
-		text-shadow: $txt-shadow;
+  a {
+    transition: box-shadow 0.3s;
+    position: relative;
+    color: $nav-text;
+    text-decoration: none;
+    font-weight: 300;
+    text-shadow: $txt-shadow;
 
-		&:before {
-		  content: "";
-		  position: absolute;
-		  width: 100%;
-		  height: 3px;
-		  bottom: 0;
-		  left: 0;
-		  background-color: $brand-color;
-		  visibility: hidden;
-		  -webkit-transform: scaleX(0);
-		  transform: scaleX(0);
-		  -webkit-transition: all 0.3s ease-in-out 0s;
-		  transition: all 0.3s ease-in-out 0s;
-		}
+    &:before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 3px;
+      bottom: 0;
+      left: 0;
+      background-color: $brand-color;
+      visibility: hidden;
+      -webkit-transform: scaleX(0);
+      transform: scaleX(0);
+      -webkit-transition: all 0.3s ease-in-out 0s;
+      transition: all 0.3s ease-in-out 0s;
+    }
 
-		&:hover {
-			color: $nav-hover;
+    &:hover {
+      color: $nav-hover;
 
-			&:before{
-			  	visibility: visible;
-  				-webkit-transform: scaleX(1);
-  				transform: scaleX(1);
-  			}
-		}
-	}
+      &:before{
+          visibility: visible;
+          -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+        }
+    }
+  }
+}
+
+.navbar-default .navbar-nav > li > a {
+  padding: 5px $spacing-unit;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: inherit;
+  }
 }
 
 ul.nav {
-	@include vertical-align(-10%);
+  @include vertical-align(-10%);
 }
 
 .navbar, .navbar-default {
-	@include border-radius(0);
-	border: none;
-	background: transparent;
-	margin-bottom: 0;
+  @include border-radius(0);
+  border: none;
+  background: transparent;
+  margin-bottom: 0;
 
-	@media only screen and (min-width: 320px) and (max-width: 1200px) {
-	  	width: 100%;
-	}
+  @media only screen and (min-width: 320px) and (max-width: 1200px) {
+      width: 100%;
+  }
 }
 
 .navbar-default, .navbar-default .navbar-form {
-	background: $black;
+  background: $black;
 }
 
 .navbar-default .navbar-brand:hover {
-	color: $white;
+  color: $white;
 }
 
 .navbar-default .navbar-nav>li>a {
-	color: $nav-text;
+  color: $nav-text;
 
-	&:hover {
-		color: $nav-text;
-	}
+  &:hover {
+    color: $nav-text;
+  }
 }
 
 .side-title {
-	font-family: $logo-font-light;
-	font-size: $logo-size;
+  font-family: $logo-font-light;
+  font-size: $logo-size;
 }
