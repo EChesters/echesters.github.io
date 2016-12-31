@@ -13,17 +13,17 @@ So here are a few tips on how to travel the world’s technology in just a few c
 
 Googling in languages you’re fluent in is a great way to find new websites. Yet if you don’t know the language of the culture you’re investigating, it gets trickier. Imagine you’re doing a competitor analysis for a retail website, and you want to explore Egyptian retail. Here are a few steps in how to kick off international research. 
 
-<p class="no-margin"><span class="sidenote">What retail brands are there in Egypt?</span></p>
+<p class="no-margin"><span class="sidenote">Question: What retail brands are there in Egypt?</span></p>
 <p class="no-margin"><strong>Google: ‘Clothing brands in Egypt’</strong></p>
-Now if you’re using your usual Google, the problem comes in with personalised results. This is not something obvious at first, because you’re used to it, but you’ll rarely see results in a different language than your own. 
+Now if you’re using your usual Google, the problem comes in with personalised results. This is not something obvious at first, because you’re used to it, but you’ll rarely see results in a different language than your own, or something that Google doesn't class as relevant to you.
 
 <figure class="text-center">
 	<img class="responsive-img medium position central" src="/images/posts/i8ln/i8ln-Egypt-results.png">
-	<figcaption>Google results for 'retail brands in Egypt'.</figcaption>
+	<figcaption>Google results for 'retail brands in Egypt'</figcaption>
 </figure>
 
-<p class="no-margin"><span class="sidenote">Google is too personalised, but what else can I use?</span></p>
-<p class="no-margin"><strong>DuckDuckGo pride themselves on not tracking you, or personalising your results</strong></p>
+<p class="no-margin"><span class="sidenote">Question: If Google is too personalised, what else can I use?</span></p>
+<p class="no-margin"><strong>DuckDuckGo pride themselves on not tracking you, or personalising your results.</strong></p>
 So after scrapping Google for results outside of our search bubbles, the results still aren’t that great. We don’t even have one result in Arabic!
 
 <figure class="text-center">
@@ -31,8 +31,10 @@ So after scrapping Google for results outside of our search bubbles, the results
 	<figcaption>DuckDuckGo results for 'retail brands in Egypt', different to those on Google</figcaption>
 </figure>
 
-<p class="no-margin"><span class="sidenote">Where can I find a list of retailers?</span></p>
-<p class="no-margin">Results at this point can be pretty frustrating, given you’ve changed your search query umpteenth times to get a decent result. So now think of things you can look up in your mother tongue which would give you similar results. Where are there lots of different brands all in the same place?</p>
+<p class="no-margin"><span class="sidenote">Question: Where can I find a list of retailers?</span></p>
+<p class="no-margin">Results at this point can be pretty frustrating, given you’ve changed your search query umpteenth times to get a decent result. Clothing brands in Egypt. Egyptian fashion. Clothes shops in Egypt. etc. They all bring back similar results.</p>
+
+<p class="no-margin">So now think of things you can look up in your mother tongue which would give you similar results. Where are there lots of different brands all in the same place?</p>
 <strong>Search: shopping centres/malls in Egypt</strong>
 
 <figure class="text-center">
@@ -49,7 +51,7 @@ Bam! Top result on DuckDuckGo was a list of shopping centres. I went for one tha
 
 <strong>Jackpot! Lists of retail websites to go explore.</strong>
 
-Looking at international brands you're familiar with, is a good way to spot differences between designs. If they have localised versions of their websites, compare each version. Do they have more or less options, how different is the tone or imagery?
+Looking at international brands you're familiar with, is a good way to spot differences between designs. If they have localised versions of their websites, compare each version. Do they have more or less options, how different is the tone or imagery? This [blog post shows great examples of how McDonald's localise their website], and what changes to look out for.
 
 Don’t forget to pay attention to just what languages websites are in. It’s easy to overlook international brands that we’re unfamiliar with. For example, take the first brand Tekbir. Their website turned out to be in Turkish, which is still not Egyptian.
 
@@ -98,3 +100,4 @@ Now we have the what, and the how. The next challenge is then to discover the *w
 [UX meetups in different languages like Czech]:https://www.meetup.com/londonuxgroup/events/236266398/
 [Twitter]:https://twitter.com/EChesters
 [contact me]:/pages/contact.html
+[blog post shows great examples of how McDonald's localise their website]:http://blog.usabilla.com/designing-for-a-cross-cultural-user-experience-part1/
