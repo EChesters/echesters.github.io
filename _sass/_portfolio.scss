@@ -599,3 +599,12 @@ img.img-control {
     border-color: $brand-color;
   }
 }
+
+img {
+  &.smaller {
+    width: 40%;
+    @media screen and (max-width: 1024px) {
+      width: 70%;
+    }
+  }
+}
