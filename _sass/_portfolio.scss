@@ -131,6 +131,16 @@ header {
   &.photography-header {
     background-image: none;
     background-color: $black;
+    height: 300px;
+
+    h1 {
+      color: $actual-white;
+    }
+
+    p {
+      color: $grey-color-light;
+      font-size: 1.2em;
+    }
   }
 }
 

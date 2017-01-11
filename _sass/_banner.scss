@@ -46,11 +46,11 @@
     left: 0;
     opacity: .8; 
     max-height: 70vh;
-      @include background-gradient(rgba(20,20,20, .8), rgba(255,255,255, 0));
+    @include background-gradient(rgba(20,20,20, .8), rgba(255,255,255, 0));
 
-      @media only screen and (max-width: 768px) {
-        max-height: 70vh;
-      }
+    @media only screen and (max-width: 768px) {
+      max-height: 70vh;
+    }
   }
 
   .background-cover {
