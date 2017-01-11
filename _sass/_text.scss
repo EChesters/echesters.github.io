@@ -57,10 +57,11 @@ strong {
 }
 
 .summary {
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: $weight-heavy;
     text-align: center;
     margin-bottom: calc(#{$spacing-unit} *2 );
+
     @media only screen and (max-width: 768px) {
       font-size: 1em;
       text-align: left;
@@ -78,31 +79,35 @@ h2, h3, h4 {
 
 h1 {
   font-size: 40px;
+  font-weight: $weight-heavy;
 }
 
 h2 {
-    font-size: 36px;
-    color: $header;
-    font-family: $logo-font;
+  font-size: 36px;
+  color: $brand-color;
+  font-family: $logo-font;
+  font-weight: $weight-heavy;
 }
 
 h3 {
-    font-size: 24px;
-    color: $header;
-    font-family: $logo-font;
-    @include media-query($on-laptop) {
-        font-size: 28px;
-    }
+  font-size: 28px;
+  color: lighten($brand-color, 5%);
+  font-family: $logo-font;
+  font-weight: $weight-medium;
+  @include media-query($on-laptop) {
+      font-size: 28px;
+  }
 }
 
 h4 {
-    font-size: 22px;
-    font-family: $logo-font-light;
-    color: $grey-color-dark;
+  font-size: 24px;
+  font-family: $logo-font-light;
+  color: $grey-color-dark;
+  font-weight: $weight-light;
 
-    @include media-query($on-laptop) {
-        font-size: 20px;
-    }
+  @include media-query($on-laptop) {
+      font-size: 20px;
+  }
 }
 
 p {

@@ -44,7 +44,7 @@ nav {
       height: 3px;
       bottom: 0;
       left: 0;
-      background-color: $brand-color;
+      background-color: $brand-secondary;
       visibility: hidden;
       -webkit-transform: scaleX(0);
       transform: scaleX(0);
@@ -90,7 +90,7 @@ ul.nav {
 }
 
 .navbar-default, .navbar-default .navbar-form {
-  background: $black;
+  background: darken($nav-bar, 5%);
 }
 
 .navbar-default .navbar-brand:hover {
