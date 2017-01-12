@@ -13,7 +13,7 @@ nav {
 
     &.navbar-brand {
       color: $actual-white;
-      padding: 5px;
+      padding: 5px 5px 5px 10px;
       font-size: $smaller-font;
     }
 
@@ -34,7 +34,7 @@ nav {
     position: relative;
     color: $nav-text;
     text-decoration: none;
-    font-weight: 300;
+    font-weight: $weight-light;
     text-shadow: $txt-shadow;
 
     &:before {
