@@ -74,3 +74,11 @@ img {
 img.client {
 	max-height: 125px;
 }
+.video {
+	width: 80%;
+	margin-bottom: calc( #{$spacing-unit} * 2);
+
+	@media screen and (max-width: 1024px) {
+		width: 100%;
+	}
+}
