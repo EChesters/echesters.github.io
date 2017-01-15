@@ -28,8 +28,10 @@
     }
 }
 
-.margin-bottom {
-    margin-bottom: $spacing-unit;
+.double-margin {
+  &.bottom {
+    margin-bottom: calc( #{$spacing-unit} * 2);
+  }
 }
 
 .more-margin {
@@ -38,18 +40,18 @@
 }
 
 .add-margin {
-    &.top {
-        margin-top: $spacing-unit;
-    }
+  &.top {
+    margin-top: $spacing-unit;
+  }
 
-    &.bottom {
-        margin-bottom: $spacing-unit;
-    }
+  &.bottom {
+    margin-bottom: $spacing-unit;
+  }
 }
 
 .margin-horizontal {
-    margin-right: $spacing-unit;
-    margin-left: $spacing-unit;
+  margin-right: $spacing-unit;
+  margin-left: $spacing-unit;
 }
 
 /**
