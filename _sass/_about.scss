@@ -198,7 +198,8 @@
 #speak-port {
   background-image: url("/images/portfolio/empowerhack/eh-2.jpg");
   background-attachment: fixed;
-  height: 60vh;
+  min-height: 60vh;
+  
   h2, p { color: $actual-white; }
 }
 
