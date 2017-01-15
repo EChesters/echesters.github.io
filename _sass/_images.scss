@@ -1,84 +1,89 @@
 img {
-	height: auto;
-	width: auto;
+  height: auto;
+  width: auto;
 
-	&.rounded {
-		@include border-radius(10px);
-	}
+  &.rounded {
+    @include border-radius(10px);
+  }
 
-	&.landscape {
-		width: 90%;
-	}
+  &.landscape {
+    width: 90%;
+  }
 
-	&.portrait {
-		height: 450px;
-	}
+  &.portrait {
+    height: 450px;
+  }
 
-	&.small {
-		width: 40%;
-		@media screen and (max-width: 1024px) {
-			width: 70%;
-		}
-	}
+  &.small {
+    width: 40%;
+    @media screen and (max-width: 1024px) {
+      width: 70%;
+    }
+  }
 
-	&.medium {
-		width: 65%;
-	}
+  &.medium {
+    width: 65%;
+  }
 
-	&.large {
-		width: 90%;
-	}
+  &.large {
+    width: 90%;
+  }
 }
 
 .images {
-	text-align: center;
-	display: block;
-	overflow: auto;
+  text-align: center;
+  display: block;
+  overflow: auto;
 
-	img {
-		float: none;
-	}
+  img {
+    float: none;
+  }
 
-	img.two {
-		display: inline-block;
-		width: 49%;
+  img.two {
+    display: inline-block;
+    width: 49%;
 
-		&.left { float: left; }
-		&.right { float: right;	}
-	}
+    &.left { float: left; }
+    &.right { float: right; }
+  }
 
-	.same-height {
-		height: 250px;
-		width: auto;
-	}
+  .same-height {
+    height: 250px;
+    width: auto;
+  }
 }
 
 .title-img {
-	img {
-		position: relative;
-	}
+  img {
+    position: relative;
+  }
 
-	p {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-	}
+  p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 }
 
 #portfolio iframe {
-	margin-bottom: $spacing-unit;
+  margin-bottom: $spacing-unit;
 }
 
 img.client {
-	max-height: 125px;
+  max-height: 125px;
 }
 .video {
-	width: 80%;
-	margin-bottom: calc( #{$spacing-unit} * 2);
+  width: 80%;
+  margin-bottom: calc( #{$spacing-unit} * 2);
 
-	@media screen and (max-width: 1024px) {
-		width: 100%;
-	}
+  @media screen and (max-width: 1024px) {
+    width: 100%;
+  }
+}
+
+figure {
+  margin-bottom: calc( #{$spacing-unit} * 1.5);
+  text-align: center;
 }
