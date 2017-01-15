@@ -12,8 +12,8 @@ $secondary:   #790527;
   background-color: #f7f7f7;
 }
 
-.bg-darkest-gray {
-  background-color: $grey-color-dark;
+.bg-white {
+  background-color: $actual-white;
 }
 
 /* BTNS */
@@ -216,8 +216,6 @@ section h3.section-subheading {
   position: relative;
   margin: 0 auto;
   max-width: 400px;
-
-  &.portfolio-caption {}
 }
 
 .portfolio-item .portfolio-link .portfolio-hover {
@@ -270,7 +268,8 @@ section h3.section-subheading {
   padding: 25px;
   max-width: 400px;
   text-align: center;
-  background-color: #fff;
+  background-color: lighten($grey-color-light, 30%);
+  border: 1px solid lighten($grey-color-light, 25%);
 }
 
 .portfolio-item .portfolio-caption h4 {
