@@ -308,6 +308,26 @@
     }
 }
 
+.mobile-pos {
+  @include media-query($on-palm) {
+    display: block;
+    float: none;
+
+    &.central {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+
+.mobile-text {
+  @include media-query($on-palm) {
+    &.central {
+      text-align: center;
+    }
+  }
+}
+
 .overflow-auto {
     overflow: auto;
 }
