@@ -25,3 +25,4 @@ markdown: kramdown
 
 gem: jekyll-paginate
 paginate: 12
+future: false
