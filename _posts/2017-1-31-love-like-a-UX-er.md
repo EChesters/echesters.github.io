@@ -6,13 +6,13 @@ description: When we are in love, we can’t know enough about the other person.
 
 As UX researchers it is our job to understand, not users, but the people we build for. The characters who walk through our door can differ, from charming to downright rude. But the feelings, the love, the obsession, we have with participants is one hard to explain. One, which in the moment of research, never weakens.
 
-Recently I read Doorbells, Danger and Dead Batteries by Steve Portigal, a book showcasing war stories about conducting research. The anecdotes also offers a glimpse into what it means to work with people.
+Recently I read [Doorbells, Danger and Dead Batteries by Steve Portigal], a book showcasing war stories about conducting research. The anecdotes also offers a glimpse into what it means to work with people.
 
-<span class="sidenote">“Do you remember that time you fell madly in love with somebody? Or when your child was born? The other became the object of unlimited interest and fascination.”</span>
+<span class="sidenote">“Do you remember that time you fell madly in love with somebody? Or when your child was born? The other became the object of unlimited interest and fascination.” - Antonella Pavese, from Doorbells, Danger and Dead Batteries</span>
 
 When we are in love, we can’t know enough about the other person. We want to be aware of their every hour of the day, explore their desires and absorb their essence.
 
-<span class="sidenote">“In that moment you are more interested in them than yourself.”</span>
+<span class="sidenote">“In that moment you are more interested in them than yourself.” - Antonella Pavese</span>
 
 ## Moderation
 
@@ -33,7 +33,7 @@ But what was a 2 second question, expecting a “Yes, I have a dog” answer, tu
 
 With different participants, come different personality types. One of the hardest personality types I've come across, is someone with the utmost energy. It is so hard not to reflect that. They’re looking at the website, finding something that they would usually do or buy. Then they get really into the task.
 
-<span class="sidenote">“Oh raggity-poo I can’t have that cardigan!”</span> - Participant quote
+<span class="sidenote">“Oh raggity-poo I can’t have that cardigan!” - Participant quote</span>
 
 A researcher’s actions must be poised. They must be positive in that there is no wrong answer. But not be positive enough to confirm that what someone is saying or doing is in any way a right answer. So when you’re faced with so much energy, it’s natural to reflect their mannerisms. Yet, when you reflect high energy, sometimes neutrality and pauses go out the window. They’re excited to share their story, and you’re excited to ask. Yet the moment they finally find time to breathe, you’re onto your next question. 
 
@@ -53,3 +53,6 @@ There are times, especially in London where people are aggressive and rude. Days
 	<img class="responsive-img position central" src="/images/posts/Serbian-Moderation.png" alt="Elizabeth doing remote moderation with 3 users in Serbia, who are field workers in Serbia. This was remote moderation over Skype to get feedback for a project">
 	<figcaption>Remote moderation for Draw My Life, with field workers in Serbia</figcaption>
 </figure>
+
+
+[Doorbells, Danger and Dead Batteries by Steve Portigal]:http://rosenfeldmedia.com/books/user-research-war-stories/
