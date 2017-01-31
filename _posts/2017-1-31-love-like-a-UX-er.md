@@ -24,7 +24,7 @@ The connection you make in the room with a participant is not one I see shared w
 
 ## Things to be aware of
 
-Obsession-like feelings come with their own dangers. It’s hard to build a rapport with someone quickly,;more so in unnatural situations like labs. It’s even harder to build the deeper connection UX-ers need to fight on behalf of those subjected to clients’ torturous designs.
+Obsession-like feelings come with their own dangers. It’s hard to build a rapport with someone quickly; more so in unnatural situations like labs. It’s even harder to build the deeper connection UX-ers need to fight on behalf of those subjected to clients’ torturous designs.
 I remember recently, a participant needed specific information about a car boot, because they had dogs. Move forward to different research, I noticed another participant covered in dog hair.
 
 This was it. As a fellow dog person, here is my shot at not only rapport, but connecting.
