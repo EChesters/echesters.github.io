@@ -1,23 +1,17 @@
 ---
 layout: default
 ---
-<header class="intro-header" style="background-image: url('{{ page.image }}')">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-9 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="page-heading">
-                    <h1 class="portfolio-title">{{ page.title }}</h1>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
-
-<div id="case-study" class="col-xs-12 content">
-  <div class="col-xs-12 col-sm-10 col-md-9 col-lg-6 position central">
-    <section>
+<div class="nav-margin">
+  <div class="col-xs-12 col-md-9 position central">
+    <div class="col-xs-12 col-md-4" id="project-title">
+      <h1 class="portfolio-title">{{ page.title }}</h1>
       <p class="summary">{{ page.summary }}</p>
-    </section>
-    {{ content }}
+    </div>
+
+    <div class="col-xs-12 col-md-7" id="project-content">
+      <section>
+        {{ content }}
+      </section>
+    </div>
   </div>
 </div>
