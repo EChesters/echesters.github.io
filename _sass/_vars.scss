@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Cutive+Mono|Source+Sans+Pro:300,400,600&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono|Source+Sans+Pro:300,400,700&subset=latin-ext');
 
 /* COLOURS ----------- */
 $white: 				#F4F4F4;
@@ -24,7 +24,7 @@ $border:				2px solid $actual-white;
 $box-shadow-grey:		lighten($grey-color-light, 50%);
 
 /* FONTS ------------- */
-$base-font-family: 		'Lato', sans-serif;
+$base-font-family: 		'Source Sans Pro', sans-serif;
 $base-display-font: 	$base-font-family;
 $code-font:				'Cutive Mono', monospace;
 $logo-font:				'Source Sans Pro', sans-serif;
@@ -39,7 +39,7 @@ $logo-size:				1.3em;
 
 $weight-light:		    300;
 $weight-medium:	        400;
-$weight-heavy:		    600;
+$weight-heavy:		    700;
 
 $additional-spacing:	10px;
 

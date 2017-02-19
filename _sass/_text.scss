@@ -36,6 +36,7 @@ strong {
   font-size: 60px;
   margin-top: calc( #{$spacing-unit} * 4);
   z-index: 10;
+  text-transform: uppercase;
 }
 
 .bio {
@@ -79,6 +80,7 @@ h2, h3, h4 {
 h1 {
   font-size: 40px;
   font-weight: $weight-heavy;
+  text-transform: uppercase;
 }
 
 h2 {

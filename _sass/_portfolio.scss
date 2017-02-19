@@ -155,7 +155,11 @@ header {
 
 .intro-text .intro-heading {
   margin-bottom: 25px;
-  font-weight: $weight-light;
+  font-weight: $weight-medium !important;
+
+  .emphasise {
+    font-weight: $weight-medium;
+  }
 }
 
 @media(min-width:768px) {
