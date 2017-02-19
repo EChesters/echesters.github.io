@@ -66,8 +66,12 @@
 
 /* TEXT */
 .portfolio-title {
-  letter-spacing: $additional-spacing;
   text-transform: uppercase;
+  text-align: right;
+  
+  @include media-query($on-palm) {
+    text-align: left;
+  }
 }
 
 .post-content {

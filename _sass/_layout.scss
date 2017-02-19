@@ -1,3 +1,7 @@
+.nav-margin {
+    margin-top: calc( #{$nav-bar-height} + #{$spacing-unit});
+}
+
 .no-padding {
     padding: 0 !important;
 }
@@ -203,8 +207,6 @@
     }
 }
 
-
-
 /**
  * Page content
  */
@@ -238,6 +240,14 @@
 .container-fluid {
     overflow: visible;
     min-height: 100%;
+}
+
+#project-content {
+    margin-top: calc( #{$spacing-unit} * 3);
+
+    @include media-query($on-palm) {
+        margin-top: $spacing-unit;
+    }
 }
 
 /**
@@ -330,4 +340,13 @@
 
 .overflow-auto {
     overflow: auto;
+}
+
+/* SECTIONS */
+section {
+    margin: calc( #{$spacing-unit} * 2) 0;
+}
+
+#project-content > section, #project-content > section > section {
+    margin-top: 0;
 }

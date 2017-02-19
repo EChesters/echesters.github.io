@@ -57,20 +57,19 @@ strong {
 }
 
 .summary {
-    font-size: 1.1em;
-    font-weight: $weight-heavy;
-    text-align: center;
-    margin-bottom: calc(#{$spacing-unit} *2 );
+    font-size: $size-medium;
+    font-weight: $weight-medium;
+    color: $grey-color-light;
+    text-align: right;
+    font-style: italic;
 
     @media only screen and (max-width: 768px) {
-      font-size: 1em;
       text-align: left;
     }
 }
 
 h2, h3, h4 {
-  margin-top: calc( #{$spacing-unit} * 1.5);
-  margin-bottom: 5px;
+  margin-bottom: calc( #{ $spacing-unit} / 3);
 
   &.light {
     color: $actual-white;
@@ -78,14 +77,13 @@ h2, h3, h4 {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: $h1-size;
   font-weight: $weight-heavy;
   text-transform: uppercase;
 }
 
 h2 {
   font-size: 36px;
-  color: $brand-color;
   font-family: $logo-font;
   font-weight: $weight-heavy;
 }
@@ -112,7 +110,6 @@ h4 {
 }
 
 p {
-  margin-bottom: $spacing-unit;
   line-height: 1.7em;
 
   &.disclaimer {
