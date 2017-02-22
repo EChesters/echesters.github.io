@@ -57,6 +57,12 @@ strong {
 }
 
 .summary {
+  text-align: center;
+  font-size: $size-medium;
+  font-weight: $weight-heavy;
+}
+
+.tag-line {
     font-size: $size-medium;
     font-weight: $weight-medium;
     color: $grey-color-light;
