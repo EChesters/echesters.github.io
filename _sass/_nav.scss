@@ -15,6 +15,10 @@ nav {
       color: $actual-white;
       padding: 5px 5px 5px 10px;
       font-size: $smaller-font;
+
+      &:focus {
+        color: $brand-color;
+      }
     }
 
     a { 
@@ -71,6 +75,10 @@ nav {
     padding-top: 10px;
     padding-bottom: 10px;
     line-height: inherit;
+  }
+
+  &:focus {
+    color: $actual-white;
   }
 }
 
