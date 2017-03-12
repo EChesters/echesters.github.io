@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Other Considerations - Accessibility Code Snippets
+title: Accessibility Considerations
 description: Resource post for my team at the Accessibility hackathon, 18th and 19th March
 image: "/images/posts/TV-1.jpg"
 ---
