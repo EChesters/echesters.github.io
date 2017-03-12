@@ -74,7 +74,7 @@ strong {
     }
 }
 
-h2, h3, h4 {
+h2, h3, h4, h5 {
   margin-bottom: calc( #{ $spacing-unit} / 3);
 
   &.light {
@@ -108,6 +108,17 @@ h4 {
   font-size: 24px;
   font-family: $logo-font-light;
   color: $grey-color-dark;
+  font-weight: $weight-light;
+
+  @include media-query($on-laptop) {
+      font-size: 20px;
+  }
+}
+
+h5 {
+  font-size: 22px;
+  font-family: $logo-font-light;
+  color: $grey-color;
   font-weight: $weight-light;
 
   @include media-query($on-laptop) {
