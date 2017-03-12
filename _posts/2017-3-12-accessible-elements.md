@@ -123,4 +123,3 @@ The example below shows how to associate data cells (created with TD) with their
    </tr>
 </table>
 {% endhighlight %}
-
