@@ -74,6 +74,10 @@ strong {
     }
 }
 
+figure pre {
+  text-align: left !important;
+}
+
 h2, h3, h4, h5 {
   margin-bottom: calc( #{ $spacing-unit} / 3);
 
