@@ -61,16 +61,12 @@ nav {
       color: $brand-secondary;
 
       &:before{
-          visibility: visible;
-          -webkit-transform: scaleX(1);
-          transform: scaleX(1);
-        }
+        visibility: visible;
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+      }
     }
   }
-}
-
-.inner-nav {
-  @include vertical-align(50%);
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -117,4 +113,22 @@ ul.nav {
 .side-title {
   font-family: $logo-font-light;
   font-size: $logo-size;
+}
+
+#social-media {
+  ul {
+    margin: calc( #{$spacing-unit}/6);
+    margin-right: calc(#{$spacing-unit}/3);
+    list-style: none;
+    font-size: $logo-size;
+
+    li {
+      display: inline-block;
+
+      a {
+        color: $grey-color-light;
+        margin: 0 calc( #{$spacing-unit} /2 );
+      }
+    }
+  }
 }
