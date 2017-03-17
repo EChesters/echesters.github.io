@@ -6,9 +6,8 @@ $actual-white:			#fff;
 $black: 				#2A363B;
 $actual-black:			#000;
 
-$nav-bar:               #004853;
-$nav-text:				$actual-white;
-$nav-hover:				#C7EDE8;
+$nav-bar:               $actual-white;
+$nav-text:				$actual-black;
 
 $brand-color:      		#007E80;
 $brand-secondary:       #AD0736;
@@ -46,5 +45,5 @@ $weight-heavy:		    700;
 $additional-spacing:	10px;
 
 /* SIZE ------------- */
-$nav-bar-height:		50px;
+$nav-bar-height:		100px;
 $disclaimer-size:		.85em;

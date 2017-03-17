@@ -3,32 +3,34 @@
 
 nav {
   z-index: 100;
+  height: $nav-bar-height;
+  text-align: center;
 
   .site-title {
     letter-spacing: 5px;
     border: $border;
+    border-color: $brand-color;
     height: auto;
     margin: 8px 0;
     text-transform: uppercase;
 
     &.navbar-brand {
-      color: $actual-white;
+      color: $brand-color;
       padding: 5px 5px 5px 10px;
-      font-size: $smaller-font;
 
       &:focus {
-        color: $brand-color;
+        color: $brand-secondary;
       }
     }
 
     a { 
       &:hover {
         text-decoration: none;
-        color: $actual-white;
+        color: $brand-secondary;
       }
 
       &:visited {
-        color: $actual-white;
+        color: $brand-color;
       }
     }
   }
@@ -39,7 +41,6 @@ nav {
     color: $nav-text;
     text-decoration: none;
     font-weight: $weight-light;
-    text-shadow: $txt-shadow;
 
     &:before {
       content: "";
@@ -57,7 +58,7 @@ nav {
     }
 
     &:hover {
-      color: $nav-hover;
+      color: $brand-secondary;
 
       &:before{
           visibility: visible;
@@ -66,6 +67,10 @@ nav {
         }
     }
   }
+}
+
+.inner-nav {
+  @include vertical-align(50%);
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -98,11 +103,7 @@ ul.nav {
 }
 
 .navbar-default, .navbar-default .navbar-form {
-  background: darken($nav-bar, 5%);
-}
-
-.navbar-default .navbar-brand:hover {
-  color: $white;
+  background: $nav-bar;
 }
 
 .navbar-default .navbar-nav>li>a {
