@@ -116,6 +116,21 @@ ul.nav {
   font-size: $logo-size;
 }
 
+.navbar-default .navbar-collapse {
+  @media(max-width:767px){
+    overflow: visible;
+
+    &.in {
+      background: $white;
+      padding-bottom: $spacing-unit;
+    }
+
+    &.nav > li {
+      padding: $spacing-unit 0;
+    }
+  }
+}
+
 #social-media {
   ul {
     margin: calc( #{$spacing-unit}/6);
