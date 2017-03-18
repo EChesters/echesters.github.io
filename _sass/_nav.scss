@@ -5,6 +5,7 @@ nav {
   z-index: 100;
   height: $nav-bar-height;
   text-align: center;
+  @include box-shadow(0,0,5px,0, rgba($grey-color-light, 0.3));
 
   .site-title {
     letter-spacing: 5px;

@@ -8,9 +8,9 @@
 }
 
 @mixin box-shadow($top, $right, $bottom, $left, $colour) {
-       -moz-box-shadow:  $top, $right, $bottom, $left, $colour;
-    -webkit-box-shadow:  $top, $right, $bottom, $left, $colour;
-            box-shadow:  $top, $right, $bottom, $left, $colour;
+       -moz-box-shadow:  $top $right $bottom $left $colour;
+    -webkit-box-shadow:  $top $right $bottom $left $colour;
+            box-shadow:  $top $right $bottom $left $colour;
 }
 
 @mixin inside-shadow() {
