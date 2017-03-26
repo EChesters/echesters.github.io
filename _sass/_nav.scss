@@ -136,20 +136,20 @@ ul.nav {
   font-size: $logo-size;
 }
 
-.navbar-default .navbar-collapse {
-  @media(max-width:767px){
-    overflow: visible;
+// .navbar-default .navbar-collapse {
+//   @media(max-width:767px){
+//     overflow: visible;
 
-    &.in {
-      background: $white;
-      padding-bottom: $spacing-unit;
-    }
+//     &.in {
+//       background: $white;
+//       padding-bottom: $spacing-unit;
+//     }
 
-    &.nav > li {
-      padding: $spacing-unit 0;
-    }
-  }
-}
+//     &.nav > li {
+//       padding: $spacing-unit 0;
+//     }
+//   }
+// }
 
 .navbar-collapse {
   text-align:center;
@@ -157,6 +157,10 @@ ul.nav {
 .navbar-nav {
     display:inline-block;
     float:none;
+}
+
+.navbar-header {
+  position: absolute;
 }
 
 #social-media {
