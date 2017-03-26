@@ -4,20 +4,37 @@
 nav {
   z-index: 100;
   height: $nav-bar-height;
-  text-align: center;
   @include box-shadow(0,0,5px,0, rgba($grey-color-light, 0.3));
+
+  @media (max-width: 768px) {
+    height: calc( #{$nav-bar-height} / 3);
+  }
+
+  .site-title-margin {
+    margin-top: $spacing-unit;
+    margin-bottom: $spacing-unit;
+    
+    @media (max-width: 768px) {
+      margin: 13px 0 0 0;
+    }
+  }
 
   .site-title {
     letter-spacing: 5px;
     border: $border;
     border-color: $brand-color;
     height: auto;
-    margin: 8px 0;
     text-transform: uppercase;
+
+    @media (max-width: 768px) {
+      margin-left: 5px;
+    }
 
     &.navbar-brand {
       color: $brand-color;
       padding: 5px 5px 5px 10px;
+      float: initial;
+      margin-top: calc( #{$spacing-unit}/2);
 
       &:focus {
         color: $brand-secondary;
@@ -129,6 +146,14 @@ ul.nav {
       padding: $spacing-unit 0;
     }
   }
+}
+
+.navbar-collapse {
+  text-align:center;
+}
+.navbar-nav {
+    display:inline-block;
+    float:none;
 }
 
 #social-media {

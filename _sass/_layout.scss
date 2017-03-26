@@ -51,11 +51,16 @@
   &.bottom {
     margin-bottom: $spacing-unit;
   }
-}
 
-.margin-horizontal {
-  margin-right: $spacing-unit;
-  margin-left: $spacing-unit;
+  &.horizontal {
+    margin-right: $spacing-unit;
+    margin-left: $spacing-unit;
+  }
+
+  &.vertical {
+    margin-top: $spacing-unit;
+    margin-bottom: $spacing-unit;
+  }
 }
 
 /**
