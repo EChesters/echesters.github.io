@@ -90,23 +90,12 @@ nav {
   }
 }
 
-.navbar-default .navbar-nav > li > a {
-  padding: 5px $spacing-unit;
-
-  @media screen and (min-width: 768px) {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    line-height: inherit;
-  }
-
-  &:focus {
-    color: $actual-white;
+ul .navbar .navbar-nav {
+  text-align: center;
+  @media (max-width: 768px) {
+    margin-top: $spacing-unit;
   }
 }
-
-// ul.nav {
-//   @include vertical-align(-10%);
-// }
 
 .navbar, .navbar-default {
   @include border-radius(0);
@@ -154,15 +143,27 @@ nav {
 .navbar-collapse {
   text-align:center;
 }
+
 .navbar-nav {
-    display:inline-block;
-    float:none;
+  float: none;
+  @media (max-width: 768px) {
+    margin-top: calc( #{$spacing-unit} * 2);
+  }
 }
 
 .navbar-header {
   @media only screen and (min-width: 320px) and (max-width: 1200px) {
     position: absolute;
   }
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
 }
 
 #social-media {
