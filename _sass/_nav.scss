@@ -10,12 +10,15 @@ nav {
     height: calc( #{$nav-bar-height} / 3);
   }
 
-  .site-title-margin {
+  .site-title-container {
     margin-top: $spacing-unit;
     margin-bottom: $spacing-unit;
+    text-align: center;
+    float: none;
     
     @media (max-width: 768px) {
       margin: 13px 0 0 0;
+      text-align: left;
     }
   }
 
