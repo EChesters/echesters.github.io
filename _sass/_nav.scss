@@ -104,9 +104,9 @@ nav {
   }
 }
 
-ul.nav {
-  @include vertical-align(-10%);
-}
+// ul.nav {
+//   @include vertical-align(-10%);
+// }
 
 .navbar, .navbar-default {
   @include border-radius(0);
@@ -136,20 +136,20 @@ ul.nav {
   font-size: $logo-size;
 }
 
-// .navbar-default .navbar-collapse {
-//   @media(max-width:767px){
-//     overflow: visible;
+.navbar-default .navbar-collapse {
+  @media(max-width:767px){
+    overflow: visible;
 
-//     &.in {
-//       background: $white;
-//       padding-bottom: $spacing-unit;
-//     }
+    &.in {
+      background: $white;
+      padding-bottom: $spacing-unit;
+    }
 
-//     &.nav > li {
-//       padding: $spacing-unit 0;
-//     }
-//   }
-// }
+    &.nav > li {
+      padding: $spacing-unit 0;
+    }
+  }
+}
 
 .navbar-collapse {
   text-align:center;
@@ -160,7 +160,9 @@ ul.nav {
 }
 
 .navbar-header {
-  position: absolute;
+  @media only screen and (min-width: 320px) and (max-width: 1200px) {
+    position: absolute;
+  }
 }
 
 #social-media {
