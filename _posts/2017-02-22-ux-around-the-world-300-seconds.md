@@ -24,7 +24,7 @@ Not only do time zones affect websites, the time differences also affect how we 
 
 ## United Kingdom
 
-The United Kingdom is quite strange for UX-ers how may not be from the country. Not only do we drive on the left hand side of the road, but we are also 1 out of only 11 countries in the world with letters in postcodes. UX-ers internationalising a website must ensure that non-UK developers don’t filter letters in postcode form validation.
+The United Kingdom is quite strange for UX-ers who may not be from the country. Not only do we drive on the left hand side of the road, but we are also 1 out of only 11 countries in the world with letters in postcodes. UX-ers internationalising a website must ensure that non-UK developers don’t filter letters in postcode form validation.
 
 For websites which use measurements, like car fuel capacity or food amounts, find out the measurement system your target country uses. The UK though, is a bit weird. Despite the fact that the UK officially adopted the metric system in 1965, the country still sells certain items using Imperial measurements. For example, liquids like milk and beer are still sold in pints and for cars we still use miles rather than kilometres.
 
