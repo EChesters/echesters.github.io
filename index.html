@@ -6,13 +6,13 @@ layout: default
     <h2 class="index-title col-xs-12 no-padding">Blog</h2>
     <p class="col-xs-12 col-sm-8 col-md-6 col-lg-5 bio no-padding">I am Elizabeth Chesters. My passion is UX. From pestering users, to caricature sketches. Help me achieve world domination in UX by reading a post.</p>
   </div>
-  
+
   <div class="row">
     <div class="portfolio-items">
       {% for post in paginator.posts %}
         {% assign mod2 = forloop.index | modulo: 2 %}
         {% assign mod3 = forloop.index | modulo: 3 %}
-          <div class="col-md-4 col-sm-6 portfolio-item"> 
+          <div class="col-md-4 col-sm-6 portfolio-item">
             <a href="{{ post.url }}" class="portfolio-link" data-toggle="modal">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">

@@ -43,7 +43,16 @@
     margin-bottom: $spacing-unit;
 }
 
+.nav-margin {
+  margin-top: $nav-bar-height;
+
+  @media (max-width: 768px) {
+    margin-top: calc( #{$spacing-unit} * 2);
+  }
+}
+
 .add-margin {
+
   &.top {
     margin-top: $spacing-unit;
   }
