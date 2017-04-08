@@ -1,13 +1,12 @@
 .btn {
   color: $actual-white;
   padding: 10px 50px;
-  border: 2px solid darken($brand-color, 5%);
+  border: 2px solid darken($brand-color, 2%);
   text-align: center;
   background-color: $brand-color;
   margin: 20px 0;
   display: inline-block;
-  min-width: 30%;
-  box-shadow: 0 2px darken($brand-color, 25%);
+  box-shadow: 0 2px darken($brand-color, 5%);
   text-shadow: none;
   font-size: 1.1em;
   text-decoration: none;

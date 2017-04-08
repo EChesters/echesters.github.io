@@ -61,6 +61,10 @@
     margin-bottom: $spacing-unit;
   }
 
+  &.left {
+    margin-left: $spacing-unit;
+  }
+
   &.horizontal {
     margin-right: $spacing-unit;
     margin-left: $spacing-unit;
