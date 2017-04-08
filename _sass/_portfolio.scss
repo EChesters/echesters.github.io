@@ -129,17 +129,21 @@ header {
   }
 
   &.photography-header {
-    background-image: none;
-    background-color: $black;
-    height: 300px;
+    padding-top: $spacing-unit;
+    background-color: $actual-black;
+    text-align: center;
 
     h1 {
       color: $actual-white;
+      font-weight: $weight-light;
+      text-transform: none;
+      margin-bottom: 0;
     }
 
     p {
       color: $grey-color-light;
       font-size: 1.2em;
+      font-weight: $weight-light;
     }
   }
 }
@@ -149,7 +153,6 @@ header {
   font-family: $logo-font;
   font-size: 29px;
   letter-spacing: 10px;
-  text-transform: uppercase;
   position: relative;
 }
 
@@ -249,7 +252,7 @@ section h3.section-subheading {
 }
 
 .portfolio-item a {
-  text-decoration: none; 
+  text-decoration: none;
 
   h4 {
     text-decoration: underline;
@@ -415,7 +418,7 @@ section h3.section-subheading {
   text-transform: uppercase;
   font-family: $secondary-font;
   font-size: $smaller-font;
-  letter-spacing: $additional-spacing;  
+  letter-spacing: $additional-spacing;
 }
 
 .timeline-panel a {
@@ -580,7 +583,7 @@ ul.clients {
     display: inline-block;
     padding-right: $spacing-unit;
   }
-  
+
   img {
     max-height: 35px;
     width: auto;
