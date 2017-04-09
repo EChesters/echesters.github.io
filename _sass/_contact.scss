@@ -1,5 +1,32 @@
 #contact {
-  min-height: 80vh;
+  min-height: 95vh;
+
+  .image-container {
+    height: 95vh;
+  }
+}
+
+#about {
+  min-height: 90vh;
+
+  .image-container {
+    height: 90vh;
+  }
+}
+
+#home {
+  min-height: 65vh;
+
+  .image-container {
+    height: 65vh;
+  }
+
+  .description {
+    margin-top: calc( #{$spacing-unit} * 3);
+  }
+}
+
+.half-slide {
   overflow: auto;
 
   @media only screen and (max-width: 1330px) {
@@ -7,7 +34,6 @@
   }
 
   .image-container {
-    height: 80vh;
     position: absolute;
     top: 0;
     left: 0;
