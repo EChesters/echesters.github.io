@@ -1,4 +1,5 @@
 .btn {
+  color: $actual-white;
   padding: 10px $spacing-unit;
   border: 2px solid darken($brand-color, 2%);
   @include background-gradient($brand-color, $brand-secondary);
