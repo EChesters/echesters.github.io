@@ -1,6 +1,6 @@
 #photographs {
 	padding: calc(#{$spacing-unit} * 2) 0;
-	background-color: $footer-bg;
+	background-color: $grey-color-dark;
 
 	img {
 		margin: 0;
@@ -10,7 +10,7 @@
 
 #my-photographs {
 	padding: calc(#{$spacing-unit} * 2) 0;
-	background-color: $footer-bg;
+	background-color: $grey-color-dark;
 
 	h2 {
 		color: $actual-white;
