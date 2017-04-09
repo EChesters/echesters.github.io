@@ -99,7 +99,6 @@
 
   h1, .hello-title {
     @extend h1;
-    font-weight: $weight-heavy;
     font-family: $logo-font-light;
     font-size: 30px;
   }
@@ -127,7 +126,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    opacity: .9; 
+    opacity: .9;
     background: -webkit-linear-gradient(rgba(200,200,200, .9), rgba(160,160,160, 0.3)); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(rgba(200,200,200, .9), rgba(160,160,160, 0.3)); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(rgba(200,200,200, .9), rgba(160,160,160, 0.3)); /* For Firefox 3.6 to 15 */
@@ -165,7 +164,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    opacity: .9; 
+    opacity: .9;
     background: -webkit-linear-gradient(rgba(20,20,20, .9), rgba(50,50,50, 0.3)); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(rgba(20,20,20, .9), rgba(50,50,50, 0.3)); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(rgba(20,20,20, .9), rgba(50,50,50, 0.3)); /* For Firefox 3.6 to 15 */
@@ -186,7 +185,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    opacity: 1; 
+    opacity: 1;
     background: -webkit-linear-gradient(rgba(20,20,20, 1), rgba(50,50,50, 0.6)); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(rgba(20,20,20, 1), rgba(50,50,50, 0.6)); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(rgba(20,20,20, 1), rgba(50,50,50, 0.6)); /* For Firefox 3.6 to 15 */
@@ -221,7 +220,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    opacity: .8; 
+    opacity: .8;
     @include background-gradient(rgba(10,10,10, 1), rgba(255,255,255, 0));
   }
 

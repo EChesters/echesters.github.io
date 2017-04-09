@@ -15,14 +15,14 @@
 }
 
 #home {
-  min-height: 65vh;
+  min-height: 80vh;
 
   .image-container {
-    height: 65vh;
+    height: 80vh;
   }
 
   .description {
-    margin-top: calc( #{$spacing-unit} * 3);
+    margin-top: calc( #{$spacing-unit} * 1.5);
   }
 }
 

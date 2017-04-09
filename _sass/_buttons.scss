@@ -1,11 +1,8 @@
 .btn {
-  color: $actual-white;
   padding: 10px $spacing-unit;
-  // border: 2px solid darken($brand-color, 2%);
-  text-align: center;
+  border: 2px solid darken($brand-color, 2%);
   @include background-gradient($brand-color, $brand-secondary);
   display: inline-block;
-  box-shadow: 0 2px lighten($brand-color, 5%);
   text-shadow: none;
   font-size: 1.1em;
   text-decoration: none;
