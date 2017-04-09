@@ -132,6 +132,7 @@ header {
     padding-top: $spacing-unit;
     background-color: $actual-black;
     text-align: center;
+    margin-top: 0;
 
     h1 {
       color: $actual-white;
@@ -144,6 +145,8 @@ header {
       color: $grey-color-light;
       font-size: 1.2em;
       font-weight: $weight-light;
+      margin-bottom: 0;
+      padding-bottom: $spacing-unit;
     }
   }
 }
