@@ -1,24 +1,38 @@
+$slide-height: 85vh;
+
 #contact {
-  min-height: 95vh;
+  min-height: 100vh;
 
   .image-container {
-    height: 95vh;
+    height: 100vh;
+  }
+
+  .description {
+    margin-top: calc( #{$spacing-unit} * 3);
   }
 }
 
 #about {
-  min-height: 90vh;
+  min-height: $slide-height;
 
   .image-container {
-    height: 90vh;
+    height: $slide-height;
+  }
+
+  .description {
+    margin-top: calc( #{$spacing-unit} * 3);
   }
 }
 
 #home {
-  min-height: 80vh;
+  min-height: $slide-height;
 
   .image-container {
-    height: 80vh;
+    height: $slide-height;
+  }
+
+  .description {
+    margin-top: calc( #{$spacing-unit} * 3);
   }
 }
 
@@ -30,7 +44,7 @@
   }
 
   .description {
-    margin-top: calc( #{$spacing-unit} * 2);
+    margin-top: calc( #{$spacing-unit} * 3);
   }
 }
 
