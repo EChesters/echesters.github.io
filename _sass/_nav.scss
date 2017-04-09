@@ -1,51 +1,26 @@
-@import '_vars';
-@import '_mixins';
-
 nav {
-  z-index: 100;
-  height: $nav-bar-height;
   @include box-shadow(0,0,5px,0, rgba($grey-color-light, 0.3));
+  padding-top: calc( #{$spacing-unit}/2);
 
-  @media (max-width: 768px) {
-    height: calc( #{$nav-bar-height} / 3);
-  }
-
-  .site-title-container {
-    margin-top: $spacing-unit;
-    margin-bottom: calc(#{$spacing-unit} / 2);
-    text-align: center;
-    float: none;
-
-    @media (max-width: 768px) {
-      margin: 13px 0 0 0;
-      text-align: left;
-    }
-  }
 
   .site-title {
     letter-spacing: 5px;
     border: $border;
     border-color: $brand-color;
     height: auto;
-    z-index: 1000;
     text-transform: uppercase;
 
-    @media (max-width: 768px) {
-      margin-left: 5px;
-    }
-
     &.navbar-brand {
-      color: $brand-color;
       padding: 5px 5px 5px 10px;
-      float: initial;
-      margin-top: calc( #{$spacing-unit}/2);
+      color: $brand-color;
+      text-decoration: none;
+      font-weight: $weight-light;
+      margin-left: $spacing-unit;
 
       &:focus {
         color: $brand-secondary;
       }
-    }
 
-    a {
       &:hover {
         text-decoration: none;
         color: $brand-secondary;
@@ -63,6 +38,7 @@ nav {
     color: $nav-text;
     text-decoration: none;
     font-weight: $weight-light;
+    padding-top: 0;
 
     &:before {
       content: "";
@@ -91,86 +67,13 @@ nav {
   }
 }
 
-ul .navbar .navbar-nav {
-  text-align: center;
-  @media (max-width: 768px) {
-    margin-top: $spacing-unit;
-  }
+.navbar-nav>li>a {
+  padding-top: 7px;
 }
 
-.navbar, .navbar-default {
-  @include border-radius(0);
-  border: none;
-  background: transparent;
-  margin-bottom: 0;
 
-  @media only screen and (min-width: 320px) and (max-width: 1200px) {
-      width: 100%;
-  }
-}
-
-.navbar-default, .navbar-default .navbar-form {
-  background: $nav-bar;
-}
-
-.navbar-default .navbar-nav>li>a {
-  color: $nav-text;
-
-  &:hover {
-    color: $nav-text;
-  }
-}
-
-.side-title {
-  font-family: $logo-font-light;
-  font-size: $logo-size;
-}
-
-.navbar-default .navbar-collapse {
-  @media(max-width:767px){
-    overflow: visible;
-
-    &.in {
-      background: $white;
-      padding-bottom: $spacing-unit;
-    }
-
-    &.nav > li {
-      padding: $spacing-unit 0;
-    }
-  }
-}
-
-.navbar-collapse {
-  text-align:center;
-}
-
-.navbar-nav {
-  float: none;
-  @media (max-width: 768px) {
-    margin-top: calc( #{$spacing-unit} * 2);
-  }
-}
-
-.navbar-header {
-  @media only screen and (min-width: 320px) and (max-width: 1200px) {
-    position: absolute;
-  }
-}
-
-.navbar .navbar-nav {
-    display: inline-block;
-    float: none;
-}
-
-.navbar .navbar-collapse {
-    text-align: center;
-}
-
-#social-media {
+.social-media {
   ul {
-    margin: calc( #{$spacing-unit}/6);
-    margin-right: calc(#{$spacing-unit}/3);
     list-style: none;
     font-size: $logo-size;
 
