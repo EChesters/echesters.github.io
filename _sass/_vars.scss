@@ -1,49 +1,49 @@
 @import url('https://fonts.googleapis.com/css?family=Cutive+Mono|Source+Sans+Pro:300,400,700&subset=latin-ext');
 
 /* COLOURS ----------- */
-$white: 				#F4F4F4;
-$actual-white:			#fff;
-$black: 				#2A363B;
-$actual-black:			#000;
+$white:                       #F4F4F4;
+$actual-white:                #fff;
+$black:                       #2A363B;
+$actual-black:                #000;
 
-$nav-bar:               $actual-white;
-$nav-text:				$actual-black;
+$nav-bar:                     $actual-white;
+$nav-text:                    $actual-black;
 
-$brand-color:      		#007E80;
-$brand-secondary:       #AD0736;
+$brand-color:                 #007E80;
+$brand-secondary:             #AD0736;
 
-$code-club-green:		#2d9632;
-$codefirst-red:			#de2244;
-$accessibility-blue:	#004289;
+$code-club-green:             #2d9632;
+$codefirst-red:               #de2244;
+$accessibility-blue:          #004289;
 
-$portuguese-green:		#00ac00;
+$portuguese-green:            #00ac00;
 
-$txt-shadow:			0px 0px 10px rgba(0, 0, 0, 0.6);
-$border:				2px solid $actual-white;
-$box-shadow-grey:		lighten($grey-color-light, 25%);
+$txt-shadow:                  0px 0px 10px rgba(0, 0, 0, 0.6);
+$border:                      2px solid $actual-white;
+$box-shadow-grey:             lighten($grey-color-light, 25%);
 
 /* FONTS ------------- */
-$base-font-family: 		'Source Sans Pro', sans-serif;
-$base-display-font: 	$base-font-family;
-$code-font:				'Cutive Mono', monospace;
-$logo-font:				'Source Sans Pro', sans-serif;
-$logo-font-light:		'Source Sans Pro', sans-serif;
-$secondary-font:		$logo-font;
+$base-font-family:            'Source Sans Pro', sans-serif;
+$base-display-font:           $base-font-family;
+$code-font:                   'Cutive Mono', monospace;
+$logo-font:                   'Source Sans Pro', sans-serif;
+$logo-font-light:             'Source Sans Pro', sans-serif;
+$secondary-font:              $logo-font;
 
-$font-button: 			1em;
-$smaller-font:			0.85em;
-$post-title-size:		2em;
-$h1-size:				3.5em;
-$logo-size:				1.3em;
+$font-button:       1em;
+$smaller-font:      0.85em;
+$post-title-size:   2em;
+$h1-size:       3.5em;
+$logo-size:       1.3em;
 
-$size-medium:			22px;
+$size-medium:     22px;
 
-$weight-light:		    300;
-$weight-medium:	        400;
-$weight-heavy:		    700;
+$weight-light:        300;
+$weight-medium:         400;
+$weight-heavy:        700;
 
-$additional-spacing:	10px;
+$additional-spacing:  10px;
 
 /* SIZE ------------- */
-$nav-bar-height:		150px;
-$disclaimer-size:		.85em;
+$nav-bar-height:    150px;
+$disclaimer-size:   .85em;

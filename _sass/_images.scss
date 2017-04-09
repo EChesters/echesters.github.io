@@ -36,7 +36,7 @@ img {
   overflow: auto;
 
   img {
-    float: none;
+    // float: none;
   }
 
   img.two {
@@ -50,6 +50,11 @@ img {
   .same-height {
     height: 250px;
     width: auto;
+  }
+
+  .box {
+    height: 250px;
+    width: 350px;
   }
 }
 
