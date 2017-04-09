@@ -20,9 +20,17 @@
   .image-container {
     height: 80vh;
   }
+}
+
+#portfolio {
+  min-height: 70vh;
+
+  .image-container {
+    height: 70vh;
+  }
 
   .description {
-    margin-top: calc( #{$spacing-unit} * 1.5);
+    margin-top: calc( #{$spacing-unit} * 2);
   }
 }
 
