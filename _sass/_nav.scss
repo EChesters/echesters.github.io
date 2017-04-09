@@ -12,10 +12,10 @@ nav {
 
   .site-title-container {
     margin-top: $spacing-unit;
-    margin-bottom: $spacing-unit;
+    margin-bottom: calc(#{$spacing-unit} / 2);
     text-align: center;
     float: none;
-    
+
     @media (max-width: 768px) {
       margin: 13px 0 0 0;
       text-align: left;
@@ -27,6 +27,7 @@ nav {
     border: $border;
     border-color: $brand-color;
     height: auto;
+    z-index: 1000;
     text-transform: uppercase;
 
     @media (max-width: 768px) {
@@ -44,7 +45,7 @@ nav {
       }
     }
 
-    a { 
+    a {
       &:hover {
         text-decoration: none;
         color: $brand-secondary;

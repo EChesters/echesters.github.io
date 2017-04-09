@@ -1,7 +1,3 @@
-.nav-margin {
-    margin-top: calc( #{$nav-bar-height} + #{$spacing-unit});
-}
-
 .no-padding {
     padding: 0 !important;
 }
@@ -41,14 +37,6 @@
 .more-margin {
     margin-top: $spacing-unit;
     margin-bottom: $spacing-unit;
-}
-
-.nav-margin {
-  margin-top: $nav-bar-height;
-
-  @media (max-width: 768px) {
-    margin-top: calc( #{$spacing-unit} * 2);
-  }
 }
 
 .add-margin {
