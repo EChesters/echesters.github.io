@@ -1,20 +1,20 @@
 ul {
 
   &.skills {
-    color: lighten($brand-color, 15%);
+    color: $brand-darker;
     margin-left: 0;
-    
+
     li {
       display: inline-block;
       list-style: none;
       padding: 10px 15px;
-      border: lighten($brand-color, 15%) 2px solid;
+      border: $brand-darker 2px solid;
     }
   }
 
   &.no-bullets {
     margin-bottom: $spacing-unit;
-    
+
     li {
       list-style-type: none;
     }

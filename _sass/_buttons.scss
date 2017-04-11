@@ -10,7 +10,7 @@
   text-decoration: none;
 
   &:hover {
-    background-color: darken($brand-color, 5%);
+    @include background-gradient($brand-secondary, $brand-color);
     text-decoration: underline;
     color: $actual-white;
   }
