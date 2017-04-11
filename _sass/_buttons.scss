@@ -1,11 +1,12 @@
 .btn {
   color: $actual-white;
-  padding: 10px $spacing-unit;
+  padding: calc( #{$spacing-unit} / 2) $spacing-unit;
   border: 2px solid darken($brand-color, 2%);
   @include background-gradient($brand-color, $brand-secondary);
   display: inline-block;
   text-shadow: none;
   font-size: 1.1em;
+  margin-bottom: $spacing-unit;
   text-decoration: none;
 
   &:hover {
@@ -16,11 +17,6 @@
 
   &:visited {
     color: $actual-white;
-  }
-
-  @media screen and (max-width: 1024px) {
-    width: 90%;
-    padding: 15px 0;
   }
 
   &.white {
