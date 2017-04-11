@@ -12,27 +12,21 @@ $slide-height: 85vh;
   }
 }
 
-#about {
+#home, #about {
   min-height: $slide-height;
 
   .image-container {
     height: $slide-height;
+    @media only screen and (max-width: 1330px) {
+      height: 40vh;
+    }
   }
 
   .description {
     margin-top: calc( #{$spacing-unit} * 3);
-  }
-}
-
-#home {
-  min-height: $slide-height;
-
-  .image-container {
-    height: $slide-height;
-  }
-
-  .description {
-    margin-top: calc( #{$spacing-unit} * 3);
+    @media only screen and (max-width: 1330px) {
+      margin-top: $spacing-unit;
+    }
   }
 }
 
