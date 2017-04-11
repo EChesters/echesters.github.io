@@ -6,10 +6,6 @@ $slide-height: 85vh;
   .image-container {
     height: 100vh;
   }
-
-  .description {
-    margin-top: calc( #{$spacing-unit} * 3);
-  }
 }
 
 #home, #about {
@@ -17,15 +13,8 @@ $slide-height: 85vh;
 
   .image-container {
     height: $slide-height;
-    @media only screen and (max-width: 1330px) {
+    @media only screen and (max-width: 1200px) {
       height: 40vh;
-    }
-  }
-
-  .description {
-    margin-top: calc( #{$spacing-unit} * 3);
-    @media only screen and (max-width: 1330px) {
-      margin-top: $spacing-unit;
     }
   }
 }
@@ -35,10 +24,18 @@ $slide-height: 85vh;
 
   .image-container {
     height: 70vh;
-  }
 
-  .description {
-    margin-top: calc( #{$spacing-unit} * 3);
+    @media only screen and (max-width: 1200px) {
+      height: 40vh;
+    }
+  }
+}
+
+.description {
+  margin-top: calc( #{$spacing-unit} * 5);
+
+  @media only screen and (max-width: 1200px) {
+    margin-top: $spacing-unit;
   }
 }
 
@@ -49,7 +46,7 @@ h1.hello-title {
 .half-slide {
   overflow: auto;
 
-  @media only screen and (max-width: 1330px) {
+  @media only screen and (max-width: 1200px) {
     margin-bottom: $spacing-unit;
   }
 
@@ -61,17 +58,9 @@ h1.hello-title {
     bottom: 0;
     overflow: hidden;
 
-    @media only screen and (max-width: 1330px) {
+    @media only screen and (max-width: 1200px) {
       height: 50vh;
       position: static;
-    }
-  }
-
-  .description {
-    margin-top: calc( #{$spacing-unit} * 1.5);
-
-    @media only screen and (max-width: 1330px) {
-      margin-top: $spacing-unit;
     }
   }
 }
