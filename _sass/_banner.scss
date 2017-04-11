@@ -6,7 +6,7 @@
 }
 
 .post-header {
-  background-size: cover; 
+  background-size: cover;
   background-attachment: scroll;
   background-repeat: no-repeat;
   height: 100vh;
@@ -19,7 +19,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    opacity: .8; 
+    opacity: .8;
     max-height: 80vh;
     @include background-gradient(rgba(20,20,20, .8), rgba(255,255,255, 0));
 
@@ -30,8 +30,8 @@
 }
 
 .intro-header {
-  background-color: $grey-color; 
-  background-size: cover; 
+  background-color: $grey-color;
+  background-size: cover;
   background-attachment: scroll;
   background-repeat: no-repeat;
   height: 60vh;
@@ -44,12 +44,14 @@
     right: 0;
     bottom: 0;
     left: 0;
-    opacity: .8; 
+    opacity: .5;
     max-height: 70vh;
-    @include background-gradient(rgba(20,20,20, .8), rgba(255,255,255, 0));
+    margin-top: $nav-bar-height;
+    @include background-gradient(rgba(20,20,20, .7), rgba(255,255,255, 0));
 
     @media only screen and (max-width: 768px) {
       max-height: 70vh;
+      margin-top: 60px;
     }
   }
 
@@ -104,24 +106,26 @@
 .site-heading, .page-heading {
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
   font-family: $logo-font;
-  @include vertical-align(-225%);
-  margin-bottom: 300px;
-  
+
   h1 {
     font-size: 60px;
 
     @media only screen and (max-width: 768px) {
-      font-size: 30px;
+      // font-size: 50px;
     }
   }
 
   @media (max-width: 768px) {
-    margin-top: 200px;
+    margin-top: 50px;
     @include vertical-align(0);
     font-size: 60px;
   }
 }
 
 .site-heading {
-  @include vertical-align(-90%);
+  @include vertical-align(-200%);
+
+  @media only screen and (max-width: 768px) {
+    @include vertical-align(-100%);
+  }
 }

@@ -38,6 +38,17 @@ strong {
   text-transform: uppercase;
 }
 
+.blog-title {
+  h1 {
+    color: $actual-white;
+    margin: calc( #{$spacing-unit} * 4) 0;
+
+    @media (max-width: 768px) {
+      margin: calc( #{ $spacing-unit} * 2) 0;
+    }
+  }
+}
+
 .bio {
   margin-bottom: 60px;
   z-index: 20;
