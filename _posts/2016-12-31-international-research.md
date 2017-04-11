@@ -1,17 +1,17 @@
 ---
 layout: post
 title: International Research at Your Desk
-description: International research doesn't have to be expensive. Here I explain a few tricks I go through to discover UX trends across the World Wide Web. 
+description: International research doesn't have to be expensive. Here I explain a few tricks I go through to discover UX trends across the World Wide Web.
 
 ---
 
 Ever wondered how other cultures use technology, and solve the same problems you have? Well international research doesn’t have to be so expensive and can happen at your desk. Different cultures have the same problems and their approaches can be new and refreshing. Proven trends of big brands from overseas are ideal for keeping your clients ahead of the game.
 
-So here are a few tips on how to travel the world’s technology in just a few clicks. 
+So here are a few tips on how to travel the world’s technology in just a few clicks.
 
 ## Googling on a new level
 
-Googling in languages you’re fluent in is a great way to find new websites. Yet if you don’t know the language of the culture you’re investigating, it gets trickier. Imagine you’re doing a competitor analysis for a retail website, and you want to explore Egyptian retail. Here are a few steps in how to kick off international research. 
+Googling in languages you’re fluent in is a great way to find new websites. Yet if you don’t know the language of the culture you’re investigating, it gets trickier. Imagine you’re doing a competitor analysis for a retail website, and you want to explore Egyptian retail. Here are a few steps in how to kick off international research.
 
 <p class="no-margin"><span class="sidenote">Question: What retail brands are there in Egypt?</span></p>
 <p class="no-margin"><strong>Google: ‘Clothing brands in Egypt’</strong></p>
@@ -80,7 +80,7 @@ In big cities as well there are also meetups which celebrate their own culture. 
 
 ## To end
 
-International research is becoming more crucial to tech every day. The world is becoming more connected. In doing so the demands for internationalised products has increased tenfold. But besides that, international research is inspiring. It’s clear cultures share the same tech struggles. But research allows us to explore the cultural problems that our country is yet to even face. 
+International research is becoming more crucial to tech every day. The world is becoming more connected. In doing so the demands for internationalised products has increased tenfold. But besides that, international research is inspiring. It’s clear cultures share the same tech struggles. But research allows us to explore the cultural problems that our country is yet to even face.
 
 <span class="sidenote">In China, they have a whole new breed of mobile apps, called Light Apps! Their take on mobile is completely different to the UK.</span>
 
@@ -99,5 +99,5 @@ Now we have the what, and the how. The next challenge is then to discover the *w
 [#UXChat]:https://twitter.com/search?f=tweets&vertical=default&q=%23uxchat&src=typd
 [UX meetups in different languages like Czech]:https://www.meetup.com/londonuxgroup/events/236266398/
 [Twitter]:https://twitter.com/EChesters
-[contact me]:/pages/contact.html
+[contact me]:/contact.html
 [blog post shows great examples of how McDonald's localise their website]:http://blog.usabilla.com/designing-for-a-cross-cultural-user-experience-part1/
