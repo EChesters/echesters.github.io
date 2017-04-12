@@ -71,6 +71,7 @@
   overflow: auto;
   z-index: 0;
   position: relative;
+  background-color: $actual-white;
 
   &.white {
     background-color: $background-color;
@@ -133,12 +134,6 @@
     background: linear-gradient(rgba(200,200,200, .9), rgba(160,160,160, 0.3)); /* Standard syntax */
     z-index: -9;
   }
-}
-
-#brief-cv:before {
-  transform: translateZ(-1px) scale(2);
-  z-index: -1;
-  background-size: cover;
 }
 
 .buttons {
