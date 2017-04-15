@@ -32,7 +32,7 @@ $slide-height: 85vh;
 }
 
 .description {
-  margin-top: calc( #{$spacing-unit} * 5);
+  margin-top: 8vh;
 
   @media only screen and (max-width: 1200px) {
     margin-top: $spacing-unit;
