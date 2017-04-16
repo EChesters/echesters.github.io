@@ -2,6 +2,10 @@ nav {
   @include box-shadow(0,0,5px,0, rgba($grey-color-light, 0.3));
   padding-top: calc( #{$spacing-unit}/2);
 
+  &.navbar-default {
+    background-color: $nav-bar;
+    border: none;
+  }
 
   .site-title {
     letter-spacing: 5px;
@@ -65,6 +69,10 @@ nav {
       }
     }
   }
+}
+
+.navbar {
+  @include border-radius(0);
 }
 
 .navbar-nav>li>a {

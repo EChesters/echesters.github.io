@@ -14,9 +14,9 @@
 }
 
 @mixin inside-shadow() {
-  -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.3);
-  -moz-box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.3);
-  box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.3);
+  -webkit-box-shadow:   inset 0px 0px 10px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow:      inset 0px 0px 10px 0px rgba(0,0,0,0.3);
+  box-shadow: inset     0px 0px 10px 0px rgba(0,0,0,0.3);
 }
 
 @mixin vertical-align($percent) {
@@ -49,10 +49,10 @@
 }
 
 @mixin background-size($size) {
-    -webkit-background-size: $size;
-    -moz-background-size: $size;
-    background-size: $size;
-    -o-background-size: $size;
+  -webkit-background-size:  $size;
+  -moz-background-size:     $size;
+  background-size:          $size;
+  -o-background-size:       $size;
 }
 
 @mixin background-gradient($gradient-1, $gradient-2) {
