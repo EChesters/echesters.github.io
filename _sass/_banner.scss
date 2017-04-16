@@ -21,9 +21,8 @@
         background-repeat: no-repeat;
         background-size: cover;
         z-index: -10;
-        min-height: 450px;
+        min-height: calc(#{$nav-bar-height} + 450px);
         width: auto;
-        margin-top: calc( #{$nav-bar-height} - 3px);
         @include dynamic-sizing();
 
         @media only screen and (max-width: 1200px) {
@@ -40,9 +39,8 @@
         bottom: 0;
         left: 0;
         opacity: .8;
-        height: 450px;
+        height: calc(#{$nav-bar-height} + 450px - 3px);
         background-size: cover;
-        margin-top: calc(#{$nav-bar-height} - 3px);
         width: 100%;
         @include background-gradient(rgba(#000428, .9), rgba(#004e92, .5));
       }

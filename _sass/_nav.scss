@@ -1,23 +1,23 @@
 nav {
-  @include box-shadow(0,0,5px,0, rgba($grey-color-light, 0.3));
   padding-top: calc( #{$spacing-unit}/2);
   z-index: 100;
+  background-color: rgba($nav-bar, 0);
 
   &.navbar-default {
-    background-color: $nav-bar;
+    background-color: rgba($nav-bar, 0);
     border: none;
   }
 
   .site-title {
     letter-spacing: 5px;
     border: $border;
-    border-color: $brand-color;
+    border-color: $actual-white;
     height: auto;
     text-transform: uppercase;
 
     &.navbar-brand {
       padding: 5px 5px 5px 10px;
-      color: $brand-color;
+      color: $actual-white;
       text-decoration: none;
       font-weight: $weight-light;
       margin-left: $spacing-unit;
@@ -28,11 +28,11 @@ nav {
 
       &:hover {
         text-decoration: none;
-        color: $brand-secondary;
+        color: $brand-color;
       }
 
       &:visited {
-        color: $brand-color;
+        color: $actual-white;
       }
     }
   }
@@ -40,7 +40,6 @@ nav {
   a {
     transition: box-shadow 0.3s;
     position: relative;
-    color: $nav-text;
     text-decoration: none;
     font-weight: $weight-light;
     padding-top: 0;
@@ -74,6 +73,18 @@ nav {
 
 .navbar {
   @include border-radius(0);
+}
+
+.navbar-default {
+  background-color: rgba($nav-bar, 0);
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: $actual-white;
+
+    &:hover {
+      color: $brand-color;
+    }
 }
 
 .navbar-nav>li>a {
