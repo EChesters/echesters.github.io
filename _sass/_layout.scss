@@ -22,9 +22,14 @@
 }
 
 .add-padding {
-    &.top {
-        padding-top: $spacing-unit;
-    }
+  &.top {
+    padding-top: $spacing-unit;
+  }
+
+  &.vertical {
+    padding-top: $spacing-unit;
+    padding-bottom: $spacing-unit;
+  }
 }
 
 .no-margin {
@@ -368,4 +373,8 @@
 
 #project-content > section, #project-content > section > section {
     margin-top: 0;
+}
+
+.no-float {
+    float: none;
 }

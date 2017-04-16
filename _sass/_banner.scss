@@ -10,7 +10,7 @@
     bottom: 0;
     right: 0;
     background-size: cover;
-    background-position: center center;
+    background-position: top center;
     height: calc(#{$nav-bar-height} + 500px);
 
     &:before {
