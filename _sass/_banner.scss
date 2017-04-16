@@ -2,49 +2,31 @@
   padding-top: calc(#{$nav-bar-height} * 2);
   height: 500px;
   overflow: hidden;
-  display: block;
 
   .banner-img {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-    min-height: 100%;
-    height: 500px;
-    width: auto;
-    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    height: calc(#{$nav-bar-height} + 500px);
 
-      img {
-        position: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        z-index: -10;
-        min-height: calc(#{$nav-bar-height} + 500px);
-        width: auto;
-        @include dynamic-sizing();
-
-        @media only screen and (max-width: 1200px) {
-          height: 50vh;
-          position: static;
-        }
-      }
-
-      &:before {
-        content: '';
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        opacity: .8;
-        height: calc(#{$nav-bar-height} + 500px - 3px);
-        background-size: cover;
-        width: 100%;
-        @include background-gradient(rgba(#000428, .9), rgba(#004e92, .5));
-      }
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      opacity: .8;
+      height: calc(#{$nav-bar-height} + 500px);
+      background-size: cover;
+      width: 100%;
+      @include background-gradient(rgba(#000428, .9), rgba(#004e92, .5));
     }
+  }
 
   .banner-text {
     position: relative;
