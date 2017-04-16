@@ -1,23 +1,26 @@
 .banner {
-  width: 100vh;
-  max-height: 100vh;
+  padding-top: $nav-bar-height;
+  height: 50vh;
   overflow: auto;
   display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
 
-  .banner-img img {
-    position: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: auto;
+  .banner-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-height: 100%;
 
-    perspective: 1px;
-    overflow-x: hidden;
-    overflow-y: auto;
-    -webkit-perspective: 1px;
-    transform-style: preserve-3d;
+      img {
+      position: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: auto;
+      z-index: -10;
+    }
+  }
+
+  .banner-text {
+    z-index: 40000;
   }
 }
