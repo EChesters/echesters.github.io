@@ -74,13 +74,13 @@
 }
 
 .post-content {
-  padding: calc(#{$spacing-unit} * 3) calc(#{$spacing-unit} * 2) calc(#{$spacing-unit} * 2);
+  // padding: calc(#{$spacing-unit} * 3) calc(#{$spacing-unit} * 2) calc(#{$spacing-unit} * 2);
   background-color: $white;
   overflow: auto;
 
   @media only screen and (max-width: 768px) {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: $spacing-unit;
+    padding-right: $spacing-unit;
   }
 }
 

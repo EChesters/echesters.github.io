@@ -2,3 +2,17 @@
 	background: $portuguese-green;
 	color: $white;
 }
+
+/* BG COLOURS */
+.bg-light-gray {
+  background-color: #f7f7f7;
+}
+
+.bg-white {
+  background-color: $actual-white;
+}
+
+.bg-offset-white {
+	background-color: $white;
+	position: relative;
+}
