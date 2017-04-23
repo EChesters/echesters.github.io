@@ -6,13 +6,20 @@
 /* BG COLOURS */
 .bg-light-gray {
   background-color: #f7f7f7;
+	@extend .bg-pos;
 }
 
 .bg-white {
   background-color: $actual-white;
+	@extend .bg-pos;
 }
 
 .bg-offset-white {
 	background-color: $white;
+	@extend .bg-pos;
+}
+
+// For backgrounds only
+.bg-pos {
 	position: relative;
 }
