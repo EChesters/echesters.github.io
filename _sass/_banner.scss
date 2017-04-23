@@ -43,3 +43,11 @@
     }
   }
 }
+
+.post-banner-text {
+  @extend .banner-text;
+
+  h1 {
+    font-size: $h1-size !important;
+  }
+}
