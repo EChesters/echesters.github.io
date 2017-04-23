@@ -1,0 +1,18 @@
+input[type='text'], input[type='email'] {
+  height: 40px;
+}
+
+input[type='text'], input[type='email'], textarea[type='text'] {
+  border-radius: 0;
+  border: $grey-color-light 1px solid;
+
+  &:focus {
+    border-color: #004e92;
+  }
+}
+
+label {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: $weight-light;
+}

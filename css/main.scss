@@ -28,11 +28,11 @@ $grey-color:            #556270;
 $grey-color-light:      lighten($grey-color, 30%);
 $grey-color-dark:       darken($grey-color, 25%);
 
-$content-width:    		800px;
+$content-width:    		  800px;
 $footer-height:         280px;
 
-$on-palm:          		600px;
-$on-laptop:        		800px;
+$on-palm:          		  600px;
+$on-laptop:        		  800px;
 
 $icon-height:           50px;
 
@@ -66,6 +66,7 @@ $icon-height:           50px;
     "contact",
     "posts",
     "images",
+    "forms",
     "image-containers",
     "fonts",
     "text",
