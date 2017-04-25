@@ -2,7 +2,7 @@
 layout: post
 title: 5 Mini Exercises to Explain UX
 description: Check out my 5 exercises which I use to aid me to explain what user experience is, to non-techie folk
-image: /images/posts/empathy-exercises/glasgow-3.jpg
+image: /images/posts/empathy-exercises/glasgow-3.JPG
 ---
 
 User Experience is rarely something that we see. The times we see it most is, in our users’ faces when we spend time with them. But most of the time, it takes a long, hard sell to get the budget to do so.
@@ -38,10 +38,10 @@ The next exercise asks people to complete any task that fits your presentation t
 
 I ran this exercise in support of the [campaign ran by AbilityNet] called Look no Hands, for a client event. The audience supported the cause by texting a donation to their number, by not using their hands.
 
-<img src="/images/posts/empathy-exercises/glasgow-1.jpg" class="responsive-img col-xs- col-md-6 no-padding" alt=""/>
-<img src="/images/posts/empathy-exercises/glasgow-2.jpg" class="responsive-img col-xs- col-md-6 no-padding" alt=""/>
-<img src="/images/posts/empathy-exercises/glasgow-3.jpg" class="responsive-img col-xs- col-md-6 no-padding" alt=""/>
-<img src="/images/posts/empathy-exercises/glasgow-4.jpg" class="responsive-img col-xs- col-md-6 no-padding" alt=""/>
+<img src="/images/posts/empathy-exercises/glasgow-1.JPG" class="responsive-img col-xs- col-md-6 no-padding" alt=""/>
+<img src="/images/posts/empathy-exercises/glasgow-2.JPG" class="responsive-img col-xs- col-md-6 no-padding" alt=""/>
+<img src="/images/posts/empathy-exercises/glasgow-3.JPG" class="responsive-img col-xs- col-md-6 no-padding" alt=""/>
+<img src="/images/posts/empathy-exercises/glasgow-4.JPG" class="responsive-img col-xs- col-md-6 no-padding" alt=""/>
 <div class="col-xs-12 add-margin bottom"></div>
 
 ## Speak to the audience in a different language
