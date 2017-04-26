@@ -55,15 +55,16 @@ strong {
 }
 
 .emphasise {
-    color: $brand-secondary;
-    font-size: 25px;
-    font-weight: 100;
+  color: $brand-secondary;
+  font-size: 25px;
+  font-weight: 100;
+  display: block;
 }
 
 .sidenote {
-    color: $grey-color;
-    font-style: italic;
-    font-size: .9em;
+  color: $grey-color-light;
+  font-style: italic;
+  font-size: .9em;
 }
 
 .summary {
