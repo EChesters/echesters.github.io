@@ -56,8 +56,17 @@
 }
 
 @mixin background-gradient($gradient-1, $gradient-2) {
-  background: -webkit-linear-gradient( $gradient-1, $gradient-2 ); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient( $gradient-1, $gradient-2 ); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient( $gradient-1, $gradient-2 ); /* For Firefox 3.6 to 15 */
-  background: linear-gradient( $gradient-1, $gradient-2 );
+  background: $gradient-1;
+  background: -webkit-linear-gradient($gradient-1, $gradient-2); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient($gradient-1, $gradient-2); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient($gradient-1, $gradient-2); /* For Firefox 3.6 to 15 */
+  background: linear-gradient($gradient-1, $gradient-2);
+}
+
+@mixin background-gradient-direction($direction, $gradient-1, $gradient-2) {
+  background: $gradient-1;
+  background: -webkit-linear-gradient($direction, $gradient-1, $gradient-2 ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient($direction, $gradient-1, $gradient-2 ); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient($direction, $gradient-1, $gradient-2 ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to $direction, $gradient-1, $gradient-2 );
 }
