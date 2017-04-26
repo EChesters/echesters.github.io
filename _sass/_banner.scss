@@ -1,6 +1,6 @@
 .banner {
   padding-top: calc(#{$nav-bar-height} * 2);
-  height: 500px;
+  height: 550px;
   overflow: hidden;
 
   @include media-query($on-palm) {
@@ -16,7 +16,7 @@
     right: 0;
     background-size: cover;
     background-position: top center;
-    height: calc(#{$nav-bar-height} + 500px);
+    height: calc(#{$nav-bar-height} + 550px);
 
     &:before {
       content: '';
@@ -26,7 +26,7 @@
       bottom: 0;
       left: 0;
       opacity: .8;
-      height: calc(#{$nav-bar-height} + 500px);
+      height: calc(#{$nav-bar-height} + 550px);
       background-size: cover;
       width: 100%;
       @include background-gradient(rgba(#000428, .9), rgba(#004e92, .5));
