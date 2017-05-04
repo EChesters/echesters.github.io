@@ -1,12 +1,19 @@
 ---
 layout: portfolio
 title: Photography
-description: Moments captured from my life adventures
+description: Moments captured from my life adventures, shared with you
 ---
-<header class="photography-header">
-  <h1>{{ page.title }}</h1>
-  <p>{{ page.description }}</p>
-</header>
+<div class="banner small-banner">
+  <div class="banner-photography bg-pos"></div>
+  <div class="banner-text">
+    <div class="row">
+      <h1 class="col-xs-12 col-sm-9 col-md-4 col-md-offset-2">{{ page.title }}</h1>
+    </div>
+    <div class="row">
+      <p class="col-xs-12 col-sm-5 col-md-4 col-md-offset-2">{{ page.description }}</p>
+    </div>
+  </div>
+</div>
 
 <div id="gallery" class="galleria">
   <img src="/images/photos/india-1.jpg" alt="Mosque in the sea, Mumbia, India" data-title="Mosque in the sea" data-description="Mosque in the sea, Mumbia, India">
