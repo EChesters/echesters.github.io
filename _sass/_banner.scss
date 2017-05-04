@@ -29,7 +29,7 @@
       height: calc(#{$nav-bar-height} + 525px);
       background-size: cover;
       width: 100%;
-      @include background-gradient-direction(right, rgba(#3a6186, .6), rgba(#89253e, .6));
+      @include background-gradient-direction(right, rgba(#360033, .6), rgba(#0b8793, .6));
     }
   }
 

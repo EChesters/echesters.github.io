@@ -80,17 +80,16 @@ nav {
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: $actual-white;
+  color: $actual-white;
 
-    &:hover {
-      color: $brand-color;
-    }
+  &:hover {
+    color: $actual-white;
+  }
 }
 
 .navbar-nav>li>a {
   padding-top: 7px;
 }
-
 
 .social-media {
   ul {
