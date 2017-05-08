@@ -8,9 +8,9 @@
 # Site settings
 title: 				EChesters | Blog and Portfolio
 description: 		> # this means to ignore newlines until "baseurl:"
-  Elizabeth Chesters, a user experience consultant by day and a developer 
-  by night. Here you can check out her blog posts from UX to teaching, 
-  and her portfolio in UX and photography. If that doesn't tickle your fancy, 
+  Elizabeth Chesters, a user experience consultant by day and a developer
+  by night. Here you can check out her blog posts from UX to teaching,
+  and her portfolio in UX and photography. If that doesn't tickle your fancy,
   check out her Twitter for cooking.
 url: 				"/echesters.github.io" # the base hostname & protocol for your site
 twitter_username: 	echesters
@@ -24,5 +24,5 @@ exclude: 			[vendor]
 markdown: kramdown
 
 gem: jekyll-paginate
-paginate: 12
+paginate: 24
 future: false
