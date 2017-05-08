@@ -21,6 +21,7 @@ nav {
       text-decoration: none;
       font-weight: $weight-light;
       margin-left: $spacing-unit;
+      font-family: $logo-font;
 
       &:focus {
         color: $brand-secondary;

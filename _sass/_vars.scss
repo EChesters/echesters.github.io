@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Cutive+Mono|Source+Sans+Pro:300,400,700&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono|Montserrat:200|"Source Sans Pro":300,400,700&subset=latin-ext');
 
 /* COLOURS ----------- */
 $white:                       #F4F4F4;
@@ -27,8 +27,8 @@ $box-shadow-grey:             lighten($grey-color-light, 25%);
 $base-font-family:            'Source Sans Pro', sans-serif;
 $base-display-font:           $base-font-family;
 $code-font:                   'Cutive Mono', monospace;
-$logo-font:                   'Source Sans Pro', sans-serif;
-$logo-font-light:             'Source Sans Pro', sans-serif;
+$logo-font:                   'Montserrat', sans-serif;
+$logo-font-light:             $base-font-family;
 $secondary-font:              $logo-font;
 
 $font-button:                 1em;
