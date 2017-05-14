@@ -9,36 +9,15 @@ nav {
   }
 
   .site-title {
-    letter-spacing: 5px;
-    border: $border;
-    border-color: $actual-white;
     height: auto;
-    text-transform: uppercase;
 
-    &.navbar-brand {
-      padding: 5px 5px 5px 10px;
-      color: $actual-white;
-      text-decoration: none;
-      font-weight: $weight-light;
-      margin-left: $spacing-unit;
-      font-family: $logo-font;
-
-      &:focus {
-        color: $brand-secondary;
-      }
-
-      &:hover {
-        text-decoration: none;
-        color: $brand-color;
-      }
-
-      &:visited {
-        color: $actual-white;
-      }
+    img {
+      height: 40px;
+      margin-left: 5px;
     }
   }
 
-  a {
+  li a {
     transition: box-shadow 0.3s;
     position: relative;
     text-decoration: none;
