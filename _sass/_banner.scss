@@ -25,11 +25,11 @@
       right: 0;
       bottom: 0;
       left: 0;
-      opacity: .8;
+      opacity: .9;
       height: calc(#{$nav-bar-height} + 525px);
       background-size: cover;
       width: 100%;
-      @include background-gradient-direction(right, rgba(#220020, .85), rgba(#064349, .85));
+      @include background-gradient-direction(right, rgba(#220020, .99), rgba(#064349, .99));
     }
   }
 
