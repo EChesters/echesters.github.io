@@ -9,6 +9,12 @@
 	@extend .bg-pos;
 }
 
+.bg-subfooter {
+	background-color: lighten($footer-bg, 5%);
+	color: $footer-text;
+	@extend .bg-pos;
+}
+
 .bg-white {
   background-color: $actual-white;
 	@extend .bg-pos;
