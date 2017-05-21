@@ -13,6 +13,9 @@ $brand-color:                 #ef473a;
 $brand-secondary:             #cb2d3e;
 $brand-darker:                darken($brand-color, 15%);
 
+$banner-grad-1:               #2f022c;
+$banner-grad-2:               #064349;
+
 $code-club-green:             #2d9632;
 $codefirst-red:               #de2244;
 $accessibility-blue:          #004289;
@@ -30,7 +33,7 @@ $base-display-font:           $base-font-family;
 $code-font:                   'Cutive Mono', monospace;
 $logo-font:                   'Montserrat', sans-serif;
 $logo-font-light:             $base-font-family;
-$secondary-font:              $logo-font;
+$secondary-font:              $base-font-family;
 
 $font-button:                 1em;
 $smaller-font:                0.85em;
