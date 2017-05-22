@@ -62,9 +62,22 @@ strong {
 }
 
 .sidenote {
-  color: $grey-color-light;
+  color: $grey-color;
   font-style: italic;
   font-size: .9em;
+}
+
+.quote {
+  color: $grey-color-light;
+  font-size: $size-medium;
+  font-style: italic;
+  font-weight: $weight-light;
+  line-height: 1.5em;
+}
+
+.lg-quote {
+  @extend .quote;
+  font-size: $size-lg;
 }
 
 .summary {

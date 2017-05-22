@@ -13,11 +13,15 @@ $brand-color:                 #ef473a;
 $brand-secondary:             #cb2d3e;
 $brand-darker:                darken($brand-color, 15%);
 
+$banner-grad-1:               #2f022c;
+$banner-grad-2:               #064349;
+
 $code-club-green:             #2d9632;
 $codefirst-red:               #de2244;
 $accessibility-blue:          #004289;
 
 $portuguese-green:            #00ac00;
+$footer-text:			            #86a784;
 
 $txt-shadow:                  0px 0px 10px rgba(0, 0, 0, 0.6);
 $border:                      2px solid $actual-white;
@@ -29,7 +33,7 @@ $base-display-font:           $base-font-family;
 $code-font:                   'Cutive Mono', monospace;
 $logo-font:                   'Montserrat', sans-serif;
 $logo-font-light:             $base-font-family;
-$secondary-font:              $logo-font;
+$secondary-font:              $base-font-family;
 
 $font-button:                 1em;
 $smaller-font:                0.85em;
@@ -38,6 +42,7 @@ $h1-size:                     3.5em;
 $logo-size:                   1.3em;
 
 $size-medium:                 22px;
+$size-lg:                     2em;
 
 $weight-light:                300;
 $weight-medium:               400;
