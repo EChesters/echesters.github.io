@@ -201,6 +201,7 @@
   background-image: url("/images/ux-master/volunteer.jpg");
   background-attachment: fixed;
   min-height: 60vh;
+  overflow: auto;
 
   h2, p { color: $actual-white; }
 
