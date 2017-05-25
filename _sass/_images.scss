@@ -37,6 +37,16 @@ img {
   }
 }
 
+.icon {
+  height: 100px;
+  margin-top: $spacing-unit;
+  margin-bottom: calc( #{$spacing-unit} / 3);
+
+  @media screen and (max-width: 1024px) {
+    height: 75px;
+  }
+}
+
 .images {
   text-align: center;
   display: block;
