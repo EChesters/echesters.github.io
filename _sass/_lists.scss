@@ -1,5 +1,4 @@
 ul {
-
   &.skills {
     color: $brand-darker;
     margin-left: 0;
@@ -17,6 +16,24 @@ ul {
 
     li {
       list-style-type: none;
+    }
+  }
+}
+
+ul.ux-nav {
+  font-size: 20px;
+
+  li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px 15px;
+
+    a {
+      color: $actual-white;
+
+      &:hover {
+        color: $actual-white;
+      }
     }
   }
 }
