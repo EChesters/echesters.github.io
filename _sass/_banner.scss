@@ -1,6 +1,7 @@
 .banner {
   padding-top: calc(#{$nav-bar-height} * 1.5);
-  height: 525px;
+  min-height: 450px;
+  height: auto;
   overflow: hidden;
 
   @include media-query($on-palm) {
