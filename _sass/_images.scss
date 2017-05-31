@@ -2,10 +2,6 @@ img {
   height: auto;
   width: auto;
 
-  &.rounded {
-    @include border-radius(10px);
-  }
-
   &.landscape {
     width: 90%;
   }
