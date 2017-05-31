@@ -38,8 +38,6 @@ Bring promotional codes into the user’s line of sight. Place the promotions al
 
 ## Promotional Codes stuffed inside Images
 
-Domino’s have realised that people spend time looking for the best deal. Users will only last so long trying voucher codes from websites, which don’t work for a limited time. Most users then leave, feeling like there’s a code and they just haven’t found it. And no one wants to pay for something when they feel like someone else is getting the same thing, cheaper. The next issue poses another obstacle retail websites inflict on their users. It’s not enough that users don’t see, or aren’t told about promotions. Oh no. Even if a user sees a promotion and remembered to use it, the codes are hidden inside images.
-
 The Body Shop has a promotional code on the first slide of their carousel, inside an image. The code is then shown again at checkout, in another image, with the Promotion Code field underneath. Hiding the offer inside numerous images force users to manually type the offer. This may not seem like the end of the earth, but this poses a much bigger issue for those uncomfortable with typing or can’t access the images.
 
 <figure>
