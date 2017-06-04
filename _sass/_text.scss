@@ -171,6 +171,14 @@ b {
   display: inline;
 }
 
+a.col-credit {
+  color: $footer-text;
+
+  &:hover {
+    color: $actual-white;
+  }
+}
+
 /* SPEAKING LIST */
 #speaking {
   color: $actual-white;
