@@ -21,12 +21,12 @@ ul {
 }
 
 ul.ux-nav {
-  font-size: 20px;
+  margin: 0;
 
   li {
     display: inline-block;
     list-style: none;
-    padding: 10px 20px;
+    padding: 15px 30px;
 
     a {
       color: $actual-white;

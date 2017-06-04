@@ -20,6 +20,10 @@
 	@extend .bg-pos;
 }
 
+.bg-brand-secondary {
+	background-color: $brand-secondary;
+}
+
 .bg-offset-white {
 	background-color: $white;
 	@extend .bg-pos;
