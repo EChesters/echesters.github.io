@@ -28,6 +28,10 @@ ul.ux-nav {
     list-style: none;
     padding: 15px 30px;
 
+    @media only screen and (max-width: 768px) {
+      padding: 15px 20px;
+    }
+
     a {
       color: $actual-white;
 
