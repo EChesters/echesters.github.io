@@ -61,6 +61,12 @@ strong {
   display: block;
 }
 
+.emph {
+  color: $brand-secondary;
+  font-size: 25px;
+  font-weight: 100;
+}
+
 .sidenote {
   color: $grey-color;
   font-style: italic;
@@ -81,7 +87,6 @@ strong {
 }
 
 .summary {
-  text-align: center;
   font-size: $size-medium;
   font-weight: $weight-heavy;
 }

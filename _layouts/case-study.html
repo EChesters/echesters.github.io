@@ -1,17 +1,13 @@
 ---
 layout: default
 ---
-<div class="nav-margin">
-  <div class="col-xs-12 col-md-9 position central">
-    <div class="col-xs-12 col-md-4" id="project-title">
-      <h1 class="portfolio-title">{{ page.title }}</h1>
-      <p class="tag-line">{{ page.summary }}</p>
-    </div>
 
-    <div class="col-xs-12 col-md-7" id="project-content">
-      <section>
-        {{ content }}
-      </section>
-    </div>
+{% include _components/banner.html %}
+
+<div class="col-xs-12 bg-white">
+  <div class="col-xs-12 col-sm-11 col-md-10 col-lg-6 col-md-offset-1 col-lg-offset-2" id="project-content">
+    <section>
+      {{ content }}
+    </section>
   </div>
 </div>

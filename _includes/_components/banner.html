@@ -2,9 +2,13 @@
   <div class="banner-img" style="background-image: url('{{ page.image }}');"></div>
   <div class="banner-text">
     <div class="row no-margin">
-      <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-7 col-md-offset-2 col-lg-4 col-lg-offset-2">
-        <h1>{{ page.header }}</h1>
-        <p>{{ page.description }}</p>
+      <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-7 col-md-offset-2 col-lg-5 col-lg-offset-2">
+        {% if page.header %}
+          <h1>{{ page.header }}</h1>
+        {% else %}
+          <h1>{{ page.title }}</h1>
+        {% endif %}
+        <p>{{ page.summary }}</p>
       </div>
     </div>
   </div>
