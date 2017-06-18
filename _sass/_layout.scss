@@ -300,7 +300,7 @@
 }
 
 .content {
-    margin-bottom: calc( #{$spacing-unit} *2);
+    padding-bottom: calc( #{$spacing-unit} *2);
 
     h2 {
         font-size: 32px;
