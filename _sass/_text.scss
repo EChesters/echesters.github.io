@@ -187,20 +187,17 @@ a.col-credit {
 
 /* SPEAKING LIST */
 #speaking {
-  color: $actual-white;
+  color: $grey-color-light;
 
   h3 {
-    color: $brand-secondary;
-  }
-
-  p {
-    margin-bottom: 0;
+    color: $actual-white;
+    margin-top: $spacing-unit;
+    font-weight: $weight-heavy;
   }
 
   .speaking-date {
     font-size: $small-font;
     font-family: $logo-font-light;
-    text-transform: uppercase;
-    margin-bottom: 0;
+    margin-left: calc( #{$spacing-unit} * 2);
   }
 }
