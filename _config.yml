@@ -23,6 +23,6 @@ exclude: 			[vendor]
 # Build settings
 markdown: kramdown
 
-gem: jekyll-paginate
+gems: [jekyll-paginate]
 paginate: 24
 future: false
