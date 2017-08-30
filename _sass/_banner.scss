@@ -1,12 +1,12 @@
 .banner {
   padding-top: calc(#{$nav-bar-height} * 1.5);
-  min-height: 450px;
+  min-height: 475px;
   height: auto;
   overflow: hidden;
 
   @include media-query($on-palm) {
     padding-top: calc(#{$nav-bar-height});
-    min-height: 350px;
+    min-height: 300px;
   }
 
   .banner-img {
@@ -30,7 +30,7 @@
       height: calc(#{$nav-bar-height} + 525px);
       background-size: cover;
       width: 100%;
-      @include background-gradient-direction(right, rgba($banner-grad-1, .85), rgba($banner-grad-2, .85));
+      @include background-gradient-direction(right, rgba($banner-grad-1, .9), rgba($banner-grad-2, .9));
     }
   }
 
@@ -43,12 +43,12 @@
     background-size: cover;
     background-position: top center;
     background-color: $actual-black;
-    height: calc(#{$nav-bar-height} + 225px);
+    // height: calc(#{$nav-bar-height} + 225px);
   }
 
   .banner-text {
     position: relative;
-    color: $actual-white;
+    color: $brand-darker;
 
     h1 {
       font-size: 4em;
@@ -57,13 +57,12 @@
 
     p {
       font-size: $logo-size;
-      font-weight: $weight-light;
     }
   }
 }
 
 .small-banner {
-  height: 225px;
+  min-height: 300px !important;
   background-color: $actual-black;
 }
 
