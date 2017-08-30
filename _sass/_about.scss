@@ -100,7 +100,7 @@
 
   h1, .hello-title {
     @extend h1;
-    font-family: $logo-font-light;
+    font-family: $base-font-family;
     font-size: 30px;
   }
 
@@ -243,7 +243,7 @@
 
   p {
     color: $actual-white;
-    font-family: $logo-font-light;
+    font-family: $base-font-family;
     font-size: calc( #{$base-font-size} * 1.4);
     margin-top: 0;
     line-height: 1.5em;

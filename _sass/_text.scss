@@ -25,7 +25,6 @@ strong {
   font-size: $small-font;
   color: $grey-color-light;
   text-align: right;
-  font-family: $logo-font-light;
 
   &.left {
     text-align: left;
@@ -33,7 +32,6 @@ strong {
 }
 
 .index-title {
-  font-family: $logo-font;
   font-size: 60px;
   z-index: 10;
   text-transform: uppercase;
@@ -108,14 +106,6 @@ figure pre {
   text-align: left !important;
 }
 
-h2, h3, h4, h5 {
-  margin-bottom: calc( #{ $spacing-unit} / 3);
-
-  &.light {
-    color: $actual-white;
-  }
-}
-
 h1 {
   font-size: $h1-size;
   font-weight: $weight-heavy;
@@ -124,14 +114,12 @@ h1 {
 
 h2 {
   font-size: 36px;
-  font-family: $logo-font;
   font-weight: $weight-heavy;
 }
 
 h3 {
   font-size: 28px;
   color: lighten($brand-color, 5%);
-  font-family: $logo-font;
   font-weight: $weight-medium;
   @include media-query($on-laptop) {
       font-size: 28px;
@@ -140,7 +128,6 @@ h3 {
 
 h4 {
   font-size: 24px;
-  font-family: $logo-font-light;
   color: $grey-color-dark;
   font-weight: $weight-light;
 
@@ -151,7 +138,6 @@ h4 {
 
 h5 {
   font-size: 22px;
-  font-family: $logo-font-light;
   color: $grey-color;
   font-weight: $weight-light;
 
@@ -197,7 +183,6 @@ a.col-credit {
 
   .speaking-date {
     font-size: $small-font;
-    font-family: $logo-font-light;
     margin-left: calc( #{$spacing-unit} * 2);
   }
 }

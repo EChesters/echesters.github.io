@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Cutive+Mono|Montserrat:200|Source+Sans+Pro:300,400,700&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono|Source+Sans+Pro:300,400,600&subset=latin-ext');
 
 /* COLOURS ----------- */
 $white:                       #F4F4F4;
@@ -9,12 +9,12 @@ $actual-black:                #000;
 $nav-bar:                     $actual-white;
 $nav-text:                    $actual-black;
 
-$brand-color:                 #ef473a;
-$brand-secondary:             #cb2d3e;
+$brand-color:                 #FF4E50;
+$brand-secondary:             #F9D423;
 $brand-darker:                darken($brand-secondary, 15%);
 
-$banner-grad-1:               #2f022c;
-$banner-grad-2:               #064349;
+$banner-grad-1:               #1c92d2;
+$banner-grad-2:               #f2fcfe;
 
 $code-club-green:             #2d9632;
 $codefirst-red:               #de2244;
@@ -31,9 +31,6 @@ $box-shadow-grey:             lighten($grey-color-light, 25%);
 $base-font-family:            'Source Sans Pro', sans-serif;
 $base-display-font:           $base-font-family;
 $code-font:                   'Cutive Mono', monospace;
-$logo-font:                   'Montserrat', sans-serif;
-$logo-font-light:             $base-font-family;
-$secondary-font:              $base-font-family;
 
 $font-button:                 1em;
 $smaller-font:                0.85em;
@@ -46,7 +43,7 @@ $size-lg:                     2em;
 
 $weight-light:                300;
 $weight-medium:               400;
-$weight-heavy:                700;
+$weight-heavy:                600;
 
 $additional-spacing:          10px;
 

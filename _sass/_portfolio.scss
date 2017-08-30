@@ -143,7 +143,7 @@ header {
 
 .intro-text .intro-lead-in h1 {
   margin: calc( #{$spacing-unit} / 2) 0;
-  font-family: $logo-font;
+  font-family: $base-font-family;
   font-size: 29px;
   letter-spacing: 10px;
   position: relative;
@@ -166,7 +166,7 @@ header {
 
   .intro-text .intro-lead-in h1 {
     margin-bottom: calc( #{$spacing-unit} / 2);
-    font-family: $logo-font;
+    font-family: $base-font-family;
     font-size: 45px;
     line-height: 40px;
     letter-spacing: $additional-spacing;
@@ -410,7 +410,6 @@ section h3.section-subheading {
 .timeline .timeline-heading h4.subheading {
   color: $grey-color-light;
   text-transform: uppercase;
-  font-family: $secondary-font;
   font-size: $smaller-font;
   letter-spacing: $additional-spacing;
 }
