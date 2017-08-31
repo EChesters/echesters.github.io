@@ -4,7 +4,7 @@ strong {
 
 .emphasis {
   font-style: italic;
-  color: $grey-color;
+  color: $brand-secondary;
 }
 
 .subtitles {
@@ -119,7 +119,7 @@ h2 {
 
 h3 {
   font-size: 28px;
-  color: lighten($brand-color, 5%);
+  color: $banner-grad-2;
   font-weight: $weight-medium;
   @include media-query($on-laptop) {
       font-size: 28px;
@@ -154,6 +154,22 @@ p {
     font-style: italic;
   }
 }
+
+*:not(h2) + h2,
+* + h2 {
+  margin-top: calc(#{$spacing-unit} * 1.5);
+  margin-bottom: 0 !important;
+}
+
+*:not(h2) + h3,
+* + h3,
+*:not(h3) + h4,
+* + h4, {
+  margin-top: $spacing-unit;
+  margin-bottom: 0 !important;
+}
+
+
 
 b {
   font-weight: $weight-heavy;

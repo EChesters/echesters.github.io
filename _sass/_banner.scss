@@ -30,7 +30,7 @@
       height: calc(#{$nav-bar-height} + 525px);
       background-size: cover;
       width: 100%;
-      @include background-gradient-direction(right, rgba($banner-grad-1, .9), rgba($banner-grad-2, .9));
+      @include background-gradient-direction(right, rgba($banner-grad-2, .9), rgba($banner-grad-1, .9));
     }
   }
 
@@ -50,7 +50,6 @@
     color: $brand-darker;
 
     h1 {
-      font-size: 4em;
       text-transform: none;
     }
 
@@ -70,5 +69,6 @@
 
   h1 {
     font-size: $h1-size !important;
+    color: $black;
   }
 }

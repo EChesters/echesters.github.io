@@ -78,19 +78,6 @@
   }
 }
 
-.banner-title {
-  min-height: 50vh;
-  border: $border;
-  margin-top: 2%;
-  overflow: auto;
-  background-color: $actual-white;
-  z-index: -1;
-
-  @media only screen and (max-width: 1024px) {
-    margin-top: 0;
-  }
-}
-
 #banner {
   background-size: cover;
   background-image: url("/images/portfolio/empowerhack/eh-2-blurred.png");
@@ -98,30 +85,12 @@
   z-index: -10;
   color: $black;
 
-  h1, .hello-title {
-    @extend h1;
-    font-family: $base-font-family;
-    font-size: 30px;
-  }
-
-  p.hello-title {
-    font-size: $post-title-size;
-    margin-bottom: 0;
-  }
-
-  h2.intro {
-    margin: 0;
-    font-weight: $weight-light;
-    font-family: $base-display-font;
-    font-size: $font-button;
-  }
-
   p {
     margin-top: calc(#{$spacing-unit} / 2);
   }
 
   &:before {
-      content: '';
+    content: '';
     position: absolute;
     top: 0;
     right: 0;
@@ -160,10 +129,7 @@
     bottom: 0;
     left: 0;
     opacity: .9;
-    background: -webkit-linear-gradient(rgba(20,20,20, .9), rgba(50,50,50, 0.3)); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(rgba(20,20,20, .9), rgba(50,50,50, 0.3)); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(rgba(20,20,20, .9), rgba(50,50,50, 0.3)); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(rgba(20,20,20, .9), rgba(50,50,50, 0.3)); /* Standard syntax */
+    @include background-gradient-direction(right, rgba($banner-grad-1, .9), rgba($banner-grad-2, .9));
   }
 }
 
