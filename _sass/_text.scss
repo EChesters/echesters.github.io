@@ -155,22 +155,6 @@ p {
   }
 }
 
-*:not(h2) + h2,
-* + h2 {
-  margin-top: calc(#{$spacing-unit} * 1.5);
-  margin-bottom: 0 !important;
-}
-
-*:not(h2) + h3,
-* + h3,
-*:not(h3) + h4,
-* + h4, {
-  margin-top: $spacing-unit;
-  margin-bottom: 0 !important;
-}
-
-
-
 b {
   font-weight: $weight-heavy;
 }

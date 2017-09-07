@@ -26,12 +26,14 @@ summary: A User Experience consultant. Read here about my research, tech adventu
                   <img src="{{post.image}}">
                 </div>
                 {% endif %}
+              </a>
                 <div class="portfolio-caption">
-                  <h4>{{ post.title }}</h4>
-                  <p class="text-muted text-left">{{ post.description }}</p>
+                  <a href="{{ post.url }}">
+                    <h4>{{ post.title }}</h4>
+                    <p class="text-muted text-left">{{ post.description }}</p>
+                  </a>
                   <p class="date no-margin">{{ post.date | date: "%e %B %Y" }}</p>
                 </div>
-              </a>
             </div>
           {% if mod2 == 0 %}
             <div class="clearfix visible-sm-block"></div>
