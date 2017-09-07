@@ -11,7 +11,7 @@
 
 .bg-subfooter {
 	background-color: lighten($footer-bg, 5%);
-	color: $footer-text;
+	color: $grey-color-light;
 	@extend .bg-pos;
 }
 
