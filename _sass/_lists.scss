@@ -33,10 +33,10 @@ ul.ux-nav {
     }
 
     a {
-      color: $banner-grad-2;
+      color: $actual-white;
 
       &:hover {
-        color: darken($banner-grad-2, 20%);
+        color: $brand-secondary;
       }
     }
   }

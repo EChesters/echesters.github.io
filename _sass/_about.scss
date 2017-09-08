@@ -166,10 +166,10 @@
 #volunteer {
   background-image: url("/images/ux-master/volunteer.jpg");
   background-attachment: fixed;
-  min-height: 60vh;
+  min-height: 65vh;
   overflow: auto;
 
-  h2, p { color: $actual-white; }
+  h2, h3, p { color: $actual-white; }
 
   &:before {
     content: '';

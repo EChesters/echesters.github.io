@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Cutive+Mono|Source+Sans+Pro:300,400,600&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand|Cutive+Mono|Source+Sans+Pro:300,400,600&subset=latin-ext');
 
 /* COLOURS ----------- */
 $white:                       #F4F4F4;
@@ -9,12 +9,12 @@ $actual-black:                #000;
 $nav-bar:                     $actual-white;
 $nav-text:                    $actual-black;
 
-$brand-color:                 #FF4E50;
+$brand-color:                 #1586c7;
 $brand-secondary:             #F9D423;
-$brand-darker:                #0B486B;
+$brand-darker:                darken($brand-color, 15%);
 
-$banner-grad-1:               #ace0fb;
-$banner-grad-2:               #1c92d2;
+$banner-grad-1:               #232526;
+$banner-grad-2:               #434343;
 
 $code-club-green:             #2d9632;
 $codefirst-red:               #de2244;
@@ -29,6 +29,7 @@ $box-shadow-grey:             lighten($grey-color-light, 25%);
 $base-font-family:            'Source Sans Pro', sans-serif;
 $base-display-font:           $base-font-family;
 $code-font:                   'Cutive Mono', monospace;
+$emphasise-font:              'Patrick Hand', cursive;
 
 $font-button:                 1em;
 $smaller-font:                0.85em;

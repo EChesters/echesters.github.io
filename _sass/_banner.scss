@@ -15,7 +15,6 @@
     left: 0;
     bottom: 0;
     right: 0;
-    opacity: 0.6;
     background-size: cover;
     background-position: top center;
     height: calc(#{$nav-bar-height} + 525px);
@@ -27,11 +26,10 @@
       right: 0;
       bottom: 0;
       left: 0;
-      opacity: .9;
       height: calc(#{$nav-bar-height} + 525px);
       background-size: cover;
       width: 100%;
-      @include background-gradient-direction(right, rgba($banner-grad-2, .9), rgba($banner-grad-1, .9));
+      @include background-gradient-direction(right, rgba($banner-grad-2, .75), rgba($banner-grad-1, .75));
     }
   }
 
@@ -48,7 +46,7 @@
 
   .banner-text {
     position: relative;
-    color: $brand-darker;
+    color: $actual-white;
 
     h1 {
       text-transform: none;
@@ -70,6 +68,5 @@
 
   h1 {
     font-size: $h1-size !important;
-    color: $black;
   }
 }

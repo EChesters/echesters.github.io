@@ -54,14 +54,23 @@ strong {
 }
 
 .emphasise {
-  color: $brand-secondary;
+  color: $black;
   font-size: 25px;
   font-weight: 100;
-  display: block;
+  background-color: lighten($brand-secondary, 15%);
+  padding: 5px;
+  line-height: 2em;
+  font-family: $emphasise-font;
+
+  position: relative;
+  left: 0.25em;
+  padding-left: 0;
+  box-shadow: 0.25em 0 0 lighten($brand-secondary, 10%),
+              0.25em*-1 0 0 lighten($brand-secondary, 15%);
 }
 
 .emph {
-  color: $brand-secondary;
+  color: $brand-color;
   font-size: 25px;
   font-weight: 100;
 }
