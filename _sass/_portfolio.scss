@@ -256,8 +256,8 @@ section h3.section-subheading {
   border: 7px solid #f1f1f1;
   border-radius: 100%;
   text-align: center;
-  color: #fff;
-  background-color: $primary;
+  color: $actual-black;
+  background-color: $brand-secondary;
 
   &.white {
     background-color: $actual-white;
@@ -353,9 +353,7 @@ a>.timeline-heading h4 {
 
   .timeline>li .timeline-image h4 {
     margin-top: 16px;
-    font-size: 13px;
     line-height: 18px;
-    color: $actual-white;
   }
 
   .timeline>li.timeline-inverted>.timeline-panel {
