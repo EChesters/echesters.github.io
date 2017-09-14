@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Psychological Blindnesses in UX
-description: Is a button does not look like a button, will people click it? From inattentional and change blindness, discover here the pschological phenomenons which affect how our users don't pay attention and are completely blind to what we put in front of them. Also find out how to solve and test for these issues in your designs. 
+description: If a button does not look like a button, will people click it? Discover the pschological phenomenons which affect how our users just don't actually see what we put in front of them.
 image: "/images/posts/visibility/vision.jpeg"
 ---
 
