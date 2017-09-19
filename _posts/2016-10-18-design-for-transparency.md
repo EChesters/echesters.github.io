@@ -2,9 +2,10 @@
 layout: post
 title: Designing for Transparency
 description: Humans are lazy, and we often choose the quickest and easiest journeys to complete our goals. So our websites need to be clear, make the complex seem easy and be as visible as possible.
+image: /images/posts/psychology/lighthouse.jpg
 ---
 
-<p class="summary">Recently I wrote <a href="/2016/09/18/psychological-blindness-UX.html" lang="en">an article on the psychological phenomenons of blindness</a> and how to address them in user experience. But the concept of visibility and being transparent in design is so much more. Designing for the opposite of clarity for users can easily turn into a dark pattern, tainting your reputation with users.</p>
+<p class="summary">Humans are lazy, and we often choose the quickest and easiest journeys to complete our goals. When something doesn’t look like what is expected it’s hard to wrap your head around it. So websites need to be clear, make the complex easy and be visible. This post explores how we can create a more honest experience, taking into account users’ psychological behaviours.</p>
 
 <p><span class="sidenote">When something doesn’t look like what is expected it’s hard to wrap your head around it. Once as a child my mum gave me green rice pudding, using food colouring. I couldn’t bring myself to even try it. It looked vile. I knew food colouring wouldn’t affect the flavour but mind over matter prevailed. (My mum couldn’t eat it either).</span></p>
 
@@ -12,7 +13,7 @@ description: Humans are lazy, and we often choose the quickest and easiest journ
 
 Humans are lazy, and we often choose the quickest and easiest journeys to complete our goals. But that does not mean our brains will engage when we’re trying to complete said goals. Krug’s ‘Don’t Make Me Think’ is a classic because it hits the nail on the head. Often we don’t get to choose mind over matter. We simply don’t see what we don’t see because we’re not paying attention.
 
-Even today there are a lot of elements which are easily lost in the design of pages and leave us second guessing. Ghost buttons are often overlooked, especially those inside a carousel, with alternating background colours. Buttons should look like buttons! Elements need to convey what they are, and from a quick glance. We shouldn't be second guessing components nor using “on-trend” aesthetics as an excuse for poor usability. 
+Even today there are a lot of elements which are easily lost in the design of pages and leave us second guessing. Ghost buttons are often overlooked, especially those inside a carousel, with alternating background colours. Buttons should look like buttons! Elements need to convey what they are, and from a quick glance. We shouldn't be second guessing components nor using “on-trend” aesthetics as an excuse for poor usability.
 
 <p><span class="sidenote">“Jesus Christ. It’s like a test! At this point I would have gone and had a cup of tea if I was at home.” - Participant struggling to find the reserve button amongst the 7 call to actions on the page</span></p>
 
@@ -45,11 +46,11 @@ Why hide the price of items? Time and time again in user interviews, we hear bud
 
 ## Colour and Contrast
 
-Colour and contrast play a huge role in what users see. Contrast, contrast and more contrast. It is unbelievable how often this is disregarded. This next example alone lead me to rekindle this particular post from its brain dump stage. 
+Colour and contrast play a huge role in what users see. Contrast, contrast and more contrast. It is unbelievable how often this is disregarded. This next example alone lead me to rekindle this particular post from its brain dump stage.
 
 <img src="/images/posts/clarity/bershka-1.PNG" alt="Bershka's shipping message in low contrast which is hard to read" class="position central">
 
-<p><span class="emphasise">If you have to squint or tilt your screen to try and see something, you’re doing it wrong. 
+<p><span class="emphasise">If you have to squint or tilt your screen to try and see something, you’re doing it wrong.
 </span></p>
 
 <p><span class="sidenote">Dear Bershka, Why are you hiding your free shipping from us?</span></p>
@@ -72,7 +73,7 @@ In user testing we often see users scrolling. When our participants don’t scro
 
 While studies have shown over 75% of users scroll, you still need to entice users to do so. A large part of the enticement to scroll comes from the layout. If the user is lead to believe that the information below what they’re seeing is relevant to their needs, they will seek it.
 
-A quick way to do this is to use misalignment. Just like how Pinterest leaves sections cut off so the user scrolls to unveil that content with more sections peeking above the fold. The more dumb and obvious place the information cuts off, the more likely the user will realise they need to scroll. 
+A quick way to do this is to use misalignment. Just like how Pinterest leaves sections cut off so the user scrolls to unveil that content with more sections peeking above the fold. The more dumb and obvious place the information cuts off, the more likely the user will realise they need to scroll.
 
 ## Forms
 
@@ -80,7 +81,7 @@ There’s a special place in every UXer’s heart for forms. They are the necess
 
 ### Keep labels outside of fields
 
-The need for a smaller form quickly lead to labels being placed inside text fields. Of course as soon as you click into the field to type, you lose the field’s purpose. Users now have to remember what it asked for and its format. At first this sounds simple. But when you consider what our sites compete with in a user's environment, this information is easily forgotten. Keyboard focused users often only look down and enter information that they are expecting to enter. They seldom look up to read form labels. Non-native speakers using the form also have the extra burden of remembering words they’re not familiar with or vaguely understand. 
+The need for a smaller form quickly lead to labels being placed inside text fields. Of course as soon as you click into the field to type, you lose the field’s purpose. Users now have to remember what it asked for and its format. At first this sounds simple. But when you consider what our sites compete with in a user's environment, this information is easily forgotten. Keyboard focused users often only look down and enter information that they are expecting to enter. They seldom look up to read form labels. Non-native speakers using the form also have the extra burden of remembering words they’re not familiar with or vaguely understand.
 
 ### Place hint text where relevant
 
@@ -88,7 +89,7 @@ Hint text also has the same issue of disappearing because it’s often placed in
 
 <img src="/images/posts/clarity/asos.png" alt="ASOS as an example of a good form" class="medium position central">
 
-ASOS give reasons as to why they're asking for particular data like emails, help text is underneath the field in line of sight, like password requirements. 
+ASOS give reasons as to why they're asking for particular data like emails, help text is underneath the field in line of sight, like password requirements.
 
 ## Clarity in language
 
@@ -102,11 +103,11 @@ The next culprit are links and buttons. They’re not helpful to anyone being on
 	<figcaption>Curvissa’s email includes numerous “Click here” links, meaning you have to skim around the link to know what each one does</figcaption>
 </figure>
 
-Here is where Information Architecture (IA) plays a huge role. Testing the IA reveals the language your audience are using and where they expect to find the information. The findability, organisation and labeling all come from good IA, and provides a lot of clarity in language. 
+Here is where Information Architecture (IA) plays a huge role. Testing the IA reveals the language your audience are using and where they expect to find the information. The findability, organisation and labeling all come from good IA, and provides a lot of clarity in language.
 
 ## Takeaways
 
-Clarity comes from different aspects of UX. From visible clarity in contrast between foreground and background, to just plain displaying the information. 
+Clarity comes from different aspects of UX. From visible clarity in contrast between foreground and background, to just plain displaying the information.
 
 **Contrast -** the minimum contrast ratio is 4.5:1 between elements
 
@@ -114,7 +115,6 @@ Clarity comes from different aspects of UX. From visible clarity in contrast bet
 
 **Forms -** keep all the relevant information visible at all times where it’s needed
 
-**Language -** use the language your audience is using for consistency 
+**Language -** use the language your audience is using for consistency
 
-A visible and clear design is a trustworthy experience. 
-
+A visible and clear design is a trustworthy experience.
