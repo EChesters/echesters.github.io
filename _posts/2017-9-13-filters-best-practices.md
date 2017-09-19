@@ -13,7 +13,7 @@ Here I have hand-picked the themes of issues websites have put my users through.
 
 A significant issue we’ve seen in research is the inability to select multiple filters of the same kind. So, only being able to select one colour or one pattern at a time. Having to search through numerous filters one at a time is tedious. Soon browsing and shopping becomes a chore, when it’s supposed to be fun and enticing! Users also don’t expect to drill down into such few options at once.
 
-I saw one of my users quickly become frustrated with filters immediately removing all other options. Instead they were forced to filter by outdoor shoes and boots separately, which took a lot longer!</p>
+I saw one of my users quickly become frustrated with filters immediately removing all other options. Instead they were forced to filter by outdoor shoes and boots separately, which took a lot longer!
 
 <p class="quote">“So, I’ve clicked on outdoor shoes and immediately I’m taken back that it’s not allowed me to click on boots as well. It’s completely gone to the outdoor shoes” - User quote</p>
 
