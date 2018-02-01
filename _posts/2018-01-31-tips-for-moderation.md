@@ -20,7 +20,7 @@ After you’ve done the same spiel a few times it becomes second nature; you don
 
 Getting time with users is expensive, so you want to make sure they user is as emotionally invested into the scenario as possible. During introductions listen out for things that they say like “partner”, “I travel with my dog” or “I need to buy a birthday present for my niece”. Use these variables in your scenarios to make the tasks more realistic. Here are a few tasks which you could change given what your user’s telling you:
 
-**Generic task:** Could you showme how you would find a gift on this site?
+**Generic task:** Could you show me how you would find a gift on this site?
 **User specific task:** Could you show me how you would find a gift for your niece, on this site?
 
 **Generic task:** Could you show me how you would share this page with a friend?
